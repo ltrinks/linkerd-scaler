@@ -21,4 +21,4 @@ To rebuild and rerun the watcher without restarting the cluster run:
 Outputs of the watcher are found in `metrics/`, these persist but are deleted on each new watcher start.
 
 ## Nodevoto
-Nodevoto can be found [here](https://github.com/sourishkrout/nodevoto). The only changes made here are some `apiVersions` in [nodevoto/nodevoto.yml](/ltrinks/linkerd-scaler/blob/master/nodevoto/nodevoto.yml).
+Nodevoto can be found [here](https://github.com/sourishkrout/nodevoto). The only changes made here are some `apiVersions` in [nodevoto/nodevoto.yml](https://github.com/ltrinks/linkerd-scaler/blob/master/nodevoto/nodevoto.yml).
