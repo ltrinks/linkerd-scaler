@@ -9,16 +9,16 @@ Start by running:
 ./start.sh
 ```
 
-Keep this script running for as long as you want the cluster alive, ^C to exit.
+Keep this script running for as long as you want the cluster alive, `^C` to exit.
 
-With the cluster running, in another terminal kubectl and other commands can be executed on the cluster.
+With the cluster running, in another terminal, `kubectl` and other commands can be executed on the cluster.
 
 To rebuild and rerun the watcher without restarting the cluster run:
 ```
 ./start-watcher.sh
 ```
 
-Outputs of the watcher are found in metrics/, these persist but are deleted on each new watcher start.
+Outputs of the watcher are found in `metrics/`, these persist but are deleted on each new watcher start.
 
 ## Nodevoto
-Nodevoto can be found [here](https://github.com/sourishkrout/nodevoto).
+Nodevoto can be found [here](https://github.com/sourishkrout/nodevoto). The only changes made here are some `apiVersions` in [nodevoto/nodevoto.yml](/ltrinks/linkerd-scaler/blob/master/nodevoto/nodevoto.yml).
