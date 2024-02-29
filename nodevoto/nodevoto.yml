@@ -4,6 +4,13 @@ kind: Namespace
 metadata:
   name: nodevoto
 ---
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nodevoto-bot
+---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -153,7 +160,7 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: vote-bot
-  namespace: nodevoto
+  namespace: nodevoto-bot
 spec:
   replicas: 1
   selector:

@@ -7,7 +7,7 @@ set -e
 trap 'kill $(jobs -p); minikube -p linkerd-scaler delete' EXIT
 trap 'kill $(jobs -p); minikube -p linkerd-scaler delete; echo ERROR AT \"$BASH_COMMAND\", EXITING' ERR
 
-# delete and start nodevoto cluster
+# delete and start linkerd-scaler test cluster
 export MINIKUBE_IN_STYLE=0
 minikube -p linkerd-scaler delete;
 minikube -p linkerd-scaler start --cpus 4 --memory 4096;
@@ -17,18 +17,19 @@ eval $(minikube -p linkerd-scaler docker-env)
 # install linkerd control plane
 linkerd install --crds | kubectl apply -f -;
 linkerd install --set proxyInit.runAsRoot=true | kubectl apply -f -;
-linkerd check;
+linkerd --output short check;
 
 # deploy nodevoto and inject linkerd proxies
 linkerd inject nodevoto/nodevoto.yml | kubectl apply -f -;
-linkerd check --proxy;
+linkerd --output short -n nodevoto check --proxy;
 
 # install linkerd viz tool
 linkerd viz install | kubectl apply -f -;
-linkerd check;
+linkerd --output short check;
 
-# add watcher into cluster
-kubectl create namespace watcher
+# add linkerd-scale into cluster
+minikube -p linkerd-scaler addons enable metrics-server
+kubectl create namespace linkerd-scaler
 docker build -t watcher watcher
 kubectl apply -f watcher/watcher.yaml
 

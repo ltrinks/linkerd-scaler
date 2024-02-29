@@ -3,8 +3,8 @@ apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: pods-list
 rules:
-- apiGroups: ["", "apps"] # "" indicates the core API group
-  resources: ["pods", "deployments/scale"]
+- apiGroups: ["", "apps", "metrics.k8s.io"]
+  resources: ["pods", "deployments/scale", "pods/metrics.k8s.io"]
   verbs: ["get", "watch", "list", "patch"]
 
 ---
@@ -16,7 +16,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: default
-  namespace: watcher
+  namespace: linkerd-scaler
 roleRef:
   kind: ClusterRole
   name: pods-list
@@ -45,7 +45,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: metrics-pvol-claim
-  namespace: watcher
+  namespace: linkerd-scaler
 spec:
   storageClassName: manual
   accessModes:
@@ -59,8 +59,8 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: watcher
-  name: watcher-deployment
+  namespace: linkerd-scaler
+  name: watcher
   labels:
     app: watcher
 spec:
