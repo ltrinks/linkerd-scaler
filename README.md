@@ -19,7 +19,7 @@ Run settings are found at the top of `watcher/src/main.py`. To configure Kuberne
 
 ## Samples
 ![image](./samples/watcher_pods_over_time.png)
-![image](./samples/hpa_pods_over_time.png)
+![image](./samples/hpa_pods_over_time.png)<br />
 Poll period of 3 seconds, ran for 15 minutes. HPA has stabilization window of 0 seconds.
 
 ## Nodevoto
