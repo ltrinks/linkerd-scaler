@@ -20,7 +20,7 @@ linkerd install --set proxyInit.runAsRoot=true | kubectl apply -f -;
 linkerd --output short check;
 
 # deploy nodevoto and inject linkerd proxies
-linkerd inject nodevoto/nodevoto.yml | kubectl apply -f -;
+linkerd inject nodevoto.yml --proxy-cpu-request 5m | kubectl apply -f -;
 linkerd --output short -n nodevoto check --proxy;
 
 # install linkerd viz tool
@@ -29,6 +29,7 @@ linkerd --output short check;
 
 # add linkerd-scale into cluster
 minikube -p linkerd-scaler addons enable metrics-server
+kubectl apply -f nodevoto-hpa.yaml
 kubectl create namespace linkerd-scaler
 docker build -t watcher watcher
 kubectl apply -f watcher/watcher.yaml

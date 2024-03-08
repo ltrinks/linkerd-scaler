@@ -1,4 +1,5 @@
 from kubernetes import client, config, watch
+import matplotlib.pyplot as plt
 
 import glob
 import os
@@ -8,6 +9,9 @@ import metrics
 import quantity
 import math
 
+ACTIVE = False # scale if true, watch only if false
+POLL = 3 # seconds
+RUNFOR = 15 # minutes
 
 # remove previous run
 files = glob.glob('/metrics/*')
@@ -21,30 +25,65 @@ config.load_incluster_config()
 appsApiClient = client.AppsV1Api()
 
 i = 1
+metrics_over_time = []
+bots_over_time = []
 
-# for forever, get metrics, and adjust scale if needed
-while True:
-    if (i % 30 == 0):
-        appsApiClient.patch_namespaced_deployment_scale("vote-bot", "nodevoto-bot",{'spec': {'replicas': 1}})
-        f.write("Scaling bot to 1\n")
+def generate_graph():
+    x_axis = [i * POLL for i in range(len(metrics_over_time))]
 
-    elif (i % 10 == 0):
-        appsApiClient.patch_namespaced_deployment_scale("vote-bot", "nodevoto-bot",{'spec': {'replicas': 10}})
-        f.write("Scaling bot to 10\n")
+    y_axis = []
+    for slice in metrics_over_time:
+        counts = 0
+        for deployment in slice:
+            counts += slice[deployment]["count"]
+        y_axis.append(counts)
 
-    f.write("Checking pods " + str(time.time()) + "\n")
-    namespace_metrics = metrics.getResourceMetrics("nodevoto")
-    f.write("deployment | cpu | target cpu | count | desired count\n")
+    plt.title("Nodevoto Pods vs Bots over Time" + (" (HPA)" if not ACTIVE else ""))
+    plt.xlabel(f"Time (s)")
+    plt.ylabel("Pod Count")
+    plt.plot(x_axis, y_axis, label="Pods", color="blue")
+    plt.plot(x_axis, bots_over_time, label="Bots", color="grey")
+    plt.legend(loc='upper left')
+    plt.savefig("/metrics/pods_over_time.png")
+    plt.close()
 
-    target_cpu = float(quantity.parse_quantity("15m"))
-    for deployment, value in namespace_metrics.items():
-        desired = math.ceil(value["cpu"] / target_cpu)
-        f.write(deployment + " | " + str(value["cpu"]) + " | " + str(target_cpu) + " | " + str(value["count"]) + " | " + str(desired) + " ")
-        if (value["count"] != desired):
-            appsApiClient.patch_namespaced_deployment_scale(deployment, "nodevoto",{'spec': {'replicas': desired}})
-            f.write("SCALING")
+# for specified time, get metrics, and adjust scale if needed
+while i * POLL <= RUNFOR * 60:
+    try:
+        if (i % 10 == 0):
+            appsApiClient.patch_namespaced_deployment_scale("vote-bot", "nodevoto-bot",{'spec': {'replicas': (i % 100) // 10}, "maxReplicas": 10})
+            f.write(f"Scaling bot to {(i % 100) // 10}\n")
+            generate_graph()
+
+        f.write("Checking pods " + str(time.ctime()) + "\n")
+        namespace_metrics = metrics.getResourceMetrics("nodevoto")
+        metrics_over_time.append(namespace_metrics)
+
+        bot_count = 0
+        bots = metrics.getResourceMetrics("nodevoto-bot")
+        if ("votebot" in bots):
+            bot_count = bots["votebot"]["count"]
+        bots_over_time.append(bot_count)
+
+        f.write("deployment | cpu | target cpu | count | desired count\n")
+
+        target_cpu = float(quantity.parse_quantity("30m"))
+        for deployment, value in namespace_metrics.items():
+            desired = math.ceil(value["cpu"] / target_cpu)
+            f.write(deployment + " | " + str(value["cpu"]) + " | " + str(target_cpu) + " | " + str(value["count"]) + " | " + str(desired) + " ")
+            if (ACTIVE and value["count"] != desired):
+                appsApiClient.patch_namespaced_deployment_scale(deployment, "nodevoto",{'spec': {'replicas': desired, "maxReplicas": 10}})
+                f.write("SCALING")
+            f.write("\n")
         f.write("\n")
-    f.write("\n")
-    f.flush()
+        f.flush()
+    except Exception as err:
+        print(f"ERROR during {i}: " + str(err))
+
     i += 1
-    time.sleep(3)
+    time.sleep(POLL)
+
+print("Run finished")
+
+while True:
+    time.sleep(POLL)

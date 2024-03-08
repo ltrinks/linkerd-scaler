@@ -1,0 +1,77 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: metrics-pvol
+  labels:
+    type: local
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteMany
+  hostPath:
+    path: "/mnt/metrics"
+
+---
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: metrics-pvol-claim
+  namespace: linkerd-scaler
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 3Gi
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: linkerd-scaler
+  name: database
+  labels:
+    app: database
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: database
+  template:
+    metadata:
+      labels:
+        app: database
+    spec:
+      securityContext:
+        runAsNonRoot: false
+        runAsUser: 0
+        runAsGroup: 0
+        fsGroup: 0
+      containers:
+      - name: database
+        image: mongo
+        imagePullPolicy: Always
+
+---
+
+apiVersion: "v1"
+kind: "Service"
+metadata: 
+  name: "database"
+  namespace: "linkerd-scaler"
+  labels: 
+    app: "database"
+spec: 
+  ports: 
+    - 
+      name: "database"
+      port: 27017
+      nodePort: 31017
+  type: "NodePort"
+  selector: 
+    app: "database"

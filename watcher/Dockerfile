@@ -5,6 +5,7 @@ ENV PYTHONUNBUFFERED=1
 # install dependencies
 RUN pip install kubernetes
 RUN pip install prometheus-client
+RUN pip install matplotlib
 
 # copy the source code
 WORKDIR /usr/watcher
