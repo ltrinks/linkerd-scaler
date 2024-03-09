@@ -11,7 +11,7 @@ import math
 
 ACTIVE = False # scale if true, watch only if false
 POLL = 3 # seconds
-RUNFOR = 15 # minutes
+RUNFOR = 45 # minutes
 
 # remove previous run
 files = glob.glob('/metrics/*')

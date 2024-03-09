@@ -20,7 +20,7 @@ Run settings are found at the top of `watcher/src/main.py`. To configure Kuberne
 ## Samples
 ![image](./samples/watcher_pods_over_time.png)
 ![image](./samples/hpa_pods_over_time.png)<br />
-Poll period of 3 seconds, ran for 15 minutes. HPA has stabilization window of 0 seconds.
+Poll period of 3 seconds, ran for 15 minutes, target CPU utilization 30%. HPA has stabilization window of 0 seconds.
 
 ## Nodevoto
 Nodevoto can be found [here](https://github.com/sourishkrout/nodevoto). Nodevoto is used as a test application for Linkerd Scaler to effect. Web, Voting, and Gif are placed in the `nodevoto` namespace. VoteBots are used as traffic generators and placed in the `nodevoto-bot` namespace.
