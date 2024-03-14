@@ -9,9 +9,9 @@ import metrics
 import quantity
 import math
 
-ACTIVE = False # scale if true, watch only if false
+ACTIVE = True # scale if true, watch only if false
 POLL = 3 # seconds
-RUNFOR = 45 # minutes
+RUNFOR = 15 # minutes
 
 # remove previous run
 files = glob.glob('/metrics/*')
@@ -32,17 +32,20 @@ def generate_graph():
     x_axis = [i * POLL for i in range(len(metrics_over_time))]
 
     y_axis = []
+    web_latency = []
     for slice in metrics_over_time:
         counts = 0
         for deployment in slice:
             counts += slice[deployment]["count"]
         y_axis.append(counts)
+        web_latency.append(round(float(slice["web"]["latency"])))
 
     plt.title("Nodevoto Pods vs Bots over Time" + (" (HPA)" if not ACTIVE else ""))
     plt.xlabel(f"Time (s)")
     plt.ylabel("Pod Count")
     plt.plot(x_axis, y_axis, label="Pods", color="blue")
     plt.plot(x_axis, bots_over_time, label="Bots", color="grey")
+    plt.plot(x_axis, web_latency, color="red")
     plt.legend(loc='upper left')
     plt.savefig("/metrics/pods_over_time.png")
     plt.close()
@@ -50,6 +53,7 @@ def generate_graph():
 # for specified time, get metrics, and adjust scale if needed
 while i * POLL <= RUNFOR * 60:
     try:
+        raw = open("/metrics/raw.txt", "w")
         if (i % 10 == 0):
             appsApiClient.patch_namespaced_deployment_scale("vote-bot", "nodevoto-bot",{'spec': {'replicas': (i % 100) // 10}, "maxReplicas": 10})
             f.write(f"Scaling bot to {(i % 100) // 10}\n")
@@ -59,8 +63,11 @@ while i * POLL <= RUNFOR * 60:
         namespace_metrics = metrics.getResourceMetrics("nodevoto")
         metrics_over_time.append(namespace_metrics)
 
+        raw.write(str(namespace_metrics))
+        raw.close()
+
         bot_count = 0
-        bots = metrics.getResourceMetrics("nodevoto-bot")
+        bots = metrics.getResourceMetricsNoLinkerd("nodevoto-bot")
         if ("votebot" in bots):
             bot_count = bots["votebot"]["count"]
         bots_over_time.append(bot_count)

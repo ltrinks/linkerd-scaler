@@ -13,23 +13,24 @@ minikube -p linkerd-scaler delete;
 minikube -p linkerd-scaler start --cpus 4 --memory 4096;
 minikube -p linkerd-scaler mount ./metrics:/mnt/metrics &
 eval $(minikube -p linkerd-scaler docker-env)
+docker pull sourishkrout/nodevoto:v5
 
 # install linkerd control plane
 linkerd install --crds | kubectl apply -f -;
 linkerd install --set proxyInit.runAsRoot=true | kubectl apply -f -;
-linkerd --output short check;
+linkerd --output short check --wait 30m;
 
 # deploy nodevoto and inject linkerd proxies
 linkerd inject nodevoto.yml --proxy-cpu-request 5m | kubectl apply -f -;
-linkerd --output short -n nodevoto check --proxy;
+linkerd --output short -n nodevoto check --proxy --wait 30m;
 
 # install linkerd viz tool
 linkerd viz install | kubectl apply -f -;
-linkerd --output short check;
+linkerd --output short check --wait 30m;
 
 # add linkerd-scale into cluster
 minikube -p linkerd-scaler addons enable metrics-server
-kubectl apply -f nodevoto-hpa.yaml
+#kubectl apply -f nodevoto-hpa.yaml
 kubectl create namespace linkerd-scaler
 docker build -t watcher watcher
 kubectl apply -f watcher/watcher.yaml
