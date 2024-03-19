@@ -10,7 +10,7 @@ import quantity
 import math
 import json
 
-ACTIVE = False # scale if true, watch only if false
+ACTIVE = True # scale if true, watch only if false
 POLL = 3 # seconds
 RUNFOR = 5 # minutes
 
