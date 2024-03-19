@@ -33,11 +33,9 @@ sleep 30
 # add linkerd-scale into cluster
 kubectl create namespace linkerd-scaler
 docker build -t watcher watcher
-kubectl apply -f nodevoto-hpa.yaml
-sleep 10
+#kubectl apply -f nodevoto-hpa.yaml
 kubectl apply -f watcher/watcher.yaml
 sleep 10
-./start-watcher.sh
 
 echo running
 

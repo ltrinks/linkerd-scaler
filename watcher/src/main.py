@@ -10,14 +10,14 @@ import quantity
 import math
 import json
 
-ACTIVE = False # scale if true, watch only if false
+ACTIVE = True # scale if true, watch only if false
 POLL = 3 # seconds
-RUNFOR = 15 # minutes
+RUNFOR = 30 # minutes
 
 SCALE_FACTOR = 2 # how many bots to add each increase
 MAX_PODS = 40 # max pods allowed for a deployment (bots and nodevoto)
 INCREASES = 20 # number of times to increase before resetting
-POLLS_PER_INCREASE = 10 # number of polls between each increase
+POLLS_PER_INCREASE = 15 # number of polls between each increase
 
 # remove previous run
 files = glob.glob('/metrics/*')

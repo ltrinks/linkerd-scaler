@@ -21,7 +21,7 @@ metadata:
   name: pods-list
 rules:
 - apiGroups: ["", "apps", "metrics.k8s.io"]
-  resources: ["pods", "deployments", "deployments/scale", "deployments/status", "pods/metrics.k8s.io", "deployments/metrics.k8s.io"]
+  resources: ["pods", "deployments", "pods/status", "deployments/scale", "deployments/status", "pods/metrics.k8s.io", "deployments/metrics.k8s.io"]
   verbs: ["get", "watch", "list", "patch"]
 
 ---
