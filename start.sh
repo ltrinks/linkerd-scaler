@@ -33,13 +33,13 @@ sleep 30
 minikube -p linkerd-scaler addons enable metrics-server
 kubectl create namespace linkerd-scaler
 docker build -t watcher watcher
-#kubectl apply -f nodevoto-hpa.yaml
+kubectl apply -f nodevoto-hpa.yaml
 sleep 10
 kubectl apply -f watcher/watcher.yaml
 sleep 10
 ./start-watcher.sh
 
-sleep 30
+echo running
 
 # follow watcher logs
 #./follow-logs.sh

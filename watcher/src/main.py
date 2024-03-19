@@ -10,9 +10,9 @@ import quantity
 import math
 import json
 
-ACTIVE = True # scale if true, watch only if false
+ACTIVE = False # scale if true, watch only if false
 POLL = 3 # seconds
-RUNFOR = 5 # minutes
+RUNFOR = 15 # minutes
 
 SCALE_FACTOR = 1 # how many bots to add each increase
 MAX_PODS = 10 # max pods allowed for a deployment (bots and nodevoto)

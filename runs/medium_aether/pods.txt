@@ -1,0 +1,1830 @@
+Checking pods Tue Mar 19 01:36:04 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012806171 | 0.03 | 1 | 1 
+voting | 0.006190643 | 0.03 | 1 | 1 
+web | 0.034161188 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:36:07 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012806171 | 0.03 | 1 | 1 
+voting | 0.006190643 | 0.03 | 1 | 1 
+web | 0.034161188 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:36:10 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012806171 | 0.03 | 1 | 1 
+voting | 0.006190643 | 0.03 | 1 | 1 
+web | 0.034161188 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:36:13 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012806171 | 0.03 | 1 | 1 
+voting | 0.006190643 | 0.03 | 1 | 1 
+web | 0.034161188 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:36:16 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012806171 | 0.03 | 1 | 1 
+voting | 0.006190643 | 0.03 | 1 | 1 
+web | 0.034161188 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:36:19 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:22 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:25 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:28 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Scaling bot to 1
+Checking pods Tue Mar 19 01:36:32 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:35 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:38 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:41 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:44 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:47 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:50 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:53 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:56 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:36:59 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Scaling bot to 2
+Checking pods Tue Mar 19 01:37:03 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:37:06 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:37:09 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:37:12 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:37:15 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:37:18 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012586634 | 0.03 | 1 | 1 
+voting | 0.006135019 | 0.03 | 1 | 1 
+web | 0.103377326 | 0.03 | 2 | 4 SCALING
+
+Checking pods Tue Mar 19 01:37:21 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.053512471 | 0.03 | 4 | 2 SCALING
+
+Checking pods Tue Mar 19 01:37:24 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.053512471 | 0.03 | 4 | 2 SCALING
+
+Checking pods Tue Mar 19 01:37:27 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.053512471 | 0.03 | 4 | 2 SCALING
+
+Checking pods Tue Mar 19 01:37:30 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.053512471 | 0.03 | 4 | 2 SCALING
+
+Scaling bot to 3
+Checking pods Tue Mar 19 01:37:34 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.053512471 | 0.03 | 4 | 2 SCALING
+
+Checking pods Tue Mar 19 01:37:37 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.053512471 | 0.03 | 4 | 2 SCALING
+
+Checking pods Tue Mar 19 01:37:40 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.053512471 | 0.03 | 4 | 2 SCALING
+
+Checking pods Tue Mar 19 01:37:43 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.053512471 | 0.03 | 4 | 2 SCALING
+
+Checking pods Tue Mar 19 01:37:46 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.053512471 | 0.03 | 4 | 2 SCALING
+
+Checking pods Tue Mar 19 01:37:49 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.053512471 | 0.03 | 4 | 2 SCALING
+
+Checking pods Tue Mar 19 01:37:52 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.012915555999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:37:55 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.012915555999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:37:58 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.012915555999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:38:01 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.012915555999999998 | 0.03 | 2 | 1 SCALING
+
+Scaling bot to 4
+Checking pods Tue Mar 19 01:38:05 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.012915556 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:38:08 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.012915555999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:38:11 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.012915555999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:38:14 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.012915555999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:38:17 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.004684571 | 0.03 | 1 | 1 
+voting | 0.002313443 | 0.03 | 1 | 1 
+web | 0.012915555999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:38:20 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.013457228 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:38:23 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:38:26 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:38:29 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:38:33 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Scaling bot to 5
+Checking pods Tue Mar 19 01:38:36 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:38:39 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:38:42 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:38:45 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:38:48 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:38:51 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:38:54 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:38:57 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:00 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:03 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Scaling bot to 6
+Checking pods Tue Mar 19 01:39:07 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:10 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:13 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:16 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005235319 | 0.03 | 1 | 1 
+voting | 0.0025772340000000003 | 0.03 | 1 | 1 
+web | 0.010555792000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:19 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:22 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:25 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:28 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:31 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:34 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Scaling bot to 7
+Checking pods Tue Mar 19 01:39:38 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:41 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:44 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:47 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:50 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:53 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:56 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:39:59 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:02 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:05 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Scaling bot to 8
+Checking pods Tue Mar 19 01:40:09 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:12 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:15 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:18 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008139681999999999 | 0.03 | 1 | 1 
+voting | 0.004131398 | 0.03 | 1 | 1 
+web | 0.021099357 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:21 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:24 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:27 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:30 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:33 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:37 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Scaling bot to 9
+Checking pods Tue Mar 19 01:40:40 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:43 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:46 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:49 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:52 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:55 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:40:58 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:41:01 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:41:04 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:41:07 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Scaling bot to 10
+Checking pods Tue Mar 19 01:41:11 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:41:14 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:41:17 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010878873 | 0.03 | 1 | 1 
+voting | 0.005254339 | 0.03 | 1 | 1 
+web | 0.028137635 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:41:20 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:23 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:26 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:29 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:32 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:35 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:38 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Scaling bot to 0
+Checking pods Tue Mar 19 01:41:42 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:45 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:48 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:51 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:54 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:41:57 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:42:00 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:42:03 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:42:07 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:42:10 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Scaling bot to 1
+Checking pods Tue Mar 19 01:42:13 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:42:16 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.013695032 | 0.03 | 1 | 1 
+voting | 0.006829474 | 0.03 | 1 | 1 
+web | 0.033164576 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:42:19 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:22 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:25 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:28 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:31 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:34 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:37 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:41 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Scaling bot to 2
+Checking pods Tue Mar 19 01:42:44 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:47 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:50 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:53 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:42:57 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:43:00 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:43:03 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:43:06 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:43:09 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116114999999995 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:43:12 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116114999999995 | 0.03 | 2 | 2 
+
+Scaling bot to 3
+Checking pods Tue Mar 19 01:43:15 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:43:18 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.0061841299999999995 | 0.03 | 1 | 1 
+voting | 0.003013391 | 0.03 | 1 | 1 
+web | 0.033116115 | 0.03 | 2 | 2 
+
+Checking pods Tue Mar 19 01:43:21 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.009832423 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:43:25 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.009832423 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:43:28 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.009832423 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:43:31 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.009832423 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:43:34 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.009832423 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:43:37 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.009832423 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:43:40 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.009832423 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:43:43 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.009832423 | 0.03 | 2 | 1 SCALING
+
+Scaling bot to 4
+Checking pods Tue Mar 19 01:43:46 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.009832423 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:43:49 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.009832423 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:43:52 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.004352737000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:43:55 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.004352737000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:43:59 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.004352737000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:02 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.004352737000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:05 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.004352737000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:08 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.004352737000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:11 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.004352737000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:14 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.004352737000000001 | 0.03 | 1 | 1 
+
+Scaling bot to 5
+Checking pods Tue Mar 19 01:44:17 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.002884737 | 0.03 | 1 | 1 
+voting | 0.00142458 | 0.03 | 1 | 1 
+web | 0.004352737000000001 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:20 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:23 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:26 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:30 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:33 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:36 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:39 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:42 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:45 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Scaling bot to 6
+Checking pods Tue Mar 19 01:44:48 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:51 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:54 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:44:57 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:00 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:03 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:07 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:10 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:13 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:16 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.005686171 | 0.03 | 1 | 1 
+voting | 0.002841051 | 0.03 | 1 | 1 
+web | 0.01451323 | 0.03 | 1 | 1 
+
+Scaling bot to 7
+Checking pods Tue Mar 19 01:45:20 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:23 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:26 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:29 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:32 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:35 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:38 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:41 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:44 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:47 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Scaling bot to 8
+Checking pods Tue Mar 19 01:45:51 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:54 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:45:57 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:00 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:03 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:06 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:09 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:12 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:15 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:18 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.008304938999999999 | 0.03 | 1 | 1 
+voting | 0.0040412320000000005 | 0.03 | 1 | 1 
+web | 0.020563541 | 0.03 | 1 | 1 
+
+Scaling bot to 9
+Checking pods Tue Mar 19 01:46:22 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:25 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:28 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:31 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:34 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:37 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:40 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:43 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:46 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:49 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Scaling bot to 10
+Checking pods Tue Mar 19 01:46:53 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:56 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:46:59 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:47:02 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:47:05 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:47:08 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:47:11 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:47:14 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:47:17 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.010044556 | 0.03 | 1 | 1 
+voting | 0.004736619 | 0.03 | 1 | 1 
+web | 0.025315352 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:47:20 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Scaling bot to 0
+Checking pods Tue Mar 19 01:47:24 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:47:27 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:47:30 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:47:33 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:47:36 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:47:39 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:47:42 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:47:45 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:47:48 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:47:51 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Scaling bot to 1
+Checking pods Tue Mar 19 01:47:55 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:47:58 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:48:01 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:48:04 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:48:07 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:48:10 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:48:13 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:48:16 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.012426138 | 0.03 | 1 | 1 
+voting | 0.006156081000000001 | 0.03 | 1 | 1 
+web | 0.030598259000000003 | 0.03 | 1 | 2 SCALING
+
+Checking pods Tue Mar 19 01:48:19 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.021442740999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:48:22 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.021442740999999998 | 0.03 | 2 | 1 SCALING
+
+Scaling bot to 2
+Checking pods Tue Mar 19 01:48:26 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.021442740999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:48:29 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.021442740999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:48:32 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.021442740999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:48:35 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.021442740999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:48:38 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.021442740999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:48:41 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.021442740999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:48:44 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.021442740999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:48:47 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.021442740999999998 | 0.03 | 2 | 1 SCALING
+
+Checking pods Tue Mar 19 01:48:50 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.00379526 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:48:53 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.00379526 | 0.03 | 1 | 1 
+
+Scaling bot to 3
+Checking pods Tue Mar 19 01:48:57 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.00379526 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:00 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.00379526 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:03 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.00379526 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:06 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.00379526 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:10 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.00379526 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:13 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.00379526 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:16 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.00379526 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:19 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.001666917 | 0.03 | 1 | 1 
+voting | 0.000970643 | 0.03 | 1 | 1 
+web | 0.00379526 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:22 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:25 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Scaling bot to 4
+Checking pods Tue Mar 19 01:49:28 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:31 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:34 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:38 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:41 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:44 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:47 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:50 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:53 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:49:56 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Scaling bot to 5
+Checking pods Tue Mar 19 01:50:00 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:03 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:06 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:09 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:12 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:15 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:18 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.003800011 | 0.03 | 1 | 1 
+voting | 0.001974206 | 0.03 | 1 | 1 
+web | 0.009845903999999999 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:21 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:24 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:27 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Scaling bot to 6
+Checking pods Tue Mar 19 01:50:31 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:34 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:37 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:40 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:43 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:46 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:49 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:52 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:55 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:50:58 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Scaling bot to 7
+Checking pods Tue Mar 19 01:51:02 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:51:05 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:51:08 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:51:11 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:51:14 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:51:17 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.006828258 | 0.03 | 1 | 1 
+voting | 0.003286333 | 0.03 | 1 | 1 
+web | 0.017533831 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:51:20 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.009412123 | 0.03 | 1 | 1 
+voting | 0.004513372999999999 | 0.03 | 1 | 1 
+web | 0.023242857999999998 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:51:23 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.009412123 | 0.03 | 1 | 1 
+voting | 0.004513372999999999 | 0.03 | 1 | 1 
+web | 0.023242857999999998 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:51:26 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.009412123 | 0.03 | 1 | 1 
+voting | 0.004513372999999999 | 0.03 | 1 | 1 
+web | 0.023242857999999998 | 0.03 | 1 | 1 
+
+Checking pods Tue Mar 19 01:51:29 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.009412123 | 0.03 | 1 | 1 
+voting | 0.004513372999999999 | 0.03 | 1 | 1 
+web | 0.023242857999999998 | 0.03 | 1 | 1 
+
+Scaling bot to 8
+Checking pods Tue Mar 19 01:51:32 2024
+deployment | cpu | target cpu | count | desired count
+gif | 0.009412123 | 0.03 | 1 | 1 
+voting | 0.004513372999999999 | 0.03 | 1 | 1 
+web | 0.023242857999999998 | 0.03 | 1 | 1 
+
