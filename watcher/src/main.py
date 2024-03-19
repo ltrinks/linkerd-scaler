@@ -12,12 +12,12 @@ import json
 
 ACTIVE = False # scale if true, watch only if false
 POLL = 15 # seconds
-RUNFOR = 120 # minutes
+RUNFOR = 60 # minutes
 
 SCALE_FACTOR = 4 # how many bots to add each increase
 MAX_PODS = 20 # max pods allowed for a deployment (bots and nodevoto)
 INCREASES = 5 # number of times to increase before resetting
-POLLS_PER_INCREASE = 8 # number of polls between each increase
+POLLS_PER_INCREASE = 15 # number of polls between each increase
 
 # remove previous run
 files = glob.glob('/metrics/*')
@@ -45,7 +45,7 @@ def generate_graph():
             counts += slice[deployment]["count"]
         y_axis.append(counts)
         web_latency.append(round(float(slice["web"]["latency"])))
-        web_cpu_utilization.append(round(100 * float(slice["web"]["cpu"] /  float(quantity.parse_quantity("100m"))) / slice["web"]["count"]))
+        web_cpu_utilization.append(round(100 * float(slice["web"]["cpu"] /  float(quantity.parse_quantity("50m"))) / slice["web"]["count"]))
     
     desired_pods = []
     for slice in combined_over_time:
@@ -66,7 +66,7 @@ def generate_graph():
     ax1.plot(x_axis, desired_pods, label="Desired", color="purple")
 
     fig.legend(loc='upper left') 
-    plt.title("Nodevoto Pods vs Bots (desired) " + (" (HPA)" if not ACTIVE else ""))
+    plt.title("Nodevoto Pods vs Bots (desired) " + (" (No action)" if not ACTIVE else ""))
     fig.tight_layout()
     plt.savefig("/metrics/desired_pods_over_time.png")
     plt.close()
@@ -82,7 +82,7 @@ def generate_graph():
     ax2.set_ylabel("Web P95 Latency (ms)")
     ax2.plot(x_axis, web_latency, color="red", label="Latency")
     fig.legend(loc='upper left') 
-    plt.title("Nodevoto Pods vs Bots over Time (Latency) " + (" (HPA)" if not ACTIVE else ""))
+    plt.title("Nodevoto Pods vs Bots over Time (Latency) " + (" (No action)" if not ACTIVE else ""))
     fig.tight_layout()
     plt.savefig("/metrics/latency_pods_over_time.png")
     plt.close()
@@ -99,7 +99,7 @@ def generate_graph():
     ax2.set_ylabel("Web CPU Utilization (%)")
     ax2.plot(x_axis, web_cpu_utilization, color="red", label="CPU")
     fig.legend(loc='upper left') 
-    plt.title("Nodevoto Pods vs Bots over Time (CPU) " + (" (HPA)" if not ACTIVE else ""))
+    plt.title("Nodevoto Pods vs Bots over Time (CPU) " + (" (No action)" if not ACTIVE else ""))
     fig.tight_layout()
     plt.savefig("/metrics/cpu_pods_over_time.png")
     plt.close()

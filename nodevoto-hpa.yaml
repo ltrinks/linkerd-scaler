@@ -9,7 +9,7 @@ spec:
     kind: Deployment
     name: web
   minReplicas: 1
-  maxReplicas: 10
+  maxReplicas: 20
   metrics:
   - type: Resource
     resource:
@@ -36,7 +36,7 @@ spec:
     kind: Deployment
     name: voting
   minReplicas: 1
-  maxReplicas: 10
+  maxReplicas: 20
   metrics:
   - type: Resource
     resource:
@@ -63,7 +63,7 @@ spec:
     kind: Deployment
     name: gif
   minReplicas: 1
-  maxReplicas: 10
+  maxReplicas: 20
   metrics:
   - type: Resource
     resource:
