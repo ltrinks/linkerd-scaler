@@ -27,17 +27,26 @@ linkerd --output short -n nodevoto check --proxy --wait 30m;
 # install linkerd viz tool
 linkerd viz install | kubectl apply -f -;
 linkerd --output short check --wait 30m;
+sleep 30
 
 # add linkerd-scale into cluster
 minikube -p linkerd-scaler addons enable metrics-server
-#kubectl apply -f nodevoto-hpa.yaml
 kubectl create namespace linkerd-scaler
 docker build -t watcher watcher
+kubectl apply -f nodevoto-hpa.yaml
+sleep 10
 kubectl apply -f watcher/watcher.yaml
+sleep 10
+./start-watcher.sh
+
+sleep 30
+
+# follow watcher logs
+#./follow-logs.sh
 
 # open linkerd dashboard and nodevoto web site
-linkerd viz dashboard &
-minikube -p linkerd-scaler -n nodevoto service web-svc &
+# linkerd viz dashboard &
+# minikube -p linkerd-scaler -n nodevoto service web-svc &
 
 # wait for ^C
 tail -f /dev/null
