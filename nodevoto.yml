@@ -43,7 +43,7 @@ spec:
           name: grpc
         resources:
           requests:
-            cpu: 95m
+            cpu: 45m
 status: {}
 ---
 apiVersion: v1
@@ -92,7 +92,7 @@ spec:
           name: grpc
         resources: 
           requests:
-            cpu: 95m
+            cpu: 45m
 status: {}
 ---
 apiVersion: v1
@@ -147,7 +147,7 @@ spec:
           name: http
         resources: 
           requests:
-            cpu: 95m
+            cpu: 45m
 status: {}
 ---
 apiVersion: v1
@@ -191,6 +191,8 @@ spec:
         image: sourishkrout/nodevoto:v5
         imagePullPolicy: IfNotPresent
         name: vote-bot
-        resources: {}
+        resources: 
+          requests:
+            cpu: 5m
 status: {}
 ---

@@ -11,11 +11,11 @@ import math
 import json
 
 ACTIVE = False # scale if true, watch only if false
-POLL = 15 # seconds
-RUNFOR = 60 # minutes
+POLL = 3 # seconds
+RUNFOR = 15 # minutes
 
-SCALE_FACTOR = 1 # how many bots to add each increase
-MAX_PODS = 20 # max pods allowed for a deployment (bots and nodevoto)
+SCALE_FACTOR = 2 # how many bots to add each increase
+MAX_PODS = 40 # max pods allowed for a deployment (bots and nodevoto)
 INCREASES = 20 # number of times to increase before resetting
 POLLS_PER_INCREASE = 10 # number of polls between each increase
 
@@ -129,7 +129,7 @@ while i * POLL <= RUNFOR * 60:
 
         f.write("deployment | cpu | target cpu | count | desired count\n")
         desired_state = {}
-        target_cpu = float(quantity.parse_quantity("30m"))
+        target_cpu = float(quantity.parse_quantity("15m"))
         for deployment, value in namespace_metrics.items():
             desired = math.ceil(value["cpu"] / target_cpu)
             desired_state[deployment] = desired

@@ -47,12 +47,12 @@ def getResourceMetricsNoLinkerd(namespace):
             info[pod_name] = {"cpu": 0, "memory": 0, "count": 0, "pods": {}}
 
         info[pod_name]["count"] += 1
-        info[pod_name]["pods"][pod["metadata"]["name"]] = {"cpu": 0, "memory": 0}
+        #info[pod_name]["pods"][pod["metadata"]["name"]] = {"cpu": 0, "memory": 0}
         for container in pod["containers"]:
             info[pod_name]["cpu"] += float(quantity.parse_quantity(container["usage"]["cpu"]))
-            info[pod_name]["pods"][pod["metadata"]["name"]]["cpu"] += float(quantity.parse_quantity(container["usage"]["cpu"]))
+            #info[pod_name]["pods"][pod["metadata"]["name"]]["cpu"] += float(quantity.parse_quantity(container["usage"]["cpu"]))
             info[pod_name]["memory"] += float(quantity.parse_quantity(container["usage"]["memory"]))
-            info[pod_name]["pods"][pod["metadata"]["name"]]["memory"] += float(quantity.parse_quantity(container["usage"]["memory"]))
+            #info[pod_name]["pods"][pod["metadata"]["name"]]["memory"] += float(quantity.parse_quantity(container["usage"]["memory"]))
 
     return info
 
