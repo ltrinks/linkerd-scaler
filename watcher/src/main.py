@@ -10,21 +10,19 @@ import quantity
 import math
 import json
 
-ACTIVE = True # scale if true, watch only if false
-POLL = 3 # seconds
-RUNFOR = 30 # minutes
+ACTIVE = False # scale if true, watch only if false
+POLL = 15 # seconds
+RUNFOR = 120 # minutes
 
-SCALE_FACTOR = 2 # how many bots to add each increase
-MAX_PODS = 40 # max pods allowed for a deployment (bots and nodevoto)
-INCREASES = 20 # number of times to increase before resetting
-POLLS_PER_INCREASE = 15 # number of polls between each increase
+SCALE_FACTOR = 4 # how many bots to add each increase
+MAX_PODS = 20 # max pods allowed for a deployment (bots and nodevoto)
+INCREASES = 5 # number of times to increase before resetting
+POLLS_PER_INCREASE = 8 # number of polls between each increase
 
 # remove previous run
 files = glob.glob('/metrics/*')
 for f in files:
     os.remove(f)
-
-f = open("/metrics/pods.txt", "w")
 
 # load the config for the cluster to connect to the API
 config.load_incluster_config()
@@ -109,17 +107,11 @@ def generate_graph():
 # for specified time, get metrics, and adjust scale if needed
 while i * POLL <= RUNFOR * 60:
     try:
-        raw = open("/metrics/raw.txt", "w")
         if (i % POLLS_PER_INCREASE == 0):
             print(f"{((i * POLL) / (RUNFOR * 60)) * 100}%")
             appsApiClient.patch_namespaced_deployment_scale("vote-bot", "nodevoto-bot",{'spec': {'replicas': (SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)}, "maxReplicas": MAX_PODS})
-            f.write(f"Scaling bot to {(SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)}\n")
 
-        f.write("Checking pods " + str(time.ctime()) + "\n")
         namespace_metrics = metrics.getResourceMetrics("nodevoto")
-
-        raw.write(str(namespace_metrics))
-        raw.close()
 
         bot_count = 0
         bots = metrics.getResourceMetricsNoLinkerd("nodevoto-bot")
@@ -127,25 +119,19 @@ while i * POLL <= RUNFOR * 60:
             bot_count = bots["votebot"]["count"]
         bots_over_time.append(bot_count)
 
-        f.write("deployment | cpu | target cpu | count | desired count\n")
         desired_state = {}
         target_cpu = float(quantity.parse_quantity("15m"))
         for deployment, value in namespace_metrics.items():
             desired = math.ceil(value["cpu"] / target_cpu)
             desired_state[deployment] = desired
-            f.write(deployment + " | " + str(value["cpu"]) + " | " + str(target_cpu) + " | " + str(value["count"]) + " | " + str(desired) + " ")
             if (ACTIVE and value["count"] != desired):
                 appsApiClient.patch_namespaced_deployment_scale(deployment, "nodevoto",{'spec': {'replicas': desired, "maxReplicas": MAX_PODS}})
-                f.write("SCALING")
             elif (not ACTIVE):
                desired_state[deployment] = appsApiClient.read_namespaced_deployment_status(deployment, "nodevoto").spec.replicas
-            f.write("\n")
 
         metrics_over_time.append(namespace_metrics)
         combined = {"bots": bots, "metrics": namespace_metrics, "desired": desired_state}
         combined_over_time.append(combined)
-        f.write("\n")
-        f.flush()
     except Exception as err:
         print(f"ERROR during {i}: " + str(err))
 

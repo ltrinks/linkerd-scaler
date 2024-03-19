@@ -97,6 +97,9 @@ spec:
         volumeMounts:
             - name: metrics
               mountPath: /metrics
+        resources: 
+          requests:
+            memory: 1G
       volumes: 
         - name: metrics
           persistentVolumeClaim:
