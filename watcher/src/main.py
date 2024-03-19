@@ -114,7 +114,6 @@ while i * POLL <= RUNFOR * 60:
             print(f"{((i * POLL) / (RUNFOR * 60)) * 100}%")
             appsApiClient.patch_namespaced_deployment_scale("vote-bot", "nodevoto-bot",{'spec': {'replicas': (SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)}, "maxReplicas": MAX_PODS})
             f.write(f"Scaling bot to {(SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)}\n")
-            generate_graph()
 
         f.write("Checking pods " + str(time.ctime()) + "\n")
         namespace_metrics = metrics.getResourceMetrics("nodevoto")
