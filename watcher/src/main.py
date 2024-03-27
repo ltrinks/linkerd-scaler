@@ -12,12 +12,12 @@ import json
 
 ACTIVE = False # scale if true, watch only if false
 POLL = 15 # seconds
-RUNFOR = 60 # minutes
+RUNFOR = 120 # minutes
 
 SCALE_FACTOR = 4 # how many bots to add each increase
 MAX_PODS = 20 # max pods allowed for a deployment (bots and nodevoto)
 INCREASES = 5 # number of times to increase before resetting
-POLLS_PER_INCREASE = 40 # number of polls between each increase
+POLLS_PER_INCREASE = 80 # number of polls between each increase
 
 # remove previous run
 files = glob.glob('/metrics/*')
@@ -66,7 +66,7 @@ def generate_graph():
     ax1.plot(x_axis, desired_pods, label="Desired", color="purple")
 
     fig.legend(loc='upper left') 
-    plt.title("Nodevoto Pods vs Bots (desired) " + (" (No action)" if not ACTIVE else ""))
+    plt.title("Nodevoto Pods vs Bots (desired) " + (" (HPA)" if not ACTIVE else ""))
     fig.tight_layout()
     plt.savefig("/metrics/desired_pods_over_time.png")
     plt.close()
