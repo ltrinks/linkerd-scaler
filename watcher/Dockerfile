@@ -6,6 +6,7 @@ ENV PYTHONUNBUFFERED=1
 RUN pip install kubernetes
 RUN pip install prometheus-client
 RUN pip install matplotlib
+RUN pip install tzlocal
 
 # copy the source code
 WORKDIR /usr/watcher

@@ -3,6 +3,8 @@ import requests
 from prometheus_client import parser
 import quantity
 import pprint
+import datetime
+from tzlocal import get_localzone
 
 # load the config for the cluster to connect to the API
 config.load_incluster_config()
@@ -22,6 +24,21 @@ def getResourceMetrics(namespace):
     info = {}
     for pod in topApiClient.list_namespaced_custom_object("metrics.k8s.io", "v1beta1", namespace, "pods")["items"]:
         pod_name = getPodName(pod["metadata"]["name"])
+
+        # don't count pods that have recently become ready or are not running
+        status = coreApiClient.read_namespaced_pod_status(pod["metadata"]["name"], namespace).status
+        phase = status.phase
+
+        if phase != "Running":
+            print("ignoring not running")
+            continue
+
+        running_condition = [i for i in status.conditions if i.type == "Ready"][0]
+        ready_time = datetime.datetime.now() - running_condition.last_transition_time.replace(tzinfo=None)
+        print(ready_time)
+        if (ready_time < datetime.timedelta(seconds=30)):
+            print("ignoring too young")
+            continue
 
         if pod_name not in info:
             info[pod_name] = {"cpu": 0, "memory": 0, "count": 0, "pods": {}}

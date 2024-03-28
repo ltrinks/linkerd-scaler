@@ -20,8 +20,16 @@ spec:
   behavior:
     scaleDown:
       stabilizationWindowSeconds: 0
+      policies:
+        - periodSeconds: 15
+          type: Pods
+          value: 20
     scaleUp:
       stabilizationWindowSeconds: 0
+      policies:
+        - periodSeconds: 15
+          type: Pods
+          value: 20
 
 ---
 
@@ -47,8 +55,16 @@ spec:
   behavior:
     scaleDown:
       stabilizationWindowSeconds: 0
+      policies:
+        - periodSeconds: 15
+          type: Pods
+          value: 20
     scaleUp:
       stabilizationWindowSeconds: 0
+      policies:
+        - periodSeconds: 15
+          type: Pods
+          value: 20
 
 ---
 
@@ -74,5 +90,13 @@ spec:
   behavior:
     scaleDown:
       stabilizationWindowSeconds: 0
+      policies:
+        - periodSeconds: 15
+          type: Pods
+          value: 20
     scaleUp:
       stabilizationWindowSeconds: 0
+      policies:
+        - periodSeconds: 15
+          type: Pods
+          value: 20
