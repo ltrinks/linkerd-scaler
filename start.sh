@@ -10,7 +10,7 @@ trap 'kill $(jobs -p); minikube -p linkerd-scaler delete; echo ERROR AT \"$BASH_
 # delete and start linkerd-scaler test cluster
 export MINIKUBE_IN_STYLE=0
 minikube -p linkerd-scaler delete;
-minikube -p linkerd-scaler start --cpus 4 --memory 4096;
+minikube -p linkerd-scaler start --cpus 8 --memory 28000;
 minikube -p linkerd-scaler mount ./metrics:/mnt/metrics &
 eval $(minikube -p linkerd-scaler docker-env)
 docker pull sourishkrout/nodevoto:v5
@@ -33,7 +33,7 @@ sleep 30
 # add linkerd-scale into cluster
 kubectl create namespace linkerd-scaler
 docker build -t watcher watcher
-#kubectl apply -f nodevoto-hpa.yaml
+kubectl apply -f nodevoto-hpa.yaml
 kubectl apply -f watcher/watcher.yaml
 sleep 10
 

@@ -35,7 +35,6 @@ def getResourceMetrics(namespace):
 
         running_condition = [i for i in status.conditions if i.type == "Ready"][0]
         ready_time = datetime.datetime.now() - running_condition.last_transition_time.replace(tzinfo=None)
-        print(ready_time)
         if (ready_time < datetime.timedelta(seconds=30)):
             print("ignoring too young")
             continue
