@@ -10,7 +10,7 @@ import quantity
 import math
 import json
 
-ACTIVE = False # scale if true, watch only if false
+ACTIVE = True # scale if true, watch only if false
 POLL = 15 # seconds
 RUNFOR = 120 # minutes
 
@@ -82,7 +82,7 @@ def generate_graph():
     ax2.set_ylabel("Web P95 Latency (ms)")
     ax2.plot(x_axis, web_latency, color="red", label="Latency")
     fig.legend(loc='upper left') 
-    plt.title("Nodevoto Pods vs Bots over Time (Latency) " + (" (No action)" if not ACTIVE else ""))
+    plt.title("Nodevoto Pods vs Bots over Time (Latency) " + (" (HPA)" if not ACTIVE else ""))
     fig.tight_layout()
     plt.savefig("/metrics/latency_pods_over_time.png")
     plt.close()
@@ -99,7 +99,7 @@ def generate_graph():
     ax2.set_ylabel("Web CPU Utilization (%)")
     ax2.plot(x_axis, web_cpu_utilization, color="red", label="CPU")
     fig.legend(loc='upper left') 
-    plt.title("Nodevoto Pods vs Bots over Time (CPU) " + (" (No action)" if not ACTIVE else ""))
+    plt.title("Nodevoto Pods vs Bots over Time (CPU) " + (" (HPA)" if not ACTIVE else ""))
     fig.tight_layout()
     plt.savefig("/metrics/cpu_pods_over_time.png")
     plt.close()
