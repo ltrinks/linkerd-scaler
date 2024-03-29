@@ -18,13 +18,13 @@ topApiClient = client.CustomObjectsApi()
 def getPodName(pod):
     return "".join(pod.split("-")[:-2])
 
-# get the cpu and memory for each deployment in a namespace, also break it down by pod
+# get the cpu, latency, and memory for each deployment in a namespace, also break it down by pod
 # {test: {cpu: 0, memory: 0, count: 1, pods: {test-1234: {cpu: 0, memory: 0}}}}
 def getResourceMetrics(namespace):
     info = {}
     for pod in topApiClient.list_namespaced_custom_object("metrics.k8s.io", "v1beta1", namespace, "pods")["items"]:
         pod_name = getPodName(pod["metadata"]["name"])
-
+        
         # don't count pods that have recently become ready or are not running
         status = coreApiClient.read_namespaced_pod_status(pod["metadata"]["name"], namespace).status
         phase = status.phase
@@ -53,6 +53,7 @@ def getResourceMetrics(namespace):
 
     return info
 
+# get metric data for deployments in a namespace without latency from linkerd, count all
 def getResourceMetricsNoLinkerd(namespace):
     info = {}
     for pod in topApiClient.list_namespaced_custom_object("metrics.k8s.io", "v1beta1", namespace, "pods")["items"]:
@@ -72,9 +73,11 @@ def getResourceMetricsNoLinkerd(namespace):
     return info
 
 
+# fetch latency of a deployment from Linkerd
 def getNamespaceDeploymentResponseLatency(namespace, deployment, percentile, period):
     try:
         # bypass coredns for getting pod ip
+        # TODO optimize here, shouldn't need to fetch ip every time
         viz_pods = coreApiClient.list_namespaced_pod("linkerd-viz")
         prometheus_pod_ip = ""
         for i in viz_pods.items:

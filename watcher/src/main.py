@@ -10,10 +10,11 @@ import quantity
 import math
 import json
 import pandas as pd
+import graph
 
 ACTIVE = True # scale if true, watch only if false
 POLL = 15 # seconds
-RUNFOR = 60 # minutes
+RUNFOR = 1 # minutes
 
 SCALE_FACTOR = 4 # how many bots to add each increase
 MAX_PODS = 20 # max pods allowed for a deployment (bots and nodevoto)
@@ -29,112 +30,41 @@ for f in files:
 config.load_incluster_config()
 appsApiClient = client.AppsV1Api()
 
+# TODO collapse all into just combined over time
 i = 1
 metrics_over_time = []
 bots_over_time = []
 combined_over_time = []
 
-def generate_graph():
-    x_axis = [i * POLL for i in range(len(metrics_over_time))]
-
-    y_axis = []
-    web_latency = []
-    web_cpu_utilization = []
-    for slice in metrics_over_time:
-        counts = 0
-        for deployment in slice:
-            counts += slice[deployment]["count"]
-        y_axis.append(counts)
-        web_latency.append(round(float(slice["web"]["latency"])))
-        web_cpu_utilization.append(round(100 * float(slice["web"]["cpu"] /  float(quantity.parse_quantity("50m"))) / slice["web"]["count"]))
-    
-    desired_pods = []
-    for slice in combined_over_time:
-        desired = slice["desired"]
-        count = 0
-        for deployment in desired:
-            count += desired[deployment]
-        desired_pods.append(count)
-       
-
-
-    fig, ax1 = plt.subplots()
-
-    ax1.set_xlabel("Time (s)")
-    ax1.set_ylabel("Pod Count")
-    ax1.plot(x_axis, y_axis, label="Pods", color="blue")
-    ax1.plot(x_axis, bots_over_time, label="Bots", color="grey")
-    ax1.plot(x_axis, desired_pods, label="Desired", color="purple")
-
-    fig.legend(loc='upper left') 
-    plt.title("Nodevoto Pods vs Bots (desired) " + (" (HPA)" if not ACTIVE else ""))
-    fig.tight_layout()
-    plt.savefig("/metrics/desired_pods_over_time.png")
-    plt.close()
-
-    fig, ax1 = plt.subplots()
-
-    ax1.set_xlabel("Time (s)")
-    ax1.set_ylabel("Pod Count")
-    ax1.plot(x_axis, y_axis, label="Pods", color="blue")
-    ax1.plot(x_axis, bots_over_time, label="Bots", color="grey")
-
-    ax2 = ax1.twinx()
-    ax2.set_ylabel("Web P95 Latency (ms)")
-    ax2.plot(x_axis, web_latency, color="red", label="Latency")
-    fig.legend(loc='upper left') 
-    plt.title("Nodevoto Pods vs Bots over Time (Latency) " + (" (HPA)" if not ACTIVE else ""))
-    fig.tight_layout()
-    plt.savefig("/metrics/latency_pods_over_time.png")
-    plt.close()
-
-
-    fig, ax1 = plt.subplots()
-
-    ax1.set_xlabel("Time (s)")
-    ax1.set_ylabel("Pod Count")
-    ax1.plot(x_axis, y_axis, label="Pods", color="blue")
-    ax1.plot(x_axis, bots_over_time, label="Bots", color="grey")
-
-    ax2 = ax1.twinx()
-    ax2.set_ylabel("Web CPU Utilization (%)")
-    ax2.plot(x_axis, web_cpu_utilization, color="red", label="CPU")
-    fig.legend(loc='upper left') 
-    plt.title("Nodevoto Pods vs Bots over Time (CPU) " + (" (HPA)" if not ACTIVE else ""))
-    fig.tight_layout()
-    plt.savefig("/metrics/cpu_pods_over_time.png")
-    plt.close()
-
 # for specified time, get metrics, and adjust scale if needed
 while i * POLL <= RUNFOR * 60:
     try:
+        # if an increase poll scale bots
         if (i % POLLS_PER_INCREASE == 0):
             print(f"{((i * POLL) / (RUNFOR * 60)) * 100}%")
             appsApiClient.patch_namespaced_deployment_scale("vote-bot", "nodevoto-bot",{'spec': {'replicas': (SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)}, "maxReplicas": MAX_PODS})
 
+        # get CPU, latency, counts, for targeted namespace
         namespace_metrics = metrics.getResourceMetrics("nodevoto")
 
+        # get the actual number of running bots
         bot_count = 0
         bots = metrics.getResourceMetricsNoLinkerd("nodevoto-bot")
         if ("votebot" in bots):
             bot_count = bots["votebot"]["count"]
         bots_over_time.append(bot_count)
 
+        # for each deployment, determine desired vaue and scale if needed
         desired_state = {}
         target_cpu = float(quantity.parse_quantity("15m"))
         for deployment, value in namespace_metrics.items():
 
-            # take the average of the last 2 data points to avoid spikes
+            # smooth out the change using the last data point, only allow a 5% change
+            # TODO make this a percent of the target not percent of previous data point (currently the larger the metric the more swing is allowed)
             current_cpu = value["cpu"]
 
-            previous_data = [i[deployment]["cpu"] for i in metrics_over_time]
+            previous_data = [i[deployment]["cpu"] for i in metrics_over_time[-2:]]
             previous_data.append(current_cpu)
-            # ema_cpu = pd.DataFrame({"previous": previous_data}).ewm(com=0.4).mean()["previous"]
-            # ema_cpu = ema_cpu[ema_cpu.size - 1]
-            # previous_cpu = 0
-            # if len(metrics_over_time) > 0:
-            #     previous_cpu = metrics_over_time[-1][deployment]["cpu"]
-            # smoothed_cpu = (current_cpu + previous_cpu) / 2
             gradual_change = []
             for idx, usage in enumerate(previous_data):
                 if idx == 0:
@@ -153,10 +83,15 @@ while i * POLL <= RUNFOR * 60:
                 gradual_change.append(usage)
 
 
+            # based on https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/#algorithm-details
             desired = math.ceil(gradual_change[-1] / target_cpu)
             desired_state[deployment] = desired
+
+            # if active and a change desired, request the change
             if (ACTIVE and value["count"] != desired):
                 appsApiClient.patch_namespaced_deployment_scale(deployment, "nodevoto",{'spec': {'replicas': desired, "maxReplicas": MAX_PODS}})
+
+            # if not active, we are not controlling desired, fetch it from the deployment spec
             elif (not ACTIVE):
                desired_state[deployment] = appsApiClient.read_namespaced_deployment_status(deployment, "nodevoto").spec.replicas
 
@@ -169,12 +104,16 @@ while i * POLL <= RUNFOR * 60:
     i += 1
     time.sleep(POLL)
 
-generate_graph()
-print("Run finished")
+# save the run file
 run_file = open("/metrics/run.json", "w")
 json.dump(combined_over_time, run_file, indent="\t")
 run_file.close()
 
+# generate graphs
+graph.generate_graph(POLL, ACTIVE, metrics_over_time, combined_over_time, bots_over_time)
+print("Run finished")
+
+# wait forever to avoid restart of the watcher pod
 while True:
     time.sleep(POLL)
 
