@@ -129,15 +129,31 @@ while i * POLL <= RUNFOR * 60:
 
             previous_data = [i[deployment]["cpu"] for i in metrics_over_time]
             previous_data.append(current_cpu)
-            ema_cpu = pd.DataFrame({"previous": previous_data}).ewm(com=0.4).mean()["previous"]
-            ema_cpu = ema_cpu[ema_cpu.size - 1]
-            previous_cpu = 0
-            if len(metrics_over_time) > 0:
-                previous_cpu = metrics_over_time[-1][deployment]["cpu"]
-            smoothed_cpu = (current_cpu + previous_cpu) / 2
+            # ema_cpu = pd.DataFrame({"previous": previous_data}).ewm(com=0.4).mean()["previous"]
+            # ema_cpu = ema_cpu[ema_cpu.size - 1]
+            # previous_cpu = 0
+            # if len(metrics_over_time) > 0:
+            #     previous_cpu = metrics_over_time[-1][deployment]["cpu"]
+            # smoothed_cpu = (current_cpu + previous_cpu) / 2
+            gradual_change = []
+            for i, value in enumerate(previous_data):
+                if i == 0:
+                    gradual_change.append(value)
+                    continue
+                
+                prev = gradual_change[-1]
+                change = value - prev
+                percent_change = abs(change) / prev
+                if percent_change > 0.05:
+                    direction = 1
+                    if change < 0:
+                        direction = -1
+                    gradual_change.append(prev + (direction * prev * 0.05))
+                    continue
+                gradual_change.append(value)
 
 
-            desired = math.ceil(ema_cpu / target_cpu)
+            desired = math.ceil(gradual_change[-1] / target_cpu)
             desired_state[deployment] = desired
             if (ACTIVE and value["count"] != desired):
                 appsApiClient.patch_namespaced_deployment_scale(deployment, "nodevoto",{'spec': {'replicas': desired, "maxReplicas": MAX_PODS}})
