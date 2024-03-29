@@ -7,6 +7,7 @@ RUN pip install kubernetes
 RUN pip install prometheus-client
 RUN pip install matplotlib
 RUN pip install tzlocal
+RUN pip install pandas
 
 # copy the source code
 WORKDIR /usr/watcher

@@ -9,6 +9,7 @@ import metrics
 import quantity
 import math
 import json
+import pandas as pd
 
 ACTIVE = False # scale if true, watch only if false
 POLL = 15 # seconds
@@ -125,13 +126,18 @@ while i * POLL <= RUNFOR * 60:
 
             # take the average of the last 2 data points to avoid spikes
             current_cpu = value["cpu"]
+
+            previous_data = [i[deployment]["cpu"] for i in metrics_over_time]
+            previous_data.append(current_cpu)
+            ema_cpu = pd.DataFrame({"previous": previous_data}).ewm(com=0.4).mean()["previous"]
+            ema_cpu = ema_cpu[ema_cpu.size - 1]
             previous_cpu = 0
             if len(metrics_over_time) > 0:
                 previous_cpu = metrics_over_time[-1][deployment]["cpu"]
             smoothed_cpu = (current_cpu + previous_cpu) / 2
 
 
-            desired = math.ceil(smoothed_cpu / target_cpu)
+            desired = math.ceil(ema_cpu / target_cpu)
             desired_state[deployment] = desired
             if (ACTIVE and value["count"] != desired):
                 appsApiClient.patch_namespaced_deployment_scale(deployment, "nodevoto",{'spec': {'replicas': desired, "maxReplicas": MAX_PODS}})
