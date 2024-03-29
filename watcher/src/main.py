@@ -122,7 +122,16 @@ while i * POLL <= RUNFOR * 60:
         desired_state = {}
         target_cpu = float(quantity.parse_quantity("15m"))
         for deployment, value in namespace_metrics.items():
-            desired = math.ceil(value["cpu"] / target_cpu)
+
+            # take the average of the last 2 data points to avoid spikes
+            current_cpu = value["cpu"]
+            previous_cpu = 0
+            if len(metrics_over_time) > 0:
+                previous_cpu = metrics_over_time[-1][deployment]["cpu"]
+            smoothed_cpu = (current_cpu + previous_cpu) / 2
+
+
+            desired = math.ceil(smoothed_cpu / target_cpu)
             desired_state[deployment] = desired
             if (ACTIVE and value["count"] != desired):
                 appsApiClient.patch_namespaced_deployment_scale(deployment, "nodevoto",{'spec': {'replicas': desired, "maxReplicas": MAX_PODS}})

@@ -51,7 +51,6 @@ def getResourceMetrics(namespace):
             info[pod_name]["memory"] += float(quantity.parse_quantity(container["usage"]["memory"]))
             #info[pod_name]["pods"][pod["metadata"]["name"]]["memory"] += float(quantity.parse_quantity(container["usage"]["memory"]))
 
-
     return info
 
 def getResourceMetricsNoLinkerd(namespace):
