@@ -11,7 +11,7 @@ import math
 import json
 import pandas as pd
 
-ACTIVE = False # scale if true, watch only if false
+ACTIVE = True # scale if true, watch only if false
 POLL = 15 # seconds
 RUNFOR = 60 # minutes
 
@@ -136,13 +136,13 @@ while i * POLL <= RUNFOR * 60:
             #     previous_cpu = metrics_over_time[-1][deployment]["cpu"]
             # smoothed_cpu = (current_cpu + previous_cpu) / 2
             gradual_change = []
-            for i, value in enumerate(previous_data):
-                if i == 0:
-                    gradual_change.append(value)
+            for idx, usage in enumerate(previous_data):
+                if idx == 0:
+                    gradual_change.append(usage)
                     continue
                 
                 prev = gradual_change[-1]
-                change = value - prev
+                change = usage - prev
                 percent_change = abs(change) / prev
                 if percent_change > 0.05:
                     direction = 1
@@ -150,7 +150,7 @@ while i * POLL <= RUNFOR * 60:
                         direction = -1
                     gradual_change.append(prev + (direction * prev * 0.05))
                     continue
-                gradual_change.append(value)
+                gradual_change.append(usage)
 
 
             desired = math.ceil(gradual_change[-1] / target_cpu)
