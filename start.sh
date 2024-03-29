@@ -15,6 +15,10 @@ minikube -p linkerd-scaler mount ./metrics:/mnt/metrics &
 eval $(minikube -p linkerd-scaler docker-env)
 docker pull sourishkrout/nodevoto:v5
 
+# install linkerd CLI
+curl --proto '=https' --tlsv1.2 -sSfL https://run.linkerd.io/install-edge | sh
+export PATH=$HOME/.linkerd2/bin:$PATH
+
 # install linkerd control plane
 linkerd install --crds | kubectl apply -f -;
 linkerd install --set proxyInit.runAsRoot=true | kubectl apply -f -;
