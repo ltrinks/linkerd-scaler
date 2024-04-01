@@ -35,6 +35,7 @@ i = 1
 metrics_over_time = []
 bots_over_time = []
 combined_over_time = []
+gradual_change_over_time = {}
 
 # for specified time, get metrics, and adjust scale if needed
 while i * POLL <= RUNFOR * 60:
@@ -58,12 +59,14 @@ while i * POLL <= RUNFOR * 60:
         desired_state = {}
         target_cpu = float(quantity.parse_quantity("15m"))
         for deployment, value in namespace_metrics.items():
+            if not deployment in gradual_change_over_time:
+                gradual_change_over_time[deployment] = []
 
             # smooth out the change using the last data point, only allow a 5% change
             # TODO make this a percent of the target not percent of previous data point (currently the larger the metric the more swing is allowed)
             current_cpu = value["cpu"]
 
-            previous_data = [i[deployment]["cpu"] for i in metrics_over_time[-2:]]
+            previous_data = gradual_change_over_time[deployment][-2:]
             previous_data.append(current_cpu)
             gradual_change = []
             for idx, usage in enumerate(previous_data):
@@ -82,6 +85,7 @@ while i * POLL <= RUNFOR * 60:
                     continue
                 gradual_change.append(usage)
 
+            gradual_change_over_time[deployment].append(gradual_change[-1])
 
             # based on https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/#algorithm-details
             desired = math.ceil(gradual_change[-1] / target_cpu)
