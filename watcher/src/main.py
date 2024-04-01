@@ -77,11 +77,11 @@ while i * POLL <= RUNFOR * 60:
                 prev = gradual_change[-1]
                 change = usage - prev
                 percent_change = abs(change) / prev
-                if percent_change > 0.05:
+                if abs(change) > 0.05 * target_cpu:
                     direction = 1
                     if change < 0:
                         direction = -1
-                    gradual_change.append(prev + (direction * prev * 0.05))
+                    gradual_change.append(prev + (direction * 0.05 * target_cpu))
                     continue
                 gradual_change.append(usage)
 
