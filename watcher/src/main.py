@@ -14,7 +14,7 @@ import graph
 
 ACTIVE = True # scale if true, watch only if false
 POLL = 15 # seconds
-RUNFOR = 1 # minutes
+RUNFOR = 60 # minutes
 
 SCALE_FACTOR = 4 # how many bots to add each increase
 MAX_PODS = 20 # max pods allowed for a deployment (bots and nodevoto)
