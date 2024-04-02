@@ -32,6 +32,11 @@ To watch pod counts for Nodevoto as well as the bots, run:
 ./watch-pods.sh
 ```
 
+To get stats on a run use:
+```
+python watcher/src/calc_responsiveness.py some/path/to/a/run.json
+```
+
 ## Samples
 See the runs folder
 
