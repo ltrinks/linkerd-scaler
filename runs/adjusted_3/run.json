@@ -1,0 +1,9122 @@
+[
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.005570759999999999,
+				"memory": 39862272.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.004266914,
+				"memory": 43728896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "1.2333333333333314"
+			},
+			"voting": {
+				"cpu": 0.001344322,
+				"memory": 45535232.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.006508329,
+				"memory": 56070144.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.91875"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.005570759999999999,
+				"memory": 39862272.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.004266914,
+				"memory": 43728896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001344322,
+				"memory": 45535232.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.006508329,
+				"memory": 56070144.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.8625000000000003"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.005570759999999999,
+				"memory": 39862272.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.004266914,
+				"memory": 43728896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9931818181818182"
+			},
+			"voting": {
+				"cpu": 0.001344322,
+				"memory": 45535232.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.006508329,
+				"memory": 56070144.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9235294117647053"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.005570759999999999,
+				"memory": 39862272.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.004266914,
+				"memory": 43728896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9952380952380951"
+			},
+			"voting": {
+				"cpu": 0.001344322,
+				"memory": 45535232.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.006508329,
+				"memory": 56070144.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.699999999999997"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.005289046,
+				"memory": 39579648.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002551252,
+				"memory": 44052480.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0012025970000000001,
+				"memory": 45588480.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.006088465999999999,
+				"memory": 67682304.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9785714285714286"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.005289046,
+				"memory": 39579648.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002551252,
+				"memory": 44052480.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0012025970000000001,
+				"memory": 45588480.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.006088465999999999,
+				"memory": 67682304.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9812499999999997"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.005289046,
+				"memory": 39579648.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002551252,
+				"memory": 44052480.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0012025970000000001,
+				"memory": 45588480.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9879999999999999"
+			},
+			"web": {
+				"cpu": 0.006088465999999999,
+				"memory": 67682304.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9294117647058817"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.005289046,
+				"memory": 39579648.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002551252,
+				"memory": 44052480.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0012025970000000001,
+				"memory": 45588480.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.006088465999999999,
+				"memory": 67682304.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9235294117647053"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004681113000000001,
+				"memory": 47304704.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.00250337,
+				"memory": 44154880.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"voting": {
+				"cpu": 0.0012921970000000001,
+				"memory": 44752896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005802245,
+				"memory": 69849088.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9812499999999997"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004681113000000001,
+				"memory": 47304704.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.00250337,
+				"memory": 44154880.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"voting": {
+				"cpu": 0.0012921970000000001,
+				"memory": 44752896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005802245,
+				"memory": 69849088.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.8466666666666662"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004681113000000001,
+				"memory": 47304704.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.00250337,
+				"memory": 44154880.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0012921970000000001,
+				"memory": 44752896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005802245,
+				"memory": 69849088.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.8562499999999997"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004681113000000001,
+				"memory": 47304704.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.00250337,
+				"memory": 44154880.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0012921970000000001,
+				"memory": 44752896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005802245,
+				"memory": 69849088.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9199999999999995"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004568953,
+				"memory": 45625344.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002362212,
+				"memory": 45330432.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001532818,
+				"memory": 43081728.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9895833333333334"
+			},
+			"web": {
+				"cpu": 0.005648086,
+				"memory": 71512064.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9249999999999994"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004568953,
+				"memory": 45625344.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002362212,
+				"memory": 45330432.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001532818,
+				"memory": 43081728.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005648086,
+				"memory": 71512064.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.976923076923077"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004568953,
+				"memory": 45625344.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002362212,
+				"memory": 45330432.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9720930232558139"
+			},
+			"voting": {
+				"cpu": 0.001532818,
+				"memory": 43081728.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005648086,
+				"memory": 71512064.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.872222222222222"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004568953,
+				"memory": 45625344.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002362212,
+				"memory": 45330432.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9711111111111109"
+			},
+			"voting": {
+				"cpu": 0.001532818,
+				"memory": 43081728.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005648086,
+				"memory": 71512064.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.923529411764706"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004763923,
+				"memory": 46514176.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0024069779999999997,
+				"memory": 50745344.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0016021149999999999,
+				"memory": 43569152.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.006274548,
+				"memory": 63963136.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.98"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004763923,
+				"memory": 46514176.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0024069779999999997,
+				"memory": 50745344.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0016021149999999999,
+				"memory": 43569152.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9895833333333334"
+			},
+			"web": {
+				"cpu": 0.006274548,
+				"memory": 63963136.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.8307692307692305"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004763923,
+				"memory": 46514176.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0024069779999999997,
+				"memory": 50745344.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0016021149999999999,
+				"memory": 43569152.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9895833333333334"
+			},
+			"web": {
+				"cpu": 0.006274548,
+				"memory": 63963136.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.8562499999999997"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004763923,
+				"memory": 46514176.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0024069779999999997,
+				"memory": 50745344.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"voting": {
+				"cpu": 0.0016021149999999999,
+				"memory": 43569152.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.006274548,
+				"memory": 63963136.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.98"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004668406999999999,
+				"memory": 45780992.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002301231,
+				"memory": 51822592.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001207472,
+				"memory": 43151360.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005591317,
+				"memory": 61440000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9785714285714286"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004668406999999999,
+				"memory": 45780992.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002301231,
+				"memory": 51822592.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001207472,
+				"memory": 43151360.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9879999999999999"
+			},
+			"web": {
+				"cpu": 0.005591317,
+				"memory": 61440000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.913333333333333"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004668406999999999,
+				"memory": 45780992.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002301231,
+				"memory": 51822592.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001207472,
+				"memory": 43151360.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9879999999999999"
+			},
+			"web": {
+				"cpu": 0.005591317,
+				"memory": 61440000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9142857142857137"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004668406999999999,
+				"memory": 45780992.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002301231,
+				"memory": 51822592.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001207472,
+				"memory": 43151360.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.005591317,
+				"memory": 61440000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.913333333333333"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.0045820800000000005,
+				"memory": 46002176.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0023805199999999997,
+				"memory": 50913280.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"voting": {
+				"cpu": 0.001373277,
+				"memory": 43773952.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005904941,
+				"memory": 69734400.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.891666666666666"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.0045820800000000005,
+				"memory": 46002176.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0023805199999999997,
+				"memory": 50913280.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"voting": {
+				"cpu": 0.001373277,
+				"memory": 43773952.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005904941,
+				"memory": 69734400.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.872222222222222"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.0045820800000000005,
+				"memory": 46002176.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0023805199999999997,
+				"memory": 50913280.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001373277,
+				"memory": 43773952.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005904941,
+				"memory": 69734400.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9235294117647053"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.0045820800000000005,
+				"memory": 46002176.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0023805199999999997,
+				"memory": 50913280.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001373277,
+				"memory": 43773952.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005904941,
+				"memory": 69734400.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9799999999999986"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004486824,
+				"memory": 46145536.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0023349770000000002,
+				"memory": 50900992.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001338171,
+				"memory": 43315200.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9879999999999999"
+			},
+			"web": {
+				"cpu": 0.005647615,
+				"memory": 70221824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9749999999999996"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004486824,
+				"memory": 46145536.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0023349770000000002,
+				"memory": 50900992.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001338171,
+				"memory": 43315200.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.005647615,
+				"memory": 70221824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.881818181818181"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004486824,
+				"memory": 46145536.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0023349770000000002,
+				"memory": 50900992.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"voting": {
+				"cpu": 0.001338171,
+				"memory": 43315200.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005647615,
+				"memory": 70221824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.913333333333333"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004486824,
+				"memory": 46145536.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0023349770000000002,
+				"memory": 50900992.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"voting": {
+				"cpu": 0.001338171,
+				"memory": 43315200.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.005647615,
+				"memory": 70221824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.8466666666666662"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004666987,
+				"memory": 46624768.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002327805,
+				"memory": 50905088.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001181341,
+				"memory": 43880448.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.0055175369999999994,
+				"memory": 72450048.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.8083333333333327"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004666987,
+				"memory": 46624768.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002327805,
+				"memory": 50905088.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001181341,
+				"memory": 43880448.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.0055175369999999994,
+				"memory": 72450048.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9199999999999995"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004666987,
+				"memory": 46624768.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002327805,
+				"memory": 50905088.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001181341,
+				"memory": 43880448.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.0055175369999999994,
+				"memory": 72450048.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.8466666666666662"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004666987,
+				"memory": 46624768.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002327805,
+				"memory": 50905088.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001181341,
+				"memory": 43880448.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.0055175369999999994,
+				"memory": 72450048.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.98"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004571848,
+				"memory": 45924352.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002364146,
+				"memory": 50647040.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"voting": {
+				"cpu": 0.001246266,
+				"memory": 43442176.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.00618495,
+				"memory": 59777024.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9071428571428566"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004571848,
+				"memory": 45924352.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002364146,
+				"memory": 50647040.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001246266,
+				"memory": 43442176.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.00618495,
+				"memory": 59777024.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9071428571428566"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004571848,
+				"memory": 45924352.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002364146,
+				"memory": 50647040.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001246266,
+				"memory": 43442176.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.00618495,
+				"memory": 59777024.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.8625"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004571848,
+				"memory": 45924352.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002364146,
+				"memory": 50647040.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001246266,
+				"memory": 43442176.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.00618495,
+				"memory": 59777024.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9846153846153842"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004759387,
+				"memory": 46551040.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002393348,
+				"memory": 50761728.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9605555555555555"
+			},
+			"voting": {
+				"cpu": 0.001321039,
+				"memory": 44109824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.00584184,
+				"memory": 64876544.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.945312499999999"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004759387,
+				"memory": 46551040.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002393348,
+				"memory": 50761728.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9677018633540373"
+			},
+			"voting": {
+				"cpu": 0.001321039,
+				"memory": 44109824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.00584184,
+				"memory": 64876544.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.116666666666661"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004759387,
+				"memory": 46551040.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002393348,
+				"memory": 50761728.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"voting": {
+				"cpu": 0.001321039,
+				"memory": 44109824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.00584184,
+				"memory": 64876544.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.529411764705881"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.004759387,
+				"memory": 46551040.0,
+				"count": 1,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.002393348,
+				"memory": 50761728.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.001321039,
+				"memory": 44109824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.00584184,
+				"memory": 64876544.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.36153846153846"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.056678362,
+				"memory": 163696640.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006946325,
+				"memory": 50823168.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003040516,
+				"memory": 44158976.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.017569192,
+				"memory": 65613824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.599999999999998"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.056678362,
+				"memory": 163696640.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006946325,
+				"memory": 50823168.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"voting": {
+				"cpu": 0.003040516,
+				"memory": 44158976.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.017569192,
+				"memory": 65613824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.391666666666665"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.056678362,
+				"memory": 163696640.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006946325,
+				"memory": 50823168.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"voting": {
+				"cpu": 0.003040516,
+				"memory": 44158976.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9611764705882353"
+			},
+			"web": {
+				"cpu": 0.017569192,
+				"memory": 65613824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.427272727272726"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.020238931999999998,
+				"memory": 165453824.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006863658999999999,
+				"memory": 49659904.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003247566,
+				"memory": 43331584.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9611764705882353"
+			},
+			"web": {
+				"cpu": 0.01840016,
+				"memory": 66605056.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.454545454545454"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.020238931999999998,
+				"memory": 165453824.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006863658999999999,
+				"memory": 49659904.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"voting": {
+				"cpu": 0.003247566,
+				"memory": 43331584.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9615853658536587"
+			},
+			"web": {
+				"cpu": 0.01840016,
+				"memory": 66605056.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.438461538461536"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.020238932,
+				"memory": 165453824.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006863658999999999,
+				"memory": 49659904.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003247566,
+				"memory": 43331584.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.01840016,
+				"memory": 66605056.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.391666666666665"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.020238932,
+				"memory": 165453824.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006863658999999999,
+				"memory": 49659904.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9559748427672955"
+			},
+			"voting": {
+				"cpu": 0.003247566,
+				"memory": 43331584.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.01840016,
+				"memory": 66605056.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.9499999999999993"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.019247194999999998,
+				"memory": 168165376.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006571680999999999,
+				"memory": 49418240.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"voting": {
+				"cpu": 0.003018863,
+				"memory": 43466752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.01694171,
+				"memory": 67158016.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.991666666666666"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.019247194999999998,
+				"memory": 168165376.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006571680999999999,
+				"memory": 49418240.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9617283950617284"
+			},
+			"voting": {
+				"cpu": 0.003018863,
+				"memory": 43466752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.01694171,
+				"memory": 67158016.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.499999999999998"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.019247194999999998,
+				"memory": 168165376.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006571680999999999,
+				"memory": 49418240.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003018863,
+				"memory": 43466752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.01694171,
+				"memory": 67158016.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.555555555555554"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.019247194999999998,
+				"memory": 168165376.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006571680999999999,
+				"memory": 49418240.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003018863,
+				"memory": 43466752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.01694171,
+				"memory": 67158016.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.478571428571427"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018128518,
+				"memory": 188878848.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0066438980000000005,
+				"memory": 48873472.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003141037,
+				"memory": 43618304.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.016915962,
+				"memory": 78061568.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.519999999999999"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 1
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018128518,
+				"memory": 188878848.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0066438980000000005,
+				"memory": 48873472.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003141037,
+				"memory": 43618304.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.016915962,
+				"memory": 78061568.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.283333333333328"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018128518,
+				"memory": 188878848.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0066438980000000005,
+				"memory": 48873472.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003141037,
+				"memory": 43618304.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.016915962,
+				"memory": 78061568.0,
+				"count": 1,
+				"pods": {},
+				"latency": "4.369999999999998"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018128518,
+				"memory": 188878848.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0066438980000000005,
+				"memory": 48873472.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9558282208588955"
+			},
+			"voting": {
+				"cpu": 0.003141037,
+				"memory": 43618304.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.016915962,
+				"memory": 78061568.0,
+				"count": 1,
+				"pods": {},
+				"latency": "3.763887199999999"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.017887499,
+				"memory": 183791616.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006424447,
+				"memory": 49528832.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0031724509999999997,
+				"memory": 43827200.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9615853658536587"
+			},
+			"web": {
+				"cpu": 0.047041753000000006,
+				"memory": 134848512.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.8051171269160267"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.017887499,
+				"memory": 183791616.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006424447,
+				"memory": 49528832.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0031724509999999997,
+				"memory": 43827200.0,
+				"count": 1,
+				"pods": {},
+				"latency": "1.3499999999999996"
+			},
+			"web": {
+				"cpu": 0.047041753000000006,
+				"memory": 134848512.0,
+				"count": 2,
+				"pods": {},
+				"latency": "5.9419814814814815"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.017887499,
+				"memory": 183791616.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006424447,
+				"memory": 49528832.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0031724509999999997,
+				"memory": 43827200.0,
+				"count": 1,
+				"pods": {},
+				"latency": "1.3499999999999996"
+			},
+			"web": {
+				"cpu": 0.047041753,
+				"memory": 134848512.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.633333333333332"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.017887499,
+				"memory": 183791616.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006424447,
+				"memory": 49528832.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"voting": {
+				"cpu": 0.0031724509999999997,
+				"memory": 43827200.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9613095238095237"
+			},
+			"web": {
+				"cpu": 0.047041753000000006,
+				"memory": 134848512.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.495454545454545"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.019134308,
+				"memory": 185323520.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0062738329999999995,
+				"memory": 48861184.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003263045,
+				"memory": 43986944.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.021911152,
+				"memory": 131461120.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.583333333333333"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.019134308,
+				"memory": 185323520.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0062738329999999995,
+				"memory": 48861184.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003263045,
+				"memory": 43986944.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.021911152,
+				"memory": 131461120.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.374999999999997"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.019134308,
+				"memory": 185323520.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0062738329999999995,
+				"memory": 48861184.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003263045,
+				"memory": 43986944.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.021911152,
+				"memory": 131461120.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.896808510638298"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.019134308,
+				"memory": 185323520.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0062738329999999995,
+				"memory": 48861184.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003263045,
+				"memory": 43986944.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.021911152,
+				"memory": 131461120.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.922727272727273"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018095408,
+				"memory": 185446400.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0063317059999999994,
+				"memory": 49324032.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003128591,
+				"memory": 44126208.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.020304162,
+				"memory": 152567808.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.927777777777778"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018095408,
+				"memory": 185446400.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0063317059999999994,
+				"memory": 49324032.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9615853658536585"
+			},
+			"voting": {
+				"cpu": 0.003128591,
+				"memory": 44126208.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.020304162,
+				"memory": 152567808.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.268749999999996"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018095408,
+				"memory": 185446400.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0063317059999999994,
+				"memory": 49324032.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9558282208588955"
+			},
+			"voting": {
+				"cpu": 0.003128591,
+				"memory": 44126208.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.020304162,
+				"memory": 152567808.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.368749999999999"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018095408,
+				"memory": 185446400.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.0063317059999999994,
+				"memory": 49324032.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"voting": {
+				"cpu": 0.003128591,
+				"memory": 44126208.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9615853658536585"
+			},
+			"web": {
+				"cpu": 0.020304162,
+				"memory": 152567808.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.1299999999999955"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.017452204,
+				"memory": 185585664.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006436399,
+				"memory": 49717248.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003321446,
+				"memory": 44244992.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.020884836,
+				"memory": 134270976.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.7809523809523804"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.017452204,
+				"memory": 185585664.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006436399,
+				"memory": 49717248.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003321446,
+				"memory": 44244992.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.020884836,
+				"memory": 134270976.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.9772727272727275"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.017452204,
+				"memory": 185585664.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006436399,
+				"memory": 49717248.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003321446,
+				"memory": 44244992.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.020884836,
+				"memory": 134270976.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.166666666666665"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.017452204,
+				"memory": 185585664.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006436399,
+				"memory": 49717248.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"voting": {
+				"cpu": 0.003321446,
+				"memory": 44244992.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.020884836,
+				"memory": 134270976.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.239999999999996"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018027561,
+				"memory": 186908672.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006301255,
+				"memory": 49311744.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003136313,
+				"memory": 46637056.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.019421683000000002,
+				"memory": 151674880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.9305555555555545"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018027561,
+				"memory": 186908672.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006301255,
+				"memory": 49311744.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003136313,
+				"memory": 46637056.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.019421683000000002,
+				"memory": 151674880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.437499999999998"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018027561,
+				"memory": 186908672.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006301255,
+				"memory": 49311744.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003136313,
+				"memory": 46637056.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"web": {
+				"cpu": 0.019421683000000002,
+				"memory": 151674880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.883333333333333"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018027561,
+				"memory": 186908672.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006301255,
+				"memory": 49311744.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"voting": {
+				"cpu": 0.003136313,
+				"memory": 46637056.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9847560975609754"
+			},
+			"web": {
+				"cpu": 0.019421683000000002,
+				"memory": 151674880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.518749999999999"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018804723,
+				"memory": 185819136.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006578445,
+				"memory": 49856512.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"voting": {
+				"cpu": 0.003310364,
+				"memory": 48955392.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9847560975609754"
+			},
+			"web": {
+				"cpu": 0.019360443999999997,
+				"memory": 151412736.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.92"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018804723,
+				"memory": 185819136.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006578445,
+				"memory": 49856512.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9608365019011406"
+			},
+			"voting": {
+				"cpu": 0.003310364,
+				"memory": 48955392.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.019360443999999997,
+				"memory": 151412736.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.604166666666666"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018804723,
+				"memory": 185819136.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006578445,
+				"memory": 49856512.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529780564263323"
+			},
+			"voting": {
+				"cpu": 0.003310364,
+				"memory": 48955392.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.019360443999999997,
+				"memory": 151412736.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.865000000000001"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.018804723,
+				"memory": 185819136.0,
+				"count": 4,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.006578445,
+				"memory": 49856512.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.003310364,
+				"memory": 48955392.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.019360443999999997,
+				"memory": 151412736.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.8936170212765955"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.092324227,
+				"memory": 344641536.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011354781,
+				"memory": 49434624.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0053371519999999995,
+				"memory": 50941952.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.035863111999999996,
+				"memory": 158306304.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.813"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.092324227,
+				"memory": 344641536.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011354781,
+				"memory": 49434624.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0053371519999999995,
+				"memory": 50941952.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.035863112,
+				"memory": 158306304.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.7815789473684207"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.092324227,
+				"memory": 344641536.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011354781,
+				"memory": 49434624.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"voting": {
+				"cpu": 0.0053371519999999995,
+				"memory": 50941952.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.035863111999999996,
+				"memory": 158306304.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.929999999999999"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.092324227,
+				"memory": 344641536.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011354781,
+				"memory": 49434624.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529968454258676"
+			},
+			"voting": {
+				"cpu": 0.0053371519999999995,
+				"memory": 50941952.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.035863111999999996,
+				"memory": 158306304.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.799999999999999"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.038046151,
+				"memory": 345243648.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011511826,
+				"memory": 49504256.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9559748427672955"
+			},
+			"voting": {
+				"cpu": 0.005602894000000001,
+				"memory": 51175424.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9615853658536585"
+			},
+			"web": {
+				"cpu": 0.035374796,
+				"memory": 159952896.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.3066666666666675"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.038046151,
+				"memory": 345243648.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011511826,
+				"memory": 49504256.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529968454258675"
+			},
+			"voting": {
+				"cpu": 0.005602894000000001,
+				"memory": 51175424.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.035374796,
+				"memory": 159952896.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.9418367346938785"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.038046151,
+				"memory": 345243648.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011511826,
+				"memory": 49504256.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"voting": {
+				"cpu": 0.005602894000000001,
+				"memory": 51175424.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557926829268293"
+			},
+			"web": {
+				"cpu": 0.035374796,
+				"memory": 159952896.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.643181818181822"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.038046151,
+				"memory": 345243648.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011511826,
+				"memory": 49504256.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"voting": {
+				"cpu": 0.005602894000000001,
+				"memory": 51175424.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557926829268293"
+			},
+			"web": {
+				"cpu": 0.035374796,
+				"memory": 159952896.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.589999999999999"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.037187874,
+				"memory": 348700672.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011139368,
+				"memory": 49496064.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.00519677,
+				"memory": 49344512.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9682692307692308"
+			},
+			"web": {
+				"cpu": 0.036298541,
+				"memory": 153448448.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.9443396226415106"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.037187873999999996,
+				"memory": 348700672.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011139368,
+				"memory": 49496064.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.00519677,
+				"memory": 49344512.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9679245283018867"
+			},
+			"web": {
+				"cpu": 0.036298541,
+				"memory": 153448448.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.898837209302325"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.037187873999999996,
+				"memory": 348700672.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011139368,
+				"memory": 49496064.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.00519677,
+				"memory": 49344512.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"web": {
+				"cpu": 0.036298541,
+				"memory": 153448448.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.889705882352941"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.037187873999999996,
+				"memory": 348700672.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011139368,
+				"memory": 49496064.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"voting": {
+				"cpu": 0.00519677,
+				"memory": 49344512.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"web": {
+				"cpu": 0.036298541,
+				"memory": 153448448.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.6999999999999997"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035565078,
+				"memory": 374550528.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010490824,
+				"memory": 49291264.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.005156446,
+				"memory": 49524736.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.033191082999999996,
+				"memory": 151396352.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.7235849056603776"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035565078,
+				"memory": 374550528.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010490824,
+				"memory": 49291264.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230767"
+			},
+			"voting": {
+				"cpu": 0.005156446,
+				"memory": 49524736.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.033191082999999996,
+				"memory": 151396352.0,
+				"count": 2,
+				"pods": {},
+				"latency": "3.9536585365853654"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 2
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035565078,
+				"memory": 374550528.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010490824,
+				"memory": 49291264.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"voting": {
+				"cpu": 0.005156446,
+				"memory": 49524736.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.033191082999999996,
+				"memory": 151396352.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.124999999999997"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035565078,
+				"memory": 374550528.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010490824,
+				"memory": 49291264.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9655737704918033"
+			},
+			"voting": {
+				"cpu": 0.005156446,
+				"memory": 49524736.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.033191082999999996,
+				"memory": 151396352.0,
+				"count": 2,
+				"pods": {},
+				"latency": "5.092804166666693"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035257452999999994,
+				"memory": 370167808.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011079496,
+				"memory": 49078272.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9561290322580644"
+			},
+			"voting": {
+				"cpu": 0.00518356,
+				"memory": 49741824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"web": {
+				"cpu": 0.034562732,
+				"memory": 142794752.0,
+				"count": 2,
+				"pods": {},
+				"latency": "4.473013333333332"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035257452999999994,
+				"memory": 370167808.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011079496,
+				"memory": 49078272.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9558641975308642"
+			},
+			"voting": {
+				"cpu": 0.00518356,
+				"memory": 49741824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"web": {
+				"cpu": 0.088164361,
+				"memory": 213995520.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.510447795494052"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035257452999999994,
+				"memory": 370167808.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011079496,
+				"memory": 49078272.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9588235294117645"
+			},
+			"voting": {
+				"cpu": 0.00518356,
+				"memory": 49741824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9984076433121017"
+			},
+			"web": {
+				"cpu": 0.088164361,
+				"memory": 213995520.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.306818181818181"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035257452999999994,
+				"memory": 370167808.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.011079496,
+				"memory": 49078272.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9618012422360247"
+			},
+			"voting": {
+				"cpu": 0.00518356,
+				"memory": 49741824.0,
+				"count": 1,
+				"pods": {},
+				"latency": "1.2749999999999984"
+			},
+			"web": {
+				"cpu": 0.088164361,
+				"memory": 213995520.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.661764705882378"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.036857266,
+				"memory": 373628928.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010784614,
+				"memory": 49266688.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"voting": {
+				"cpu": 0.005390141,
+				"memory": 48951296.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"web": {
+				"cpu": 0.041113986000000005,
+				"memory": 231399424.0,
+				"count": 3,
+				"pods": {},
+				"latency": "7.398437499999998"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.036857266,
+				"memory": 373628928.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010784614,
+				"memory": 49266688.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9655737704918033"
+			},
+			"voting": {
+				"cpu": 0.005390141,
+				"memory": 48951296.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.041113986000000005,
+				"memory": 231399424.0,
+				"count": 3,
+				"pods": {},
+				"latency": "5.825000000000011"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.036857266,
+				"memory": 373628928.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010784614,
+				"memory": 49266688.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9588235294117645"
+			},
+			"voting": {
+				"cpu": 0.005390141,
+				"memory": 48951296.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.041113986000000005,
+				"memory": 231399424.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.791071428571431"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.036857266,
+				"memory": 373628928.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010784614,
+				"memory": 49266688.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9588235294117645"
+			},
+			"voting": {
+				"cpu": 0.005390141,
+				"memory": 48951296.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.041113986000000005,
+				"memory": 231399424.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.375000000000003"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.036429486000000004,
+				"memory": 375959552.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010542068,
+				"memory": 49868800.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9678125"
+			},
+			"voting": {
+				"cpu": 0.005122523,
+				"memory": 49012736.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9810457516339869"
+			},
+			"web": {
+				"cpu": 0.037770416,
+				"memory": 205946880.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.70454545454545"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.036429486,
+				"memory": 375959552.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010542068,
+				"memory": 49868800.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9561688311688311"
+			},
+			"voting": {
+				"cpu": 0.005122523,
+				"memory": 49012736.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9615853658536585"
+			},
+			"web": {
+				"cpu": 0.037770416,
+				"memory": 205946880.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.457142857142871"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.036429486,
+				"memory": 375959552.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010542068,
+				"memory": 49868800.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9561688311688311"
+			},
+			"voting": {
+				"cpu": 0.005122523,
+				"memory": 49012736.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.037770416,
+				"memory": 205946880.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.220000000000002"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.036429486,
+				"memory": 375959552.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010542068,
+				"memory": 49868800.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9558641975308642"
+			},
+			"voting": {
+				"cpu": 0.005122523,
+				"memory": 49012736.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9615853658536585"
+			},
+			"web": {
+				"cpu": 0.037770416,
+				"memory": 205946880.0,
+				"count": 3,
+				"pods": {},
+				"latency": "5.947368421052627"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.034653394000000004,
+				"memory": 377151488.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010591174,
+				"memory": 49680384.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.005151645,
+				"memory": 49152000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.036118601,
+				"memory": 246710272.0,
+				"count": 3,
+				"pods": {},
+				"latency": "3.984782608695652"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.034653394000000004,
+				"memory": 377151488.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010591174,
+				"memory": 49680384.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9618012422360247"
+			},
+			"voting": {
+				"cpu": 0.005151645,
+				"memory": 49152000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.036118601,
+				"memory": 246710272.0,
+				"count": 3,
+				"pods": {},
+				"latency": "5.605263157894754"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.034653394000000004,
+				"memory": 377151488.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010591174,
+				"memory": 49680384.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9647975077881619"
+			},
+			"voting": {
+				"cpu": 0.005151645,
+				"memory": 49152000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9621794871794872"
+			},
+			"web": {
+				"cpu": 0.036118601,
+				"memory": 246710272.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.281249999999999"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.034653394000000004,
+				"memory": 377151488.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010591174,
+				"memory": 49680384.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.005151645,
+				"memory": 49152000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9557575757575756"
+			},
+			"web": {
+				"cpu": 0.036118601,
+				"memory": 246710272.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.581818181818184"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.034027014,
+				"memory": 375750656.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010306983,
+				"memory": 49758208.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.004946869,
+				"memory": 49324032.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.967484662576687"
+			},
+			"web": {
+				"cpu": 0.037374160000000003,
+				"memory": 225968128.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.828571428571429"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.034027014,
+				"memory": 375750656.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010306983,
+				"memory": 49758208.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.004946869,
+				"memory": 49324032.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9615853658536585"
+			},
+			"web": {
+				"cpu": 0.03737416,
+				"memory": 225968128.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.275"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.034027014,
+				"memory": 375750656.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010306983,
+				"memory": 49758208.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9769716088328075"
+			},
+			"voting": {
+				"cpu": 0.004946869,
+				"memory": 49324032.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.037374160000000003,
+				"memory": 225968128.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.250000000000001"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.034027014,
+				"memory": 375750656.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.010306983,
+				"memory": 49758208.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9926282051282052"
+			},
+			"voting": {
+				"cpu": 0.004946869,
+				"memory": 49324032.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.037374160000000003,
+				"memory": 225968128.0,
+				"count": 3,
+				"pods": {},
+				"latency": "7.62500000000001"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035074343,
+				"memory": 377434112.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.01018009,
+				"memory": 49922048.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9655737704918033"
+			},
+			"voting": {
+				"cpu": 0.0051712500000000005,
+				"memory": 49479680.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.036544052,
+				"memory": 235991040.0,
+				"count": 3,
+				"pods": {},
+				"latency": "7.750000000000005"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035074343,
+				"memory": 377434112.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.01018009,
+				"memory": 49922048.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9551630434782608"
+			},
+			"voting": {
+				"cpu": 0.0051712500000000005,
+				"memory": 49479680.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.968095238095238"
+			},
+			"web": {
+				"cpu": 0.036544052,
+				"memory": 235991040.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.197368421052647"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035074343,
+				"memory": 377434112.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.01018009,
+				"memory": 49922048.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9519587628865979"
+			},
+			"voting": {
+				"cpu": 0.0051712500000000005,
+				"memory": 49479680.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9579166666666666"
+			},
+			"web": {
+				"cpu": 0.036544052,
+				"memory": 235991040.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.885714285714284"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.035074343,
+				"memory": 377434112.0,
+				"count": 8,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.01018009,
+				"memory": 49922048.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.0051712500000000005,
+				"memory": 49479680.0,
+				"count": 1,
+				"pods": {},
+				"latency": "1.084615384615384"
+			},
+			"web": {
+				"cpu": 0.036544052,
+				"memory": 235991040.0,
+				"count": 3,
+				"pods": {},
+				"latency": "5.518518518518497"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.11601978899999998,
+				"memory": 537317376.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.014979824000000001,
+				"memory": 49283072.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9658995815899581"
+			},
+			"voting": {
+				"cpu": 0.007340658,
+				"memory": 49377280.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9830434782608696"
+			},
+			"web": {
+				"cpu": 0.053208516000000004,
+				"memory": 246583296.0,
+				"count": 3,
+				"pods": {},
+				"latency": "7.534090909090903"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.11601978899999998,
+				"memory": 537317376.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.014979824000000001,
+				"memory": 49283072.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9664502164502166"
+			},
+			"voting": {
+				"cpu": 0.007340658,
+				"memory": 49377280.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9577868852459016"
+			},
+			"web": {
+				"cpu": 0.053208516000000004,
+				"memory": 246583296.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.889705882352944"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.116019789,
+				"memory": 537317376.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.014979824000000001,
+				"memory": 49283072.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9539256198347107"
+			},
+			"voting": {
+				"cpu": 0.007340658,
+				"memory": 49377280.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.953877551020408"
+			},
+			"web": {
+				"cpu": 0.053208516000000004,
+				"memory": 246583296.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.502941176470586"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.116019789,
+				"memory": 537317376.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.014979824000000001,
+				"memory": 49283072.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9519587628865979"
+			},
+			"voting": {
+				"cpu": 0.007340658,
+				"memory": 49377280.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9579166666666666"
+			},
+			"web": {
+				"cpu": 0.053208516000000004,
+				"memory": 246583296.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.525000000000001"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05546622200000001,
+				"memory": 539672576.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.015072044,
+				"memory": 49561600.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.956"
+			},
+			"voting": {
+				"cpu": 0.007060943,
+				"memory": 49844224.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9577868852459016"
+			},
+			"web": {
+				"cpu": 0.055609031,
+				"memory": 231526400.0,
+				"count": 3,
+				"pods": {},
+				"latency": "7.327380952380957"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.055466222000000016,
+				"memory": 539672576.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.015072044,
+				"memory": 49561600.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9600422832980973"
+			},
+			"voting": {
+				"cpu": 0.007060943,
+				"memory": 49844224.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9540084388185655"
+			},
+			"web": {
+				"cpu": 0.055609031,
+				"memory": 231526400.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.120370370370363"
+			}
+		},
+		"desired": {
+			"gif": 1,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05546622200000001,
+				"memory": 539672576.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.015072044,
+				"memory": 49561600.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9748908296943232"
+			},
+			"voting": {
+				"cpu": 0.007060943,
+				"memory": 49844224.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.953877551020408"
+			},
+			"web": {
+				"cpu": 0.055609031,
+				"memory": 231526400.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.568414654682463"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.055466222000000016,
+				"memory": 539672576.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.015072044,
+				"memory": 49561600.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9664502164502166"
+			},
+			"voting": {
+				"cpu": 0.007060943,
+				"memory": 49844224.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.953877551020408"
+			},
+			"web": {
+				"cpu": 0.055609031,
+				"memory": 231526400.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.464285714285727"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.053800212999999986,
+				"memory": 539963392.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.015409359,
+				"memory": 49684480.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9578345604729105"
+			},
+			"voting": {
+				"cpu": 0.007131819,
+				"memory": 48926720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.953877551020408"
+			},
+			"web": {
+				"cpu": 0.054051141999999996,
+				"memory": 230404096.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.575757575757576"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.053800212999999986,
+				"memory": 539963392.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.056877554000000004,
+				"memory": 98975744.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.953877551020408"
+			},
+			"voting": {
+				"cpu": 0.007131819,
+				"memory": 48926720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.953941908713693"
+			},
+			"web": {
+				"cpu": 0.054051141999999996,
+				"memory": 230404096.0,
+				"count": 3,
+				"pods": {},
+				"latency": "5.351851851851848"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.053800212999999986,
+				"memory": 539963392.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.056877554000000004,
+				"memory": 98975744.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.007131819,
+				"memory": 48926720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9662393162393162"
+			},
+			"web": {
+				"cpu": 0.054051141999999996,
+				"memory": 230404096.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.6800000000000015"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 3
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.053800212999999986,
+				"memory": 539963392.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.056877554000000004,
+				"memory": 98975744.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9519668737060042"
+			},
+			"voting": {
+				"cpu": 0.007131819,
+				"memory": 48926720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.054051141999999996,
+				"memory": 230404096.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.34444444444444"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05185293099999999,
+				"memory": 565477376.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.015118532,
+				"memory": 99147776.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9560253699788583"
+			},
+			"voting": {
+				"cpu": 0.006891561,
+				"memory": 49111040.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9577868852459016"
+			},
+			"web": {
+				"cpu": 0.053001706,
+				"memory": 223002624.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.88076923076923"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05185293099999999,
+				"memory": 565477376.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.015118532,
+				"memory": 99147776.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9519507186858316"
+			},
+			"voting": {
+				"cpu": 0.006891561,
+				"memory": 49111040.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.953877551020408"
+			},
+			"web": {
+				"cpu": 0.053001706,
+				"memory": 223002624.0,
+				"count": 3,
+				"pods": {},
+				"latency": "4.622376354166667"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05185293099999999,
+				"memory": 565477376.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.015118532,
+				"memory": 99147776.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9623768839028543"
+			},
+			"voting": {
+				"cpu": 0.006891561,
+				"memory": 49111040.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9619246861924686"
+			},
+			"web": {
+				"cpu": 0.053001706,
+				"memory": 223002624.0,
+				"count": 3,
+				"pods": {},
+				"latency": "6.41351726110156"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05185293099999999,
+				"memory": 565477376.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.015118532,
+				"memory": 99147776.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.966135881104034"
+			},
+			"voting": {
+				"cpu": 0.006891561,
+				"memory": 49111040.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9662393162393162"
+			},
+			"web": {
+				"cpu": 0.053001706,
+				"memory": 223002624.0,
+				"count": 3,
+				"pods": {},
+				"latency": "5.3152173913043255"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.052888619,
+				"memory": 566312960.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018787231,
+				"memory": 92979200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9622317596566524"
+			},
+			"voting": {
+				"cpu": 0.007149674,
+				"memory": 49438720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9539256198347108"
+			},
+			"web": {
+				"cpu": 0.057210359,
+				"memory": 315609088.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.911666666666664"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.052888619,
+				"memory": 566312960.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018787231,
+				"memory": 92979200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9624183006535948"
+			},
+			"voting": {
+				"cpu": 0.007149674,
+				"memory": 49438720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.057210359,
+				"memory": 315609088.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.953333333333335"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.052888619,
+				"memory": 566312960.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018787231,
+				"memory": 92979200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"voting": {
+				"cpu": 0.007149674,
+				"memory": 49438720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.057210359,
+				"memory": 315609088.0,
+				"count": 4,
+				"pods": {},
+				"latency": "3.83125"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.052888619,
+				"memory": 566312960.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018787231,
+				"memory": 92979200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9576305220883534"
+			},
+			"voting": {
+				"cpu": 0.007149674,
+				"memory": 49438720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.057210359,
+				"memory": 315609088.0,
+				"count": 4,
+				"pods": {},
+				"latency": "3.9409722222222205"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05181147599999998,
+				"memory": 571625472.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018777861,
+				"memory": 92991488.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9638541666666667"
+			},
+			"voting": {
+				"cpu": 0.007151668,
+				"memory": 49672192.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.953941908713693"
+			},
+			"web": {
+				"cpu": 0.05785108300000001,
+				"memory": 333066240.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.925999999999999"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05181147599999998,
+				"memory": 571625472.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018777861,
+				"memory": 92991488.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9558884297520661"
+			},
+			"voting": {
+				"cpu": 0.007151668,
+				"memory": 49672192.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.05785108300000001,
+				"memory": 333066240.0,
+				"count": 4,
+				"pods": {},
+				"latency": "3.992372881355932"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05181147599999998,
+				"memory": 571625472.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018777861,
+				"memory": 92991488.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9519709543568465"
+			},
+			"voting": {
+				"cpu": 0.007151668,
+				"memory": 49672192.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.05785108300000001,
+				"memory": 333066240.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.2659090909090915"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05181147599999998,
+				"memory": 571625472.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018777861,
+				"memory": 92991488.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9579664570230609"
+			},
+			"voting": {
+				"cpu": 0.007151668,
+				"memory": 49672192.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9697095435684647"
+			},
+			"web": {
+				"cpu": 0.05785108300000001,
+				"memory": 333066240.0,
+				"count": 4,
+				"pods": {},
+				"latency": "6.750000000000002"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05211070300000001,
+				"memory": 570494976.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018214508,
+				"memory": 99749888.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9634888438133873"
+			},
+			"voting": {
+				"cpu": 0.007176732,
+				"memory": 49860608.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9737499999999999"
+			},
+			"web": {
+				"cpu": 0.057529167000000006,
+				"memory": 313282560.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.944318181818183"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.052110702999999994,
+				"memory": 570494976.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018214508,
+				"memory": 99749888.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9538229376257542"
+			},
+			"voting": {
+				"cpu": 0.007176732,
+				"memory": 49860608.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9539915966386554"
+			},
+			"web": {
+				"cpu": 0.057529167000000006,
+				"memory": 313282560.0,
+				"count": 4,
+				"pods": {},
+				"latency": "5.0769230769230616"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05211070300000001,
+				"memory": 570494976.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018214508,
+				"memory": 99749888.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"voting": {
+				"cpu": 0.007176732,
+				"memory": 49860608.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.057529167000000006,
+				"memory": 313282560.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.010000000000005"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05211070300000001,
+				"memory": 570494976.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018214508,
+				"memory": 99749888.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9500000000000001"
+			},
+			"voting": {
+				"cpu": 0.007176732,
+				"memory": 49860608.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9577868852459016"
+			},
+			"web": {
+				"cpu": 0.057529167000000006,
+				"memory": 313282560.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.8157894736842115"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.052033698,
+				"memory": 571547648.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.017494799,
+				"memory": 99123200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9560253699788581"
+			},
+			"voting": {
+				"cpu": 0.006987620999999999,
+				"memory": 49029120.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9577868852459016"
+			},
+			"web": {
+				"cpu": 0.055438627000000004,
+				"memory": 329678848.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.707692307692305"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.052033698,
+				"memory": 571547648.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.017494799,
+				"memory": 99123200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9685869565217391"
+			},
+			"voting": {
+				"cpu": 0.006987620999999999,
+				"memory": 49029120.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9577868852459016"
+			},
+			"web": {
+				"cpu": 0.055438627,
+				"memory": 329678848.0,
+				"count": 4,
+				"pods": {},
+				"latency": "6.641666666666678"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.052033698,
+				"memory": 571547648.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.017494799,
+				"memory": 99123200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9641188959660297"
+			},
+			"voting": {
+				"cpu": 0.006987620999999999,
+				"memory": 49029120.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9698744769874476"
+			},
+			"web": {
+				"cpu": 0.055438627,
+				"memory": 329678848.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.074999999999997"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.052033698,
+				"memory": 571547648.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.017494799,
+				"memory": 99123200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9598343685300206"
+			},
+			"voting": {
+				"cpu": 0.006987620999999999,
+				"memory": 49029120.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9749999999999999"
+			},
+			"web": {
+				"cpu": 0.055438627,
+				"memory": 329678848.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.984146341463415"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05221685700000001,
+				"memory": 573042688.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.017816583,
+				"memory": 97316864.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9727668845315904"
+			},
+			"voting": {
+				"cpu": 0.007126354,
+				"memory": 49315840.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9577868852459016"
+			},
+			"web": {
+				"cpu": 0.056479167,
+				"memory": 332152832.0,
+				"count": 4,
+				"pods": {},
+				"latency": "6.173076923076911"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05221685700000001,
+				"memory": 573042688.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.017816583,
+				"memory": 97316864.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9693482688391036"
+			},
+			"voting": {
+				"cpu": 0.007126354,
+				"memory": 49315840.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9577868852459016"
+			},
+			"web": {
+				"cpu": 0.056479167,
+				"memory": 332152832.0,
+				"count": 4,
+				"pods": {},
+				"latency": "5.706896551724133"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05221685700000001,
+				"memory": 573042688.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.017816583,
+				"memory": 97316864.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9642703862660944"
+			},
+			"voting": {
+				"cpu": 0.007126354,
+				"memory": 49315840.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9577868852459015"
+			},
+			"web": {
+				"cpu": 0.056479167,
+				"memory": 332152832.0,
+				"count": 4,
+				"pods": {},
+				"latency": "6.008620689655162"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05203601800000001,
+				"memory": 576589824.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018103816000000002,
+				"memory": 97595392.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9600635593220338"
+			},
+			"voting": {
+				"cpu": 0.00734968,
+				"memory": 49295360.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9577868852459015"
+			},
+			"web": {
+				"cpu": 0.055296797999999994,
+				"memory": 323014656.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.776086956521741"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.052036018,
+				"memory": 576589824.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018103816000000002,
+				"memory": 97595392.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9538854805725969"
+			},
+			"voting": {
+				"cpu": 0.00734968,
+				"memory": 49295360.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9623376623376623"
+			},
+			"web": {
+				"cpu": 0.055296797999999994,
+				"memory": 323014656.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.659259259259255"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05203601800000001,
+				"memory": 576589824.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018103816000000002,
+				"memory": 97595392.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9658627087198515"
+			},
+			"voting": {
+				"cpu": 0.00734968,
+				"memory": 49295360.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9752851711026616"
+			},
+			"web": {
+				"cpu": 0.055296797999999994,
+				"memory": 323014656.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.952941176470589"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.05203601800000001,
+				"memory": 576589824.0,
+				"count": 12,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.018103816000000002,
+				"memory": 97595392.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9605723370429253"
+			},
+			"voting": {
+				"cpu": 0.00734968,
+				"memory": 49295360.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"web": {
+				"cpu": 0.055296797999999994,
+				"memory": 323014656.0,
+				"count": 4,
+				"pods": {},
+				"latency": "5.815864622867449"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.137578221,
+				"memory": 736808960.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.021564757,
+				"memory": 97693696.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9556716417910446"
+			},
+			"voting": {
+				"cpu": 0.008817367,
+				"memory": 48877568.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.06707816,
+				"memory": 331563008.0,
+				"count": 4,
+				"pods": {},
+				"latency": "5.478571428571438"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.137578221,
+				"memory": 736808960.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.021564757,
+				"memory": 97693696.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9557315233785822"
+			},
+			"voting": {
+				"cpu": 0.008817367,
+				"memory": 48877568.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9738993710691823"
+			},
+			"web": {
+				"cpu": 0.06707816,
+				"memory": 331563008.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.147222222222237"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.137578221,
+				"memory": 736808960.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.021564757,
+				"memory": 97693696.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9647286821705428"
+			},
+			"voting": {
+				"cpu": 0.008817367,
+				"memory": 48877568.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9748366013071895"
+			},
+			"web": {
+				"cpu": 0.06707816,
+				"memory": 331563008.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.9517857142857125"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.137578221,
+				"memory": 736808960.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.021564757,
+				"memory": 97693696.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9617829457364342"
+			},
+			"voting": {
+				"cpu": 0.008817367,
+				"memory": 48877568.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.06707816,
+				"memory": 331563008.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.14750000000001"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.073854793,
+				"memory": 738258944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022340379000000004,
+				"memory": 97767424.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9655228758169934"
+			},
+			"voting": {
+				"cpu": 0.009141409,
+				"memory": 49086464.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9558641975308642"
+			},
+			"web": {
+				"cpu": 0.073213583,
+				"memory": 302100480.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.954545454545461"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.073854793,
+				"memory": 738258944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022340379000000004,
+				"memory": 97767424.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9587692307692309"
+			},
+			"voting": {
+				"cpu": 0.009141409,
+				"memory": 49086464.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"web": {
+				"cpu": 0.073213583,
+				"memory": 302100480.0,
+				"count": 4,
+				"pods": {},
+				"latency": "5.733333333333349"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 4
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.073854793,
+				"memory": 738258944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022340379000000004,
+				"memory": 97767424.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9636146496815288"
+			},
+			"voting": {
+				"cpu": 0.009141409,
+				"memory": 49086464.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"web": {
+				"cpu": 0.073213583,
+				"memory": 302100480.0,
+				"count": 4,
+				"pods": {},
+				"latency": "4.680357142857142"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.073854793,
+				"memory": 738258944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022340379000000004,
+				"memory": 97767424.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9602782071097372"
+			},
+			"voting": {
+				"cpu": 0.009141409,
+				"memory": 49086464.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529968454258676"
+			},
+			"web": {
+				"cpu": 0.073213583,
+				"memory": 302100480.0,
+				"count": 4,
+				"pods": {},
+				"latency": "5.024193548387143"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.07084988300000002,
+				"memory": 740777984.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022515188,
+				"memory": 99950592.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9544117647058823"
+			},
+			"voting": {
+				"cpu": 0.009350749,
+				"memory": 49483776.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9624183006535948"
+			},
+			"web": {
+				"cpu": 0.06971581000000002,
+				"memory": 339095552.0,
+				"count": 4,
+				"pods": {},
+				"latency": "5.5413695212275"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.07084988300000002,
+				"memory": 740777984.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022515188,
+				"memory": 99950592.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.970279146141215"
+			},
+			"voting": {
+				"cpu": 0.009350749,
+				"memory": 49483776.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9647975077881619"
+			},
+			"web": {
+				"cpu": 0.11883902500000001,
+				"memory": 411328512.0,
+				"count": 5,
+				"pods": {},
+				"latency": "6.658651869931494"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.07084988300000002,
+				"memory": 740777984.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022515188,
+				"memory": 99950592.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9602465331278891"
+			},
+			"voting": {
+				"cpu": 0.009350749,
+				"memory": 49483776.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.11883902500000001,
+				"memory": 411328512.0,
+				"count": 5,
+				"pods": {},
+				"latency": "4.409891730343121"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.07084988300000002,
+				"memory": 740777984.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022515188,
+				"memory": 99950592.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9617283950617284"
+			},
+			"voting": {
+				"cpu": 0.009350749,
+				"memory": 49483776.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9678125"
+			},
+			"web": {
+				"cpu": 0.11883902500000001,
+				"memory": 411328512.0,
+				"count": 5,
+				"pods": {},
+				"latency": "4.434375000000016"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06912802400000002,
+				"memory": 769490944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022312216000000003,
+				"memory": 97914880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.954351145038168"
+			},
+			"voting": {
+				"cpu": 0.009301024,
+				"memory": 49664000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9558641975308642"
+			},
+			"web": {
+				"cpu": 0.077679229,
+				"memory": 413458432.0,
+				"count": 5,
+				"pods": {},
+				"latency": "3.8990384615384617"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06912802400000002,
+				"memory": 769490944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022312216000000003,
+				"memory": 97914880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9692367601246109"
+			},
+			"voting": {
+				"cpu": 0.009301024,
+				"memory": 49664000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9592833876221498"
+			},
+			"web": {
+				"cpu": 0.077679229,
+				"memory": 413458432.0,
+				"count": 5,
+				"pods": {},
+				"latency": "4.916666666666671"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06912802400000002,
+				"memory": 769490944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022312216000000003,
+				"memory": 97914880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9636581469648562"
+			},
+			"voting": {
+				"cpu": 0.009301024,
+				"memory": 49664000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9624183006535948"
+			},
+			"web": {
+				"cpu": 0.077679229,
+				"memory": 413458432.0,
+				"count": 5,
+				"pods": {},
+				"latency": "4.61060606060607"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06912802400000002,
+				"memory": 769490944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022312216000000003,
+				"memory": 97914880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9575158227848102"
+			},
+			"voting": {
+				"cpu": 0.009301024,
+				"memory": 49664000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"web": {
+				"cpu": 0.077679229,
+				"memory": 413458432.0,
+				"count": 5,
+				"pods": {},
+				"latency": "4.929629629629636"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06872243599999997,
+				"memory": 767746048.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.021873137,
+				"memory": 98844672.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.968095238095238"
+			},
+			"voting": {
+				"cpu": 0.009306075,
+				"memory": 49790976.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9769716088328074"
+			},
+			"web": {
+				"cpu": 0.07543048499999999,
+				"memory": 385069056.0,
+				"count": 5,
+				"pods": {},
+				"latency": "7.385869565217396"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06872243599999998,
+				"memory": 767746048.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.021873137,
+				"memory": 98844672.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.966201550387597"
+			},
+			"voting": {
+				"cpu": 0.009306075,
+				"memory": 49790976.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.07543048499999999,
+				"memory": 385069056.0,
+				"count": 5,
+				"pods": {},
+				"latency": "4.910000000000011"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06872243599999997,
+				"memory": 767746048.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.021873137,
+				"memory": 98844672.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9681818181818181"
+			},
+			"voting": {
+				"cpu": 0.009306075,
+				"memory": 49790976.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.07543048499999999,
+				"memory": 385069056.0,
+				"count": 5,
+				"pods": {},
+				"latency": "7.336734693877574"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06872243599999997,
+				"memory": 767746048.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.021873137,
+				"memory": 98844672.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9561191626409019"
+			},
+			"voting": {
+				"cpu": 0.009306075,
+				"memory": 49790976.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9747557003257328"
+			},
+			"web": {
+				"cpu": 0.07543048499999999,
+				"memory": 385069056.0,
+				"count": 5,
+				"pods": {},
+				"latency": "6.09459459459462"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.069044311,
+				"memory": 771661824.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022233952,
+				"memory": 100622336.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9668006430868167"
+			},
+			"voting": {
+				"cpu": 0.009369253000000001,
+				"memory": 48975872.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9588235294117645"
+			},
+			"web": {
+				"cpu": 0.07536647099999999,
+				"memory": 416595968.0,
+				"count": 5,
+				"pods": {},
+				"latency": "4.541304347826089"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.069044311,
+				"memory": 771661824.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022233952,
+				"memory": 100622336.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9529141104294478"
+			},
+			"voting": {
+				"cpu": 0.009369253000000001,
+				"memory": 48975872.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.07536647099999999,
+				"memory": 416595968.0,
+				"count": 5,
+				"pods": {},
+				"latency": "3.8695652173913118"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.069044311,
+				"memory": 771661824.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022233952,
+				"memory": 100622336.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9528700906344411"
+			},
+			"voting": {
+				"cpu": 0.009369253000000001,
+				"memory": 48975872.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9618012422360247"
+			},
+			"web": {
+				"cpu": 0.07536647099999999,
+				"memory": 416595968.0,
+				"count": 5,
+				"pods": {},
+				"latency": "4.277500000000018"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.069044311,
+				"memory": 771661824.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022233952,
+				"memory": 100622336.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9617647058823531"
+			},
+			"voting": {
+				"cpu": 0.009369253000000001,
+				"memory": 48975872.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9558641975308642"
+			},
+			"web": {
+				"cpu": 0.07536647099999999,
+				"memory": 416595968.0,
+				"count": 5,
+				"pods": {},
+				"latency": "4.465384615384627"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06842730600000001,
+				"memory": 771674112.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022291837,
+				"memory": 99008512.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9589763779527558"
+			},
+			"voting": {
+				"cpu": 0.009316368,
+				"memory": 49438720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9624183006535947"
+			},
+			"web": {
+				"cpu": 0.07516775900000001,
+				"memory": 437817344.0,
+				"count": 5,
+				"pods": {},
+				"latency": "4.772500000000014"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06842730600000001,
+				"memory": 771674112.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022291837,
+				"memory": 99008512.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9639934533551555"
+			},
+			"voting": {
+				"cpu": 0.009316368,
+				"memory": 49438720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9558641975308642"
+			},
+			"web": {
+				"cpu": 0.07516775900000001,
+				"memory": 437817344.0,
+				"count": 5,
+				"pods": {},
+				"latency": "6.353658536585382"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 5
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06842730600000001,
+				"memory": 771674112.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022291837,
+				"memory": 99008512.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9577614379084968"
+			},
+			"voting": {
+				"cpu": 0.009316368,
+				"memory": 49438720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"web": {
+				"cpu": 0.07516775900000001,
+				"memory": 437817344.0,
+				"count": 5,
+				"pods": {},
+				"latency": "3.8218750000000057"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06842730600000001,
+				"memory": 771674112.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022291837,
+				"memory": 99008512.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9603906250000002"
+			},
+			"voting": {
+				"cpu": 0.009316368,
+				"memory": 49438720.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9618012422360247"
+			},
+			"web": {
+				"cpu": 0.07516775900000001,
+				"memory": 437817344.0,
+				"count": 5,
+				"pods": {},
+				"latency": "7.110465116279096"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06964058699999999,
+				"memory": 774909952.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022053815,
+				"memory": 98484224.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9601063829787234"
+			},
+			"voting": {
+				"cpu": 0.009432037,
+				"memory": 49664000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9529230769230769"
+			},
+			"web": {
+				"cpu": 0.076530007,
+				"memory": 404815872.0,
+				"count": 5,
+				"pods": {},
+				"latency": "6.856892823305647"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06964058699999999,
+				"memory": 774909952.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022053815,
+				"memory": 98484224.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9664826498422714"
+			},
+			"voting": {
+				"cpu": 0.009432037,
+				"memory": 49664000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9624183006535948"
+			},
+			"web": {
+				"cpu": 0.12715295299999999,
+				"memory": 476454912.0,
+				"count": 6,
+				"pods": {},
+				"latency": "6.457234803707591"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06964058699999999,
+				"memory": 774909952.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022053815,
+				"memory": 98484224.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.97078125"
+			},
+			"voting": {
+				"cpu": 0.009432037,
+				"memory": 49664000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9618012422360247"
+			},
+			"web": {
+				"cpu": 0.12715295299999999,
+				"memory": 476454912.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.808333333333345"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06964058699999999,
+				"memory": 774909952.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022053815,
+				"memory": 98484224.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9591346153846153"
+			},
+			"voting": {
+				"cpu": 0.009432037,
+				"memory": 49664000.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9647975077881619"
+			},
+			"web": {
+				"cpu": 0.12715295299999999,
+				"memory": 476454912.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.596153846153859"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06607897500000001,
+				"memory": 776146944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022125327,
+				"memory": 99409920.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9529185867895544"
+			},
+			"voting": {
+				"cpu": 0.009280764,
+				"memory": 48934912.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.078934287,
+				"memory": 502042624.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.500000000000003"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06607897500000001,
+				"memory": 776146944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022125327,
+				"memory": 99409920.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9575039494470772"
+			},
+			"voting": {
+				"cpu": 0.009280764,
+				"memory": 48934912.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.078934287,
+				"memory": 502042624.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.539062500000007"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06607897500000001,
+				"memory": 776146944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022125327,
+				"memory": 99409920.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9649136577708006"
+			},
+			"voting": {
+				"cpu": 0.009280764,
+				"memory": 48934912.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.953074433656958"
+			},
+			"web": {
+				"cpu": 0.078934287,
+				"memory": 502042624.0,
+				"count": 6,
+				"pods": {},
+				"latency": "5.78846153846163"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06607897500000001,
+				"memory": 776146944.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022125327,
+				"memory": 99409920.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.961968503937008"
+			},
+			"voting": {
+				"cpu": 0.009280764,
+				"memory": 48934912.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.078934287,
+				"memory": 502042624.0,
+				"count": 6,
+				"pods": {},
+				"latency": "5.062500000000032"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06837901699999999,
+				"memory": 779841536.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022847767,
+				"memory": 99278848.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.959344262295082"
+			},
+			"voting": {
+				"cpu": 0.009360615,
+				"memory": 49098752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9618012422360247"
+			},
+			"web": {
+				"cpu": 0.077184481,
+				"memory": 494198784.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.404545454545467"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06837901699999999,
+				"memory": 779841536.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022847767,
+				"memory": 99278848.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9631134969325151"
+			},
+			"voting": {
+				"cpu": 0.009360615,
+				"memory": 49098752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9678125"
+			},
+			"web": {
+				"cpu": 0.077184481,
+				"memory": 494198784.0,
+				"count": 6,
+				"pods": {},
+				"latency": "5.723214285714335"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06837901699999999,
+				"memory": 779841536.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022847767,
+				"memory": 99278848.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9855007473841555"
+			},
+			"voting": {
+				"cpu": 0.009360615,
+				"memory": 49098752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9687323943661972"
+			},
+			"web": {
+				"cpu": 0.077184481,
+				"memory": 494198784.0,
+				"count": 6,
+				"pods": {},
+				"latency": "8.871621621621632"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.06837901699999999,
+				"memory": 779841536.0,
+				"count": 16,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.022847767,
+				"memory": 99278848.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9535359801488833"
+			},
+			"voting": {
+				"cpu": 0.009360615,
+				"memory": 49098752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.952369077306733"
+			},
+			"web": {
+				"cpu": 0.077184481,
+				"memory": 494198784.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.055555555555537"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.17025452699999996,
+				"memory": 939565056.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.026680269,
+				"memory": 101752832.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9535359801488833"
+			},
+			"voting": {
+				"cpu": 0.011192341000000001,
+				"memory": 49610752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9598445595854923"
+			},
+			"web": {
+				"cpu": 0.09148069500000001,
+				"memory": 482779136.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.460714285714285"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.17025452699999996,
+				"memory": 939565056.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.026680269,
+				"memory": 101752832.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9672279792746113"
+			},
+			"voting": {
+				"cpu": 0.011192341000000001,
+				"memory": 49610752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9642499999999998"
+			},
+			"web": {
+				"cpu": 0.09148069500000001,
+				"memory": 482779136.0,
+				"count": 6,
+				"pods": {},
+				"latency": "6.645833333333322"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.17025452699999996,
+				"memory": 939565056.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.026680269,
+				"memory": 101752832.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9583647798742136"
+			},
+			"voting": {
+				"cpu": 0.011192341000000001,
+				"memory": 49610752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.09148069500000001,
+				"memory": 482779136.0,
+				"count": 6,
+				"pods": {},
+				"latency": "6.592391304347801"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.17025452699999996,
+				"memory": 939565056.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.026680269,
+				"memory": 101752832.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.961875"
+			},
+			"voting": {
+				"cpu": 0.011192341000000001,
+				"memory": 49610752.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.957142857142857"
+			},
+			"web": {
+				"cpu": 0.09148069500000001,
+				"memory": 482779136.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.8333333333333295"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.09098457600000001,
+				"memory": 942596096.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028505863,
+				"memory": 99504128.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9619346733668341"
+			},
+			"voting": {
+				"cpu": 0.011815559,
+				"memory": 48910336.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9523456790123456"
+			},
+			"web": {
+				"cpu": 0.096013471,
+				"memory": 519483392.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.963636363636358"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.09098457600000001,
+				"memory": 942596096.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028505863,
+				"memory": 99504128.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9631612090680102"
+			},
+			"voting": {
+				"cpu": 0.011815559,
+				"memory": 48910336.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9724409448818898"
+			},
+			"web": {
+				"cpu": 0.096013471,
+				"memory": 519483392.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.956249999999995"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.09098457600000001,
+				"memory": 942596096.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028505863,
+				"memory": 99504128.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9633802816901407"
+			},
+			"voting": {
+				"cpu": 0.011815559,
+				"memory": 48910336.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9570719602977666"
+			},
+			"web": {
+				"cpu": 0.096013471,
+				"memory": 519483392.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.863414634146344"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.09098457600000001,
+				"memory": 942596096.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028505863,
+				"memory": 99504128.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9635362694300517"
+			},
+			"voting": {
+				"cpu": 0.011815559,
+				"memory": 48910336.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9594527363184079"
+			},
+			"web": {
+				"cpu": 0.096013471,
+				"memory": 519483392.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.854166666666665"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.089371404,
+				"memory": 944500736.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028505351,
+				"memory": 99962880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9643396226415092"
+			},
+			"voting": {
+				"cpu": 0.011678915,
+				"memory": 49160192.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9619647355163726"
+			},
+			"web": {
+				"cpu": 0.097799131,
+				"memory": 536309760.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.818055555555552"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.089371404,
+				"memory": 944500736.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028505351,
+				"memory": 99962880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9548162230671735"
+			},
+			"voting": {
+				"cpu": 0.011678915,
+				"memory": 49160192.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9618453865336658"
+			},
+			"web": {
+				"cpu": 0.097799131,
+				"memory": 536309760.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.657142857142852"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.089371404,
+				"memory": 944500736.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028505351,
+				"memory": 99962880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9718950064020486"
+			},
+			"voting": {
+				"cpu": 0.011678915,
+				"memory": 49160192.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9524421593830333"
+			},
+			"web": {
+				"cpu": 0.097799131,
+				"memory": 536309760.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.496551724137929"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.089371404,
+				"memory": 944500736.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028505351,
+				"memory": 99962880.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9668781725888325"
+			},
+			"voting": {
+				"cpu": 0.011678915,
+				"memory": 49160192.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9618453865336658"
+			},
+			"web": {
+				"cpu": 0.097799131,
+				"memory": 536309760.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.874999999999995"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.085263559,
+				"memory": 973041664.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028068272000000002,
+				"memory": 102912000.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9561290322580644"
+			},
+			"voting": {
+				"cpu": 0.011733482,
+				"memory": 49479680.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.096654709,
+				"memory": 510357504.0,
+				"count": 6,
+				"pods": {},
+				"latency": "3.959459459459459"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.085263559,
+				"memory": 973041664.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028068272000000002,
+				"memory": 102912000.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9570895522388058"
+			},
+			"voting": {
+				"cpu": 0.011733482,
+				"memory": 49479680.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.957142857142857"
+			},
+			"web": {
+				"cpu": 0.096654709,
+				"memory": 510357504.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.251612903225804"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.085263559,
+				"memory": 973041664.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028068272000000002,
+				"memory": 102912000.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9608502538071066"
+			},
+			"voting": {
+				"cpu": 0.011733482,
+				"memory": 49479680.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9547499999999998"
+			},
+			"web": {
+				"cpu": 0.096654709,
+				"memory": 510357504.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.378333333333326"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.085263559,
+				"memory": 973041664.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028068272000000002,
+				"memory": 102912000.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9745478036175711"
+			},
+			"voting": {
+				"cpu": 0.011733482,
+				"memory": 49479680.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9673629242819843"
+			},
+			"web": {
+				"cpu": 0.096654709,
+				"memory": 510357504.0,
+				"count": 6,
+				"pods": {},
+				"latency": "6.01428571428571"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08542376400000001,
+				"memory": 974520320.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028061848,
+				"memory": 99569664.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9632111251580276"
+			},
+			"voting": {
+				"cpu": 0.011577647,
+				"memory": 49872896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9673629242819844"
+			},
+			"web": {
+				"cpu": 0.09501055900000001,
+				"memory": 532250624.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.9696969696969715"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 6
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08542376400000001,
+				"memory": 974520320.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028061848,
+				"memory": 99569664.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.958482142857143"
+			},
+			"voting": {
+				"cpu": 0.011577647,
+				"memory": 49872896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9547029702970298"
+			},
+			"web": {
+				"cpu": 0.09501055900000001,
+				"memory": 532250624.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.356410256410256"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08542376400000001,
+				"memory": 974520320.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028061848,
+				"memory": 99569664.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9753816793893128"
+			},
+			"voting": {
+				"cpu": 0.011577647,
+				"memory": 49872896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9992227979274612"
+			},
+			"web": {
+				"cpu": 0.09501055900000001,
+				"memory": 532250624.0,
+				"count": 6,
+				"pods": {},
+				"latency": "7.1511627906976525"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08542376400000001,
+				"memory": 974520320.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028061848,
+				"memory": 99569664.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9559449311639548"
+			},
+			"voting": {
+				"cpu": 0.011577647,
+				"memory": 49872896.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9499999999999998"
+			},
+			"web": {
+				"cpu": 0.09501055900000001,
+				"memory": 532250624.0,
+				"count": 6,
+				"pods": {},
+				"latency": "4.507552444444438"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08727966300000001,
+				"memory": 975712256.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028196222,
+				"memory": 103313408.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9750000000000001"
+			},
+			"voting": {
+				"cpu": 0.01169953,
+				"memory": 49074176.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9594527363184079"
+			},
+			"web": {
+				"cpu": 0.13342593499999997,
+				"memory": 611794944.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.999261004236941"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08727966300000001,
+				"memory": 975712256.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028196222,
+				"memory": 103313408.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.969921363040629"
+			},
+			"voting": {
+				"cpu": 0.01169953,
+				"memory": 49074176.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.13342593499999997,
+				"memory": 611794944.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.547813136197817"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08727966300000001,
+				"memory": 975712256.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028196222,
+				"memory": 103313408.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9755033557046979"
+			},
+			"voting": {
+				"cpu": 0.01169953,
+				"memory": 49074176.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9570719602977666"
+			},
+			"web": {
+				"cpu": 0.13342593499999997,
+				"memory": 611794944.0,
+				"count": 7,
+				"pods": {},
+				"latency": "5.586206896551729"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08727966300000001,
+				"memory": 975712256.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028196222,
+				"memory": 103313408.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9632278481012658"
+			},
+			"voting": {
+				"cpu": 0.01169953,
+				"memory": 49074176.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9642499999999998"
+			},
+			"web": {
+				"cpu": 0.13342593499999997,
+				"memory": 611794944.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.773684210526312"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08647327299999999,
+				"memory": 976211968.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028252607000000006,
+				"memory": 103333888.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9585475578406171"
+			},
+			"voting": {
+				"cpu": 0.012196084,
+				"memory": 49381376.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9668354430379744"
+			},
+			"web": {
+				"cpu": 0.10276382299999999,
+				"memory": 597155840.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.950000000000004"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.086473273,
+				"memory": 976211968.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028252607000000006,
+				"memory": 103333888.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9511845386533667"
+			},
+			"voting": {
+				"cpu": 0.012196084,
+				"memory": 49381376.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.10276382299999999,
+				"memory": 597155840.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.204545454545456"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.086473273,
+				"memory": 976211968.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028252607000000006,
+				"memory": 103333888.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9559523809523811"
+			},
+			"voting": {
+				"cpu": 0.012196084,
+				"memory": 49381376.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9524421593830333"
+			},
+			"web": {
+				"cpu": 0.10276382299999999,
+				"memory": 597155840.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.155555555555556"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08647327299999999,
+				"memory": 976211968.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028252607000000006,
+				"memory": 103333888.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9595477386934672"
+			},
+			"voting": {
+				"cpu": 0.012196084,
+				"memory": 49381376.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9594527363184079"
+			},
+			"web": {
+				"cpu": 0.10276382299999999,
+				"memory": 597155840.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.609756097560967"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08646193700000002,
+				"memory": 983318528.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028253038,
+				"memory": 102547456.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9621951219512195"
+			},
+			"voting": {
+				"cpu": 0.011831643999999999,
+				"memory": 49688576.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9594527363184079"
+			},
+			"web": {
+				"cpu": 0.09925107299999998,
+				"memory": 613519360.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.171999999999992"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08646193700000002,
+				"memory": 983318528.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028253038,
+				"memory": 102547456.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9570807453416148"
+			},
+			"voting": {
+				"cpu": 0.011831643999999999,
+				"memory": 49688576.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.952369077306733"
+			},
+			"web": {
+				"cpu": 0.099251073,
+				"memory": 613519360.0,
+				"count": 7,
+				"pods": {},
+				"latency": "3.896315789473684"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08646193700000002,
+				"memory": 983318528.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028253038,
+				"memory": 102547456.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9546511627906977"
+			},
+			"voting": {
+				"cpu": 0.011831643999999999,
+				"memory": 49688576.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.952369077306733"
+			},
+			"web": {
+				"cpu": 0.099251073,
+				"memory": 613519360.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.3647058823529346"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08646193700000002,
+				"memory": 983318528.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028253038,
+				"memory": 102547456.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9583124999999999"
+			},
+			"voting": {
+				"cpu": 0.011831643999999999,
+				"memory": 49688576.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9548593350383632"
+			},
+			"web": {
+				"cpu": 0.099251073,
+				"memory": 613519360.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.621875000000001"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08489698100000001,
+				"memory": 982421504.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028292809000000002,
+				"memory": 100659200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9559006211180123"
+			},
+			"voting": {
+				"cpu": 0.011740298,
+				"memory": 49004544.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.95"
+			},
+			"web": {
+				"cpu": 0.100080509,
+				"memory": 636518400.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.562765957446804"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08489698100000001,
+				"memory": 982421504.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028292809000000002,
+				"memory": 100659200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9657124681933842"
+			},
+			"voting": {
+				"cpu": 0.011740298,
+				"memory": 49004544.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9570719602977666"
+			},
+			"web": {
+				"cpu": 0.100080509,
+				"memory": 636518400.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.645238095238091"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08489698100000001,
+				"memory": 982421504.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028292809000000002,
+				"memory": 100659200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.952402022756005"
+			},
+			"voting": {
+				"cpu": 0.011740298,
+				"memory": 49004544.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9594527363184079"
+			},
+			"web": {
+				"cpu": 0.100080509,
+				"memory": 636518400.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.338571428571425"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08489698100000001,
+				"memory": 982421504.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.028292809000000002,
+				"memory": 100659200.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9641614906832298"
+			},
+			"voting": {
+				"cpu": 0.011740298,
+				"memory": 49004544.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9619647355163726"
+			},
+			"web": {
+				"cpu": 0.100080509,
+				"memory": 636518400.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.949999999999999"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.085785742,
+				"memory": 984424448.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.02754145,
+				"memory": 103809024.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9581896551724141"
+			},
+			"voting": {
+				"cpu": 0.011596599999999999,
+				"memory": 49307648.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.9594999999999999"
+			},
+			"web": {
+				"cpu": 0.100059677,
+				"memory": 586088448.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.794285714285712"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	},
+	{
+		"bots": {
+			"votebot": {
+				"cpu": 0.08578574200000001,
+				"memory": 984424448.0,
+				"count": 20,
+				"pods": {}
+			}
+		},
+		"metrics": {
+			"gif": {
+				"cpu": 0.02754145,
+				"memory": 103809024.0,
+				"count": 2,
+				"pods": {},
+				"latency": "0.9607547169811319"
+			},
+			"voting": {
+				"cpu": 0.011596599999999999,
+				"memory": 49307648.0,
+				"count": 1,
+				"pods": {},
+				"latency": "0.96484375"
+			},
+			"web": {
+				"cpu": 0.100059677,
+				"memory": 586088448.0,
+				"count": 7,
+				"pods": {},
+				"latency": "4.924999999999994"
+			}
+		},
+		"desired": {
+			"gif": 2,
+			"voting": 1,
+			"web": 7
+		}
+	}
+]
