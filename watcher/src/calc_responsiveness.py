@@ -4,6 +4,8 @@ import sys
 import json
 import quantity
 
+TARGET = "15m" # CPU target metric
+
 # load the run
 run_file_name = sys.argv[1]
 run_file = open(run_file_name)
@@ -69,7 +71,7 @@ cpu = [{dep: slice["metrics"][dep]["cpu"] for dep in slice["metrics"]} for slice
 
 def cpu_limit_exceeded(i):
     for dep in cpu[i]:
-        if cpu[i][dep] > quantity.parse_quantity("15m") * run[i]["metrics"][dep]["count"]:
+        if cpu[i][dep] > quantity.parse_quantity(TARGET) * run[i]["metrics"][dep]["count"]:
             return True
     return False
 

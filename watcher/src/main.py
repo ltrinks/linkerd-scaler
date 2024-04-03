@@ -20,6 +20,7 @@ SCALE_FACTOR = 4 # how many bots to add each increase
 MAX_PODS = 20 # max pods allowed for a deployment (bots and nodevoto)
 INCREASES = 5 # number of times to increase before resetting
 POLLS_PER_INCREASE = 80 # number of polls between each increase
+TARGET = "15m" # CPU target metric, to update for HPA see nodevoto-hpa.yaml
 
 # remove previous run
 files = glob.glob('/metrics/*')
@@ -57,7 +58,7 @@ while i * POLL <= RUNFOR * 60:
 
         # for each deployment, determine desired vaue and scale if needed
         desired_state = {}
-        target_cpu = float(quantity.parse_quantity("15m"))
+        target_cpu = float(quantity.parse_quantity(TARGET))
         for deployment, value in namespace_metrics.items():
             if not deployment in gradual_change_over_time:
                 gradual_change_over_time[deployment] = []

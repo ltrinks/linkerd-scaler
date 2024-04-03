@@ -5,6 +5,8 @@ import sys
 import math
 import quantity
 
+TARGET = "15m" # CPU target metric
+
 run_file_name = sys.argv[1]
 run_file = open(run_file_name)
 run = json.load(run_file)
@@ -33,7 +35,7 @@ for i, value in enumerate(web_cpu_utilization):
     gradual_change.append(value)
 
 
-target = float(quantity.parse_quantity("15m"))
+target = float(quantity.parse_quantity(TARGET))
 gradual_change_target = []
 for i, value in enumerate(web_cpu_utilization):
     if i == 0:
