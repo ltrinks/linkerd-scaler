@@ -20,24 +20,29 @@ def getPodName(pod):
 
 # get the cpu, latency, and memory for each deployment in a namespace, also break it down by pod
 # {test: {cpu: 0, memory: 0, count: 1, pods: {test-1234: {cpu: 0, memory: 0}}}}
+passed_pods = set()
 def getResourceMetrics(namespace):
     info = {}
     for pod in topApiClient.list_namespaced_custom_object("metrics.k8s.io", "v1beta1", namespace, "pods")["items"]:
         pod_name = getPodName(pod["metadata"]["name"])
         
         # don't count pods that have recently become ready or are not running
-        status = coreApiClient.read_namespaced_pod_status(pod["metadata"]["name"], namespace).status
-        phase = status.phase
+        global passed_pods
+        if (not pod["metadata"]["name"] in passed_pods):
+            status = coreApiClient.read_namespaced_pod_status(pod["metadata"]["name"], namespace).status
+            phase = status.phase
 
-        if phase != "Running":
-            print("ignoring not running")
-            continue
+            if phase != "Running":
+                print("ignoring not running")
+                continue
 
-        running_condition = [i for i in status.conditions if i.type == "Ready"][0]
-        ready_time = datetime.datetime.now() - running_condition.last_transition_time.replace(tzinfo=None)
-        if (ready_time < datetime.timedelta(seconds=30)):
-            print("ignoring too young")
-            continue
+            running_condition = [i for i in status.conditions if i.type == "Ready"][0]
+            ready_time = datetime.datetime.now() - running_condition.last_transition_time.replace(tzinfo=None)
+            if (ready_time < datetime.timedelta(seconds=30)):
+                print("ignoring too young")
+                continue
+            
+            passed_pods.add(pod["metadata"]["name"])
 
         if pod_name not in info:
             info[pod_name] = {"cpu": 0, "memory": 0, "count": 0, "pods": {}}
@@ -74,21 +79,24 @@ def getResourceMetricsNoLinkerd(namespace):
 
 
 # fetch latency of a deployment from Linkerd
+prometheus_pod_ip = ""
 def getNamespaceDeploymentResponseLatency(namespace, deployment, percentile, period):
     try:
         # bypass coredns for getting pod ip
-        # TODO optimize here, shouldn't need to fetch ip every time
-        viz_pods = coreApiClient.list_namespaced_pod("linkerd-viz")
-        prometheus_pod_ip = ""
-        for i in viz_pods.items:
-            if "prometheus" in i.metadata.name:
-                prometheus_pod_ip = i.status.pod_ip
+        global prometheus_pod_ip
+        if prometheus_pod_ip == "":
+            viz_pods = coreApiClient.list_namespaced_pod("linkerd-viz")
+            for i in viz_pods.items:
+                if "prometheus" in i.metadata.name:
+                    prometheus_pod_ip = i.status.pod_ip
 
         metrics = requests.get(f"http://{prometheus_pod_ip}:9090/api/v1/query?query=histogram_quantile({percentile}, sum(rate(response_latency_ms_bucket{{namespace=\"{namespace}\", deployment=\"{deployment}\", direction=\"inbound\"}}[{period}])) by (le))").json()
         latency = metrics["data"]["result"][0]["value"][1]
         return latency
     except Exception as err:
         print("Error fetching latency " + str(err))
+        prometheus_pod_ip = ""
+
         return 0.0
 
 # get resources collected by linkerd injected prometheus

@@ -67,8 +67,7 @@ while i * POLL <= RUNFOR * 60:
             if not deployment in gradual_change_over_time:
                 gradual_change_over_time[deployment] = []
 
-            # smooth out the change using the last data point, only allow a 5% change
-            # TODO make this a percent of the target not percent of previous data point (currently the larger the metric the more swing is allowed)
+            # smooth out the change using the last data point, only allow a 5% change of the target metric
             current_cpu = value["cpu"]
 
             previous_data = gradual_change_over_time[deployment][-2:]
@@ -138,4 +137,3 @@ print("Run finished")
 # wait forever to avoid restart of the watcher pod
 while True:
     time.sleep(POLL)
-
