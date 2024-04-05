@@ -120,6 +120,17 @@ run_file = open("/metrics/run.json", "w")
 json.dump(combined_over_time, run_file, indent="\t")
 run_file.close()
 
+params_file = open("/metrics/parameters.json", "w")
+json.dump({"active": ACTIVE, 
+           "poll": POLL, 
+           "run_for": RUNFOR, 
+           "scale_factor": SCALE_FACTOR, 
+           "max_pods": MAX_PODS, 
+           "increases": INCREASES, 
+           "polls_per_increase": POLLS_PER_INCREASE,
+            "target": TARGET}, params_file, indent="\t")
+params_file.close()
+
 # generate graphs
 graph.generate_graph(POLL, ACTIVE, metrics_over_time, combined_over_time, bots_over_time)
 print("Run finished")
