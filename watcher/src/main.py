@@ -47,7 +47,11 @@ while i * POLL <= RUNFOR * 60:
             appsApiClient.patch_namespaced_deployment_scale("vote-bot", "nodevoto-bot",{'spec': {'replicas': (SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)}, "maxReplicas": MAX_PODS})
 
         # get CPU, latency, counts, for targeted namespace
+        start_timestamp = time.time()
+        start_ns = time.monotonic_ns()
         namespace_metrics = metrics.getResourceMetrics("nodevoto")
+        end_ns = time.monotonic_ns()
+        poll_time = end_ns - start_ns
 
         # get the actual number of running bots
         bot_count = 0
@@ -88,6 +92,8 @@ while i * POLL <= RUNFOR * 60:
 
             gradual_change_over_time[deployment].append(gradual_change[-1])
 
+            value["gradual_cpu"] = gradual_change[-1]
+
             # based on https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/#algorithm-details
             desired = math.ceil(gradual_change[-1] / target_cpu)
             desired_state[deployment] = desired
@@ -101,7 +107,7 @@ while i * POLL <= RUNFOR * 60:
                desired_state[deployment] = appsApiClient.read_namespaced_deployment_status(deployment, "nodevoto").spec.replicas
 
         metrics_over_time.append(namespace_metrics)
-        combined = {"bots": bots, "metrics": namespace_metrics, "desired": desired_state}
+        combined = {"bots": bots, "metrics": namespace_metrics, "desired": desired_state, "start_s": start_timestamp, "took_ns": poll_time}
         combined_over_time.append(combined)
     except Exception as err:
         print(f"ERROR during {i}: " + str(err))

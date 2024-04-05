@@ -58,14 +58,17 @@ while i < len(stability):
     i += 1
 
 print(f"instability events: {len(instability_event_lengths)}")
-print(f"instability average length: {sum(instability_event_lengths)/len(instability_event_lengths)}")
+if (len(instability_event_lengths) > 0):
+    print(f"instability average length: {sum(instability_event_lengths)/len(instability_event_lengths)}")
 print(f"Percent stable: {len([i for i in range(len(stability)) if stability[i] == True]) / len(stability) * 100}%")
 
 print(f"instability events (down): {len(down)}")
-print(f"instability average length (down): {sum(down)/len(down)}")
+if (len(down) > 0): 
+    print(f"instability average length (down): {sum(down)/len(down)}")
 
 print(f"instability events (up): {len(up)}")
-print(f"instability average length (up): {sum(up)/len(up)}")
+if (len(up) > 0):
+    print(f"instability average length (up): {sum(up)/len(up)}")
 # get cpu usage of each state
 cpu = [{dep: slice["metrics"][dep]["cpu"] for dep in slice["metrics"]} for slice in run]
 
@@ -114,3 +117,7 @@ for latency in latencies:
         curr_lat = latency
 
 print(f"web latency percent new value: {latency_updates / len(run) * 100}%")
+
+# find the average length of a poll
+time_ns = [i["took_ns"] for i in run]
+print(f"Average poll time ms: {(sum(time_ns)/ len(time_ns)) / 1000000}")

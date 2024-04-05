@@ -3,7 +3,9 @@ import quantity
 
 
 def generate_graph(POLL, ACTIVE, metrics_over_time, combined_over_time, bots_over_time):
-    x_axis = [i * POLL for i in range(len(metrics_over_time))]
+    timestamps = [i["start_s"] for i in combined_over_time]
+    start_ts = timestamps[0]
+    x_axis = [i - start_ts for i in timestamps]
 
     y_axis = []
     web_latency = []
