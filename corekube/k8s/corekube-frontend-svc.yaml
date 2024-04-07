@@ -11,13 +11,13 @@ spec:
   clusterIPs:
   - 10.42.2.10
   externalIPs:
-  - 172.26.215.95
+  - 172.16.49.16 
   externalTrafficPolicy: Cluster
   ipFamilies:
   - IPv4
   ipFamilyPolicy: SingleStack
   ports:
-  - nodePort: 38412
+  - nodePort: 35412
     port: 38412
     protocol: SCTP
     targetPort: 38412
