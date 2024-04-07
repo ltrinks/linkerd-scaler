@@ -1,0 +1,2 @@
+./stopcorekube.sh
+./startcorekube.sh

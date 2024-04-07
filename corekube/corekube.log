@@ -1,0 +1,1 @@
+$[1;35m140358572742336[0m$ [32m01/30 22:34:45.254978[0m: [[33mcore[0m] [1;31mFATAL[0m: backtrace() returned 0 addresses (../lib/core/ogs-abort.c:37)

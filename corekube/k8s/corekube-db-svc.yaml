@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2023-11-22T05:56:00Z"
+  name: corekube-db
+  namespace: default
+  resourceVersion: "772"
+  uid: 2564cba9-52ea-4309-9e0b-b89844a1f188
+spec:
+  clusterIP: 10.42.1.10
+  clusterIPs:
+  - 10.42.1.10
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - port: 7788
+    protocol: TCP
+    targetPort: 7788
+  selector:
+    app: corekube-db
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

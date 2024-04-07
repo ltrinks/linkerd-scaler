@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2023-11-22T05:56:00Z"
+  name: corekube-frontend
+  namespace: default
+  resourceVersion: "791"
+  uid: 0d720b6e-8f24-4492-8957-7a6412e00386
+spec:
+  clusterIP: 10.42.2.10
+  clusterIPs:
+  - 10.42.2.10
+  externalIPs:
+  - 172.26.215.95
+  externalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 38412
+    port: 38412
+    protocol: SCTP
+    targetPort: 38412
+  selector:
+    app: corekube-frontend
+  sessionAffinity: None
+  type: NodePort

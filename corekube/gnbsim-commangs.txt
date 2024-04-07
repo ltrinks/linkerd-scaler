@@ -1,0 +1,8 @@
+./gnbsim --cfg /mount/gnbsim0-50ues-reg.yaml > /mount/results/400ue-4worker-gnb0.log 2>&1
+./gnbsim --cfg /mount/gnbsim1-50ues-reg.yaml > /mount/results/400ue-4worker-gnb1.log 2>&1
+./gnbsim --cfg /mount/gnbsim2-50ues-reg.yaml > /mount/results/400ue-4worker-gnb2.log 2>&1
+./gnbsim --cfg /mount/gnbsim3-50ues-reg.yaml > /mount/results/400ue-4worker-gnb3.log 2>&1
+./gnbsim --cfg /mount/gnbsim4-50ues-reg.yaml > /mount/results/400ue-4worker-gnb4.log 2>&1
+./gnbsim --cfg /mount/gnbsim5-50ues-reg.yaml > /mount/results/400ue-4worker-gnb5.log 2>&1
+./gnbsim --cfg /mount/gnbsim6-50ues-reg.yaml > /mount/results/400ue-4worker-gnb6.log 2>&1
+./gnbsim --cfg /mount/gnbsim7-50ues-reg.yaml > /mount/results/400ue-4worker-gnb7.log 2>&1

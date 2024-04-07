@@ -1,0 +1,79 @@
+
+  150  git clone https://gitlab.com/serverless-5g/bilal/corekube.git
+  151  ls
+  152  cd corekube/
+  153  kubectl apply -f corekube-db.yaml 
+  154  kubectl get po -A
+  155  kubectl get po 
+  156  watch kubectl get po 
+  157  kubectl describe deployment corekube-db
+  158  kubectl get po 
+  159  kubectl apply -f corekube-frontend.yaml 
+  160  kubectl get po 
+  161  kubectl apply -f corekube-worker.yaml 
+  162  kubectl get po 
+  163  kubectl describe deployment corekube-worker
+  164  kubectl get po 
+  165  kubectl describe pod corekube-worker-668877ddb4-4rn95 
+  166  kubectl get po 
+  167  kubectl logs corekube-worker-668877ddb4-4rn95 -p > worker.log
+  168  kubectl get po -o wide
+  169  kubectl remove -f corekube-worker.yaml 
+  170  kubectl delete -f corekube-worker.yaml 
+  171  kubectl get po
+  172  kubectl exec -it corekube-db-59757d985b-828rn -- bash
+  173  kubectl exec -it corekube-frontend-6b98cc4b99-w6vn6 -- bash
+  174  kubectl delete -f corekube-frontend.yaml 
+  175  kubectl get po
+  176  kubectl get po -o wide
+  177  kubectl get po 
+  178  kubectl get svc
+  179  kubectl apply -f corekube-db-svc.yaml
+  180  kubectl get svc
+  181  kubectl apply -f corekube-frontend-svc.yaml 
+  182  kubectl get svc
+  183  kubectl apply -f corekube-frontend.yaml 
+  184  kubectl get po
+  185  kubectl get svc
+  186  kubectl apply -f corekube-worker-svc.yaml 
+  187  kubectl get svc
+  188  kubectl apply -f corekube-worker.yaml 
+  189  kubectl get po
+  190  ip route
+  191  ip addr
+  192  kubectl get svc
+  193  ping 10.42.2.10
+  194  ping 10.42.1.10
+  195  kubectl get po
+  196  kubectl exec -it corekube-db-59757d985b-828rn -- bash
+  197  kubectl get po
+  198  ip route 
+  199  kubectl get svc -o wide
+  200  ping 10.42.0.1
+  201  ping 10.42.3.10
+  202  kubectl get po -o wide
+  203  ping 10.42.0.9
+  204  ping 10.42.0.13
+  205  kubectl get svc -o wide
+  206  kubectl exec -it corekube-worker-668877ddb4-29v7n -- bash
+  207  kubectl exec -it corekube-worker-668877ddb4-29v7n -- sh
+  208  kubectl apply -f gnbsim.yml 
+  209  kubectl get po -o wide
+  210  kubectl describe gnbsim-6bfd5cbb96-7ng4p 
+  211  kubectl describe po gnbsim-6bfd5cbb96-7ng4p 
+  212  kubectl logs gnbsim-6bfd5cbb96-7ng4p -p > gnbsim.log
+  213  kubectl get po -o wide
+  214  ping 10.42.0.13
+  215  kubectl delete -f gnbsim.yml 
+  216  docker pull mbilals/5gc-gnbsim:1milisecdelaySctpNoDelay-v21
+  217  sudo docker pull mbilals/5gc-gnbsim:1milisecdelaySctpNoDelay-v21
+  218  sudo docker run --rm -d --network host --name gnbsim mbilals/5gc-gnbsim:1milisecdelaySctpNoDelay-v21 -- sleep 1d
+  219  sudo docker run --rm -d --network host --name gnbsim mbilals/5gc-gnbsim:1milisecdelaySctpNoDelay-v21 sleep 1d
+  220  sudo docker ps
+  221  sudo docker exec -it gnbsim -- sh
+  222  sudo docker exec -it gnbsim sh
+  223  sudo docker stop gnbsim
+  224  sudo docker ps -a
+  225  sudo docker run --rm -d --network host -v $(pwd):/mount  --name gnbsim mbilals/5gc-gnbsim:1milisecdelaySctpNoDelay-v21 sleep 1d 
+  226  sudo docker exec -it gnbsim sh
+  227  history > history.log
