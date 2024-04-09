@@ -16,10 +16,10 @@ ACTIVE = True # scale if true, watch only if false
 POLL = 15 # seconds
 RUNFOR = 120 # minutes
 
-SCALE_FACTOR = 4 # how many bots to add each increase
+SCALE_FACTOR = 1 # how many bots to add each increase
 MAX_PODS = 20 # max pods allowed for a deployment (bots and nodevoto)
-INCREASES = 5 # number of times to increase before resetting
-POLLS_PER_INCREASE = 80 # number of polls between each increase
+INCREASES = 20 # number of times to increase before resetting
+POLLS_PER_INCREASE = 5 # number of polls between each increase
 TARGET = "15m" # CPU target metric, to update for HPA see nodevoto-hpa.yaml
 
 # remove previous run
