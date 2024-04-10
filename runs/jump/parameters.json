@@ -1,0 +1,10 @@
+{
+	"active": true,
+	"poll": 15,
+	"run_for": 120,
+	"scale_factor": 4,
+	"max_pods": 20,
+	"increases": 5,
+	"polls_per_increase": 80,
+	"target": "15m"
+}
