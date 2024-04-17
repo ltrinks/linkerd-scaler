@@ -92,8 +92,7 @@ spec:
     spec:
       containers:
       - name: watcher
-        image: watcher
-        imagePullPolicy: Never
+        image: ltrinks/watcher
         volumeMounts:
             - name: metrics
               mountPath: /metrics

@@ -16,7 +16,7 @@ topApiClient = client.CustomObjectsApi()
 
 # converts watcher-5769cd9645-nsh6d to watcher
 def getPodName(pod):
-    return "".join(pod.split("-")[:-2])
+    return "-".join(pod.split("-")[:-2])
 
 # get the cpu, latency, and memory for each deployment in a namespace, also break it down by pod
 # {test: {cpu: 0, memory: 0, count: 1, pods: {test-1234: {cpu: 0, memory: 0}}}}
@@ -46,7 +46,7 @@ def getResourceMetrics(namespace):
 
         if pod_name not in info:
             info[pod_name] = {"cpu": 0, "memory": 0, "count": 0, "pods": {}}
-            info[pod_name]["latency"] =  getNamespaceDeploymentResponseLatency(namespace, pod_name, 0.95, "30s")
+            #info[pod_name]["latency"] =  getNamespaceDeploymentResponseLatency(namespace, pod_name, 0.95, "30s")
 
         info[pod_name]["count"] += 1
         #info[pod_name]["pods"][pod["metadata"]["name"]] = {"cpu": 0, "memory": 0}

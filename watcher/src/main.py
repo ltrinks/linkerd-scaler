@@ -41,24 +41,24 @@ gradual_change_over_time = {}
 # for specified time, get metrics, and adjust scale if needed
 while i * POLL <= RUNFOR * 60:
     try:
-        # if an increase poll scale bots
-        if (i % POLLS_PER_INCREASE == 0):
-            print(f"{((i * POLL) / (RUNFOR * 60)) * 100}%")
-            appsApiClient.patch_namespaced_deployment_scale("vote-bot", "nodevoto-bot",{'spec': {'replicas': (SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)}, "maxReplicas": MAX_PODS})
+        # # if an increase poll scale bots
+        # if (i % POLLS_PER_INCREASE == 0):
+        #     print(f"{((i * POLL) / (RUNFOR * 60)) * 100}%")
+        #     appsApiClient.patch_namespaced_deployment_scale("vote-bot", "nodevoto-bot",{'spec': {'replicas': (SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)}, "maxReplicas": MAX_PODS})
 
         # get CPU, latency, counts, for targeted namespace
         start_timestamp = time.time()
         start_ns = time.monotonic_ns()
-        namespace_metrics = metrics.getResourceMetrics("nodevoto")
+        namespace_metrics = metrics.getResourceMetrics("default")
         end_ns = time.monotonic_ns()
         poll_time = end_ns - start_ns
 
         # get the actual number of running bots
-        bot_count = 0
-        bots = metrics.getResourceMetricsNoLinkerd("nodevoto-bot")
-        if ("votebot" in bots):
-            bot_count = bots["votebot"]["count"]
-        bots_over_time.append(bot_count)
+        # bot_count = 0
+        # bots = metrics.getResourceMetricsNoLinkerd("nodevoto-bot")
+        # if ("votebot" in bots):
+        #     bot_count = bots["votebot"]["count"]
+        # bots_over_time.append(bot_count)
 
         # for each deployment, determine desired vaue and scale if needed
         desired_state = {}
@@ -99,14 +99,15 @@ while i * POLL <= RUNFOR * 60:
 
             # if active and a change desired, request the change
             if (ACTIVE and value["count"] != desired):
-                appsApiClient.patch_namespaced_deployment_scale(deployment, "nodevoto",{'spec': {'replicas': desired, "maxReplicas": MAX_PODS}})
+                print(f"scaling {deployment}")
+                appsApiClient.patch_namespaced_deployment_scale(deployment, "default",{'spec': {'replicas': desired, "maxReplicas": MAX_PODS}})
 
             # if not active, we are not controlling desired, fetch it from the deployment spec
             elif (not ACTIVE):
-               desired_state[deployment] = appsApiClient.read_namespaced_deployment_status(deployment, "nodevoto").spec.replicas
+               desired_state[deployment] = appsApiClient.read_namespaced_deployment_status(deployment, "default").spec.replicas
 
         metrics_over_time.append(namespace_metrics)
-        combined = {"bots": bots, "metrics": namespace_metrics, "desired": desired_state, "start_s": start_timestamp, "took_ns": poll_time}
+        combined = {"metrics": namespace_metrics, "desired": desired_state, "start_s": start_timestamp, "took_ns": poll_time}
         combined_over_time.append(combined)
     except Exception as err:
         print(f"ERROR during {i}: " + str(err))
@@ -131,7 +132,7 @@ json.dump({"active": ACTIVE,
 params_file.close()
 
 # generate graphs
-graph.generate_graph(POLL, ACTIVE, metrics_over_time, combined_over_time, bots_over_time)
+#graph.generate_graph(POLL, ACTIVE, metrics_over_time, combined_over_time, bots_over_time)
 print("Run finished")
 
 # wait forever to avoid restart of the watcher pod
