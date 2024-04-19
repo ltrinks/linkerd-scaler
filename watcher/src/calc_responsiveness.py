@@ -105,18 +105,18 @@ for this_cpu in cpu:
 
 print(f"Percent new cpu value: {cpu_updates / len(run) * 100}%")
 
-# get web latency
-latencies = [float(slice["metrics"]["web"]["latency"]) for slice in run]
-print(f"web average latency: {sum(latencies) / len(latencies)}")
+# # get web latency
+# latencies = [float(slice["metrics"]["web"]["latency"]) for slice in run]
+# print(f"web average latency: {sum(latencies) / len(latencies)}")
 
-latency_updates = 0
-curr_lat = latencies[0]
-for latency in latencies:
-    if curr_lat != latency:
-        latency_updates += 1
-        curr_lat = latency
+# latency_updates = 0
+# curr_lat = latencies[0]
+# for latency in latencies:
+#     if curr_lat != latency:
+#         latency_updates += 1
+#         curr_lat = latency
 
-print(f"web latency percent new value: {latency_updates / len(run) * 100}%")
+# print(f"web latency percent new value: {latency_updates / len(run) * 100}%")
 
 # find the average length of a poll
 time_ns = [i["took_ns"] for i in run]

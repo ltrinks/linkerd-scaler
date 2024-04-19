@@ -23,6 +23,9 @@ INCREASES = 4 # number of times to increase before resetting
 POLLS_PER_INCREASE = 60 # number of polls between each increase
 TARGET = "15m" # CPU target metric, to update for HPA see nodevoto-hpa.yaml
 
+run_file = open("run.json")
+run = json.load(run_file)
+
 # remove previous run
 files = glob.glob('/metrics/*')
 for f in files:
@@ -93,8 +96,12 @@ while i * POLL <= RUNFOR * 60:
 
             value["gradual_cpu"] = gradual_change[-1]
 
+            # get the future values of the deployment from another run
+            future_values = [j["metrics"][deployment]["gradual_cpu"] for j in run[i: i + 45]]
+            use_value = max(max(future_values), 0) if len(future_values) > 1 else 0
+
             # based on https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/#algorithm-details
-            desired = max(math.ceil(gradual_change[-1] / target_cpu), 1)
+            desired = math.ceil(max(gradual_change[-1], use_value) / target_cpu)
             desired_state[deployment] = desired
 
             # if active and a change desired, request the change
