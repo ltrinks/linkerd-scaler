@@ -56,6 +56,9 @@ def getResourceMetrics(namespace):
             info[pod_name]["memory"] += float(quantity.parse_quantity(container["usage"]["memory"]))
             #info[pod_name]["pods"][pod["metadata"]["name"]]["memory"] += float(quantity.parse_quantity(container["usage"]["memory"]))
 
+    for deployment in info:
+        info[deployment]["utilization"] = round(100 * float(info[deployment]["cpu"] /  float(quantity.parse_quantity("50m"))) / info[deployment]["count"])
+
     return info
 
 # get metric data for deployments in a namespace without latency from linkerd, count all

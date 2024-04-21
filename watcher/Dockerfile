@@ -15,4 +15,4 @@ WORKDIR /usr/watcher
 COPY src .
 
 # execute when started
-CMD python act_before_main.py
+CMD python main.py

@@ -15,7 +15,7 @@ import requests
 
 ACTIVE = True # scale if true, watch only if false
 POLL = 15 # seconds
-RUNFOR = 70 # minutes
+RUNFOR = 600 # minutes
 
 SCALE_FACTOR = 20 # how many bots to add each increase
 MAX_PODS = 10 # max pods allowed for a deployment (bots and nodevoto)
@@ -80,7 +80,7 @@ while i * POLL <= RUNFOR * 60:
                 
                 prev = gradual_change[-1]
                 change = usage - prev
-                percent_change = abs(change) / prev
+                percent_change = abs(change) / (prev + 0.0000001)
                 if abs(change) > 0.05 * target_cpu:
                     direction = 1
                     if change < 0:

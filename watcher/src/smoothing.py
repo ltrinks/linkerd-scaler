@@ -11,8 +11,8 @@ run_file_name = sys.argv[1]
 run_file = open(run_file_name)
 run = json.load(run_file)
 
-web_cpu_utilization = [i["metrics"]["web"]["cpu"] for i in run]
-web_cpu_utilization_avg = [i["metrics"]["web"]["cpu"] / i["metrics"]["web"]["count"] for i in run]
+web_cpu_utilization = [i["metrics"]["corekube-worker"]["cpu"] for i in run]
+web_cpu_utilization_avg = [i["metrics"]["corekube-worker"]["cpu"] / i["metrics"]["corekube-worker"]["count"] for i in run]
 
 ema_cpu = pd.DataFrame({"previous": web_cpu_utilization}).ewm(com=0.9).mean()["previous"].tolist()
 
@@ -54,8 +54,8 @@ for i, value in enumerate(web_cpu_utilization):
     # change is insignificant, keep previous
     gradual_change_target.append(prev)
 
-gradual_change_total = [val * run[i]["metrics"]["web"]["count"] for i, val in enumerate(gradual_change)]
-gradual_change_target_total = [val * run[i]["metrics"]["web"]["count"] for i, val in enumerate(gradual_change_target)]
+gradual_change_total = [val * run[i]["metrics"]["corekube-worker"]["count"] for i, val in enumerate(gradual_change)]
+gradual_change_target_total = [val * run[i]["metrics"]["corekube-worker"]["count"] for i, val in enumerate(gradual_change_target)]
 
 ema_cpu = pd.DataFrame({"previous": gradual_change}).ewm(com=0.9).mean()["previous"].tolist()
 
@@ -66,4 +66,4 @@ plt.plot(x_axis, web_cpu_utilization, label="Raw", color="blue")
 plt.plot(x_axis, gradual_change_target, label="Gradual", color="grey")
 plt.legend()
 
-plt.show()
+plt.savefig("./smoothing.png")
