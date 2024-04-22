@@ -1,0 +1,9802 @@
+[
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000188967,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000188967
+			},
+			"corekube-frontend": {
+				"cpu": 0.000402965,
+				"memory": 1454080.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000402965
+			},
+			"corekube-worker": {
+				"cpu": 0.002310326,
+				"memory": 30019584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002310326
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756616.4798903,
+		"took_ns": 40265733
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000188967,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000188967
+			},
+			"corekube-frontend": {
+				"cpu": 0.000402965,
+				"memory": 1454080.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000402965
+			},
+			"corekube-worker": {
+				"cpu": 0.002310326,
+				"memory": 30019584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002310326
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756631.5203118,
+		"took_ns": 24059973
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000188967,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000188967
+			},
+			"corekube-frontend": {
+				"cpu": 0.000402965,
+				"memory": 1454080.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000402965
+			},
+			"corekube-worker": {
+				"cpu": 0.002310326,
+				"memory": 30019584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002310326
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756646.5446408,
+		"took_ns": 12513497
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000188967,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000188967
+			},
+			"corekube-frontend": {
+				"cpu": 0.000402965,
+				"memory": 1454080.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000402965
+			},
+			"corekube-worker": {
+				"cpu": 0.002310326,
+				"memory": 30019584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002310326
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756661.5573142,
+		"took_ns": 19561330
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000165353,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000165353
+			},
+			"corekube-frontend": {
+				"cpu": 0.000405426,
+				"memory": 1724416.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000405426
+			},
+			"corekube-worker": {
+				"cpu": 0.002510722,
+				"memory": 31608832.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002510722
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756676.5770261,
+		"took_ns": 16588471
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000165353,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000165353
+			},
+			"corekube-frontend": {
+				"cpu": 0.000405426,
+				"memory": 1724416.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000405426
+			},
+			"corekube-worker": {
+				"cpu": 0.002510722,
+				"memory": 31608832.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002510722
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756691.5937817,
+		"took_ns": 18964119
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000165353,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000165353
+			},
+			"corekube-frontend": {
+				"cpu": 0.000405426,
+				"memory": 1724416.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000405426
+			},
+			"corekube-worker": {
+				"cpu": 0.002510722,
+				"memory": 31608832.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002510722
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756706.6128988,
+		"took_ns": 14402586
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000165353,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000165353
+			},
+			"corekube-frontend": {
+				"cpu": 0.000405426,
+				"memory": 1724416.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000405426
+			},
+			"corekube-worker": {
+				"cpu": 0.002510722,
+				"memory": 31608832.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002510722
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756721.6274583,
+		"took_ns": 19631888
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000182413,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000182413
+			},
+			"corekube-frontend": {
+				"cpu": 0.00034229,
+				"memory": 1957888.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.00034229
+			},
+			"corekube-worker": {
+				"cpu": 0.002115227,
+				"memory": 32337920.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.002115227
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756736.6473608,
+		"took_ns": 13103446
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000182413,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000182413
+			},
+			"corekube-frontend": {
+				"cpu": 0.00034229,
+				"memory": 1957888.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.00034229
+			},
+			"corekube-worker": {
+				"cpu": 0.002115227,
+				"memory": 32337920.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.002115227
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756751.6607406,
+		"took_ns": 21053942
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000182413,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000182413
+			},
+			"corekube-frontend": {
+				"cpu": 0.00034229,
+				"memory": 1957888.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.00034229
+			},
+			"corekube-worker": {
+				"cpu": 0.002115227,
+				"memory": 32337920.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.002115227
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756766.6819248,
+		"took_ns": 13898952
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000182413,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000182413
+			},
+			"corekube-frontend": {
+				"cpu": 0.00034229,
+				"memory": 1957888.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.00034229
+			},
+			"corekube-worker": {
+				"cpu": 0.002115227,
+				"memory": 32337920.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.002115227
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756781.695953,
+		"took_ns": 20872404
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000174338,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000174338
+			},
+			"corekube-frontend": {
+				"cpu": 0.000357525,
+				"memory": 2191360.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000357525
+			},
+			"corekube-worker": {
+				"cpu": 0.002314737,
+				"memory": 32808960.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002314737
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756796.7169654,
+		"took_ns": 13559559
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000174338,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000174338
+			},
+			"corekube-frontend": {
+				"cpu": 0.000357525,
+				"memory": 2191360.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000357525
+			},
+			"corekube-worker": {
+				"cpu": 0.002314737,
+				"memory": 32808960.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002314737
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756811.7307417,
+		"took_ns": 20634549
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000174338,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000174338
+			},
+			"corekube-frontend": {
+				"cpu": 0.000357525,
+				"memory": 2191360.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000357525
+			},
+			"corekube-worker": {
+				"cpu": 0.002314737,
+				"memory": 32808960.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002314737
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756826.7515457,
+		"took_ns": 13298068
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000174338,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000174338
+			},
+			"corekube-frontend": {
+				"cpu": 0.000357525,
+				"memory": 2191360.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000357525
+			},
+			"corekube-worker": {
+				"cpu": 0.002314737,
+				"memory": 32808960.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002314737
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756841.7650008,
+		"took_ns": 19331599
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00015623,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.00015623
+			},
+			"corekube-frontend": {
+				"cpu": 0.0003741,
+				"memory": 2383872.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.0003741
+			},
+			"corekube-worker": {
+				"cpu": 0.002112538,
+				"memory": 33394688.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.002112538
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756856.7844856,
+		"took_ns": 15391653
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00015623,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.00015623
+			},
+			"corekube-frontend": {
+				"cpu": 0.0003741,
+				"memory": 2383872.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.0003741
+			},
+			"corekube-worker": {
+				"cpu": 0.002112538,
+				"memory": 33394688.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.002112538
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756871.800053,
+		"took_ns": 18818457
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00015623,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.00015623
+			},
+			"corekube-frontend": {
+				"cpu": 0.0003741,
+				"memory": 2383872.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.0003741
+			},
+			"corekube-worker": {
+				"cpu": 0.002112538,
+				"memory": 33394688.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.002112538
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756886.819025,
+		"took_ns": 11671031
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00015623,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.00015623
+			},
+			"corekube-frontend": {
+				"cpu": 0.0003741,
+				"memory": 2383872.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.0003741
+			},
+			"corekube-worker": {
+				"cpu": 0.002112538,
+				"memory": 33394688.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.002112538
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756901.8309195,
+		"took_ns": 19486441
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000180868,
+				"memory": 684032.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000180868
+			},
+			"corekube-frontend": {
+				"cpu": 0.000399276,
+				"memory": 2699264.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000399276
+			},
+			"corekube-worker": {
+				"cpu": 0.001706384,
+				"memory": 33902592.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001706384
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756916.8506885,
+		"took_ns": 14534588
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000180868,
+				"memory": 684032.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000180868
+			},
+			"corekube-frontend": {
+				"cpu": 0.000399276,
+				"memory": 2699264.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000399276
+			},
+			"corekube-worker": {
+				"cpu": 0.001706384,
+				"memory": 33902592.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001706384
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756931.8654556,
+		"took_ns": 17694361
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000180868,
+				"memory": 684032.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000180868
+			},
+			"corekube-frontend": {
+				"cpu": 0.000399276,
+				"memory": 2699264.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000399276
+			},
+			"corekube-worker": {
+				"cpu": 0.001706384,
+				"memory": 33902592.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001706384
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756946.8833258,
+		"took_ns": 11258923
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000180868,
+				"memory": 684032.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000180868
+			},
+			"corekube-frontend": {
+				"cpu": 0.000399276,
+				"memory": 2699264.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000399276
+			},
+			"corekube-worker": {
+				"cpu": 0.001706384,
+				"memory": 33902592.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001706384
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756961.8947408,
+		"took_ns": 19730371
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000162918,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000162918
+			},
+			"corekube-frontend": {
+				"cpu": 0.000333259,
+				"memory": 2846720.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000333259
+			},
+			"corekube-worker": {
+				"cpu": 0.001914235,
+				"memory": 34217984.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001914235
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756976.9146607,
+		"took_ns": 11388264
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000162918,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000162918
+			},
+			"corekube-frontend": {
+				"cpu": 0.000333259,
+				"memory": 2846720.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000333259
+			},
+			"corekube-worker": {
+				"cpu": 0.001914235,
+				"memory": 34217984.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001914235
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713756991.9262261,
+		"took_ns": 18850789
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000162918,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000162918
+			},
+			"corekube-frontend": {
+				"cpu": 0.000333259,
+				"memory": 2846720.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000333259
+			},
+			"corekube-worker": {
+				"cpu": 0.001914235,
+				"memory": 34217984.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001914235
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757006.94525,
+		"took_ns": 10796613
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000162918,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000162918
+			},
+			"corekube-frontend": {
+				"cpu": 0.000333259,
+				"memory": 2846720.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000333259
+			},
+			"corekube-worker": {
+				"cpu": 0.001914235,
+				"memory": 34217984.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001914235
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757021.9561803,
+		"took_ns": 18477887
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000159777,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000159777
+			},
+			"corekube-frontend": {
+				"cpu": 0.000355366,
+				"memory": 3080192.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000355366
+			},
+			"corekube-worker": {
+				"cpu": 0.002268703,
+				"memory": 34271232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002268703
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757036.974925,
+		"took_ns": 12067686
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000159777,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000159777
+			},
+			"corekube-frontend": {
+				"cpu": 0.000355366,
+				"memory": 3080192.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000355366
+			},
+			"corekube-worker": {
+				"cpu": 0.002268703,
+				"memory": 34271232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002268703
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757051.9871824,
+		"took_ns": 17302066
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000159777,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000159777
+			},
+			"corekube-frontend": {
+				"cpu": 0.000355366,
+				"memory": 3080192.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000355366
+			},
+			"corekube-worker": {
+				"cpu": 0.002268703,
+				"memory": 34271232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002268703
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757067.0046587,
+		"took_ns": 10795793
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000159777,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000159777
+			},
+			"corekube-frontend": {
+				"cpu": 0.000355366,
+				"memory": 3080192.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000355366
+			},
+			"corekube-worker": {
+				"cpu": 0.002268703,
+				"memory": 34271232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002268703
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757082.015644,
+		"took_ns": 16648921
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000163945,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000163945
+			},
+			"corekube-frontend": {
+				"cpu": 0.000334635,
+				"memory": 3350528.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000334635
+			},
+			"corekube-worker": {
+				"cpu": 0.001979345,
+				"memory": 34316288.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001979345
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757097.0324404,
+		"took_ns": 12148530
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000163945,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000163945
+			},
+			"corekube-frontend": {
+				"cpu": 0.000334635,
+				"memory": 3350528.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000334635
+			},
+			"corekube-worker": {
+				"cpu": 0.001979345,
+				"memory": 34316288.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001979345
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757114.7055435,
+		"took_ns": 22708328
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000163945,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000163945
+			},
+			"corekube-frontend": {
+				"cpu": 0.000334635,
+				"memory": 3350528.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000334635
+			},
+			"corekube-worker": {
+				"cpu": 0.001979345,
+				"memory": 34316288.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001979345
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757131.1126792,
+		"took_ns": 25930331
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000177836,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000177836
+			},
+			"corekube-frontend": {
+				"cpu": 0.000376854,
+				"memory": 3543040.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000376854
+			},
+			"corekube-worker": {
+				"cpu": 0.002410562,
+				"memory": 34390016.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002410562
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757147.5622814,
+		"took_ns": 11863135
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000177836,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000177836
+			},
+			"corekube-frontend": {
+				"cpu": 0.000376854,
+				"memory": 3543040.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000376854
+			},
+			"corekube-worker": {
+				"cpu": 0.002410562,
+				"memory": 34390016.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002410562
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757163.964221,
+		"took_ns": 25214794
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000177836,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000177836
+			},
+			"corekube-frontend": {
+				"cpu": 0.000376854,
+				"memory": 3543040.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000376854
+			},
+			"corekube-worker": {
+				"cpu": 0.002410562,
+				"memory": 34390016.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002410562
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757180.5374277,
+		"took_ns": 14402274
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000177836,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000177836
+			},
+			"corekube-frontend": {
+				"cpu": 0.000376854,
+				"memory": 3543040.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000376854
+			},
+			"corekube-worker": {
+				"cpu": 0.002410562,
+				"memory": 34390016.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002410562
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757196.9840071,
+		"took_ns": 12589007
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000180597,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000180597
+			},
+			"corekube-frontend": {
+				"cpu": 0.000366914,
+				"memory": 3817472.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000366914
+			},
+			"corekube-worker": {
+				"cpu": 0.001926727,
+				"memory": 34430976.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001926727
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757213.4062824,
+		"took_ns": 18149794
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000180597,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000180597
+			},
+			"corekube-frontend": {
+				"cpu": 0.000366914,
+				"memory": 3817472.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000366914
+			},
+			"corekube-worker": {
+				"cpu": 0.001926727,
+				"memory": 34430976.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001926727
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757229.9058518,
+		"took_ns": 15846978
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000180597,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000180597
+			},
+			"corekube-frontend": {
+				"cpu": 0.000366914,
+				"memory": 3817472.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000366914
+			},
+			"corekube-worker": {
+				"cpu": 0.001926727,
+				"memory": 34430976.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001926727
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757246.4901977,
+		"took_ns": 10147628
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00019058,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.00019058
+			},
+			"corekube-frontend": {
+				"cpu": 0.000435754,
+				"memory": 4096000.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000435754
+			},
+			"corekube-worker": {
+				"cpu": 0.002421981,
+				"memory": 34504704.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002421981
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757262.9117656,
+		"took_ns": 17950794
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00019058,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.00019058
+			},
+			"corekube-frontend": {
+				"cpu": 0.000435754,
+				"memory": 4096000.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000435754
+			},
+			"corekube-worker": {
+				"cpu": 0.002421981,
+				"memory": 34504704.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002421981
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757279.737879,
+		"took_ns": 13101051
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00019058,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.00019058
+			},
+			"corekube-frontend": {
+				"cpu": 0.000435754,
+				"memory": 4096000.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000435754
+			},
+			"corekube-worker": {
+				"cpu": 0.002421981,
+				"memory": 34504704.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002421981
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757296.2982967,
+		"took_ns": 8335126
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00019058,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.00019058
+			},
+			"corekube-frontend": {
+				"cpu": 0.000435754,
+				"memory": 4096000.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000435754
+			},
+			"corekube-worker": {
+				"cpu": 0.002421981,
+				"memory": 34504704.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 5,
+				"gradual_cpu": 0.002421981
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757312.7638352,
+		"took_ns": 17772461
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000179571,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000179571
+			},
+			"corekube-frontend": {
+				"cpu": 0.000369377,
+				"memory": 4329472.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000369377
+			},
+			"corekube-worker": {
+				"cpu": 0.001874147,
+				"memory": 34553856.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001874147
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757329.348675,
+		"took_ns": 14258042
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000179571,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000179571
+			},
+			"corekube-frontend": {
+				"cpu": 0.000369377,
+				"memory": 4329472.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000369377
+			},
+			"corekube-worker": {
+				"cpu": 0.001874147,
+				"memory": 34553856.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001874147
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757345.9522145,
+		"took_ns": 22471093
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000179571,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000179571
+			},
+			"corekube-frontend": {
+				"cpu": 0.000369377,
+				"memory": 4329472.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000369377
+			},
+			"corekube-worker": {
+				"cpu": 0.001874147,
+				"memory": 34553856.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001874147
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757362.4585805,
+		"took_ns": 18196127
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000179571,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000179571
+			},
+			"corekube-frontend": {
+				"cpu": 0.000369377,
+				"memory": 4329472.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000369377
+			},
+			"corekube-worker": {
+				"cpu": 0.001874147,
+				"memory": 34553856.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 4,
+				"gradual_cpu": 0.001874147
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757379.0908456,
+		"took_ns": 10732119
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000162848,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000162848
+			},
+			"corekube-frontend": {
+				"cpu": 0.000296382,
+				"memory": 4513792.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000296382
+			},
+			"corekube-worker": {
+				"cpu": 0.001720337,
+				"memory": 34619392.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001720337
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757395.62722,
+		"took_ns": 22307852
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000162848,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000162848
+			},
+			"corekube-frontend": {
+				"cpu": 0.000296382,
+				"memory": 4513792.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000296382
+			},
+			"corekube-worker": {
+				"cpu": 0.001720337,
+				"memory": 34619392.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001720337
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757412.1078868,
+		"took_ns": 18462788
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000162848,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000162848
+			},
+			"corekube-frontend": {
+				"cpu": 0.000296382,
+				"memory": 4513792.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000296382
+			},
+			"corekube-worker": {
+				"cpu": 0.001720337,
+				"memory": 34619392.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001720337
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757428.6827362,
+		"took_ns": 11824417
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000150063,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000150063
+			},
+			"corekube-frontend": {
+				"cpu": 0.000385074,
+				"memory": 4788224.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000385074
+			},
+			"corekube-worker": {
+				"cpu": 0.001665469,
+				"memory": 34627584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001665469
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757445.3423595,
+		"took_ns": 22025023
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000150063,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000150063
+			},
+			"corekube-frontend": {
+				"cpu": 0.000385074,
+				"memory": 4788224.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000385074
+			},
+			"corekube-worker": {
+				"cpu": 0.001665469,
+				"memory": 34627584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001665469
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757461.872079,
+		"took_ns": 19463643
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000150063,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000150063
+			},
+			"corekube-frontend": {
+				"cpu": 0.000385074,
+				"memory": 4788224.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000385074
+			},
+			"corekube-worker": {
+				"cpu": 0.001665469,
+				"memory": 34627584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001665469
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757478.4742837,
+		"took_ns": 10057668
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000150063,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000150063
+			},
+			"corekube-frontend": {
+				"cpu": 0.000385074,
+				"memory": 4788224.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000385074
+			},
+			"corekube-worker": {
+				"cpu": 0.001665469,
+				"memory": 34627584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001665469
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757495.0635734,
+		"took_ns": 23154045
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000156166,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000156166
+			},
+			"corekube-frontend": {
+				"cpu": 0.000304927,
+				"memory": 4939776.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000304927
+			},
+			"corekube-worker": {
+				"cpu": 0.001702369,
+				"memory": 34627584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001702369
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757511.6547499,
+		"took_ns": 13854250
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000156166,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000156166
+			},
+			"corekube-frontend": {
+				"cpu": 0.000304927,
+				"memory": 4939776.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000304927
+			},
+			"corekube-worker": {
+				"cpu": 0.001702369,
+				"memory": 34627584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001702369
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757528.2345192,
+		"took_ns": 11581632
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000156166,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000156166
+			},
+			"corekube-frontend": {
+				"cpu": 0.000304927,
+				"memory": 4939776.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000304927
+			},
+			"corekube-worker": {
+				"cpu": 0.001702369,
+				"memory": 34627584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001702369
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757544.8622355,
+		"took_ns": 18497157
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000156166,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000156166
+			},
+			"corekube-frontend": {
+				"cpu": 0.000304927,
+				"memory": 4939776.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000304927
+			},
+			"corekube-worker": {
+				"cpu": 0.001702369,
+				"memory": 34627584.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 3,
+				"gradual_cpu": 0.001702369
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757561.4596496,
+		"took_ns": 14525939
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000142826,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000142826
+			},
+			"corekube-frontend": {
+				"cpu": 0.000308442,
+				"memory": 5169152.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000308442
+			},
+			"corekube-worker": {
+				"cpu": 0.006088474,
+				"memory": 34869248.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 12,
+				"gradual_cpu": 0.0024523690000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757578.058875,
+		"took_ns": 9167799
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000142826,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000142826
+			},
+			"corekube-frontend": {
+				"cpu": 0.000308442,
+				"memory": 5169152.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000308442
+			},
+			"corekube-worker": {
+				"cpu": 0.006088474,
+				"memory": 34869248.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 12,
+				"gradual_cpu": 0.003202369
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757594.6271951,
+		"took_ns": 20253030
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.000142826,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 0,
+				"gradual_cpu": 0.000142826
+			},
+			"corekube-frontend": {
+				"cpu": 0.000308442,
+				"memory": 5169152.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 1,
+				"gradual_cpu": 0.000308442
+			},
+			"corekube-worker": {
+				"cpu": 0.006088474,
+				"memory": 34869248.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 12,
+				"gradual_cpu": 0.003952369
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757611.169482,
+		"took_ns": 13251901
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.002995229,
+				"memory": 684032.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 6,
+				"gradual_cpu": 0.000892826
+			},
+			"corekube-frontend": {
+				"cpu": 0.0070712,
+				"memory": 10362880.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.0010584420000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.031154411,
+				"memory": 34635776.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 62,
+				"gradual_cpu": 0.004702369
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757628.0530515,
+		"took_ns": 7875935
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.002995229,
+				"memory": 684032.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 6,
+				"gradual_cpu": 0.001642826
+			},
+			"corekube-frontend": {
+				"cpu": 0.0070712,
+				"memory": 10362880.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.0018084420000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.031154411,
+				"memory": 34635776.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 62,
+				"gradual_cpu": 0.0054523689999999994
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757644.7627974,
+		"took_ns": 29454571
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.002995229,
+				"memory": 684032.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 6,
+				"gradual_cpu": 0.002392826
+			},
+			"corekube-frontend": {
+				"cpu": 0.0070712,
+				"memory": 10362880.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.002558442
+			},
+			"corekube-worker": {
+				"cpu": 0.031154411,
+				"memory": 34635776.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 62,
+				"gradual_cpu": 0.006202368999999999
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 1
+		},
+		"start_s": 1713757661.3567379,
+		"took_ns": 13016547
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.002995229,
+				"memory": 684032.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 6,
+				"gradual_cpu": 0.002995229
+			},
+			"corekube-frontend": {
+				"cpu": 0.0070712,
+				"memory": 10362880.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.003308442
+			},
+			"corekube-worker": {
+				"cpu": 0.031154411,
+				"memory": 34635776.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 62,
+				"gradual_cpu": 0.006952368999999999
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 2
+		},
+		"start_s": 1713757677.9045672,
+		"took_ns": 8319865
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003105772,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 6,
+				"gradual_cpu": 0.003105772
+			},
+			"corekube-frontend": {
+				"cpu": 0.007106,
+				"memory": 14589952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.004058442
+			},
+			"corekube-worker": {
+				"cpu": 0.031523406,
+				"memory": 34639872.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 63,
+				"gradual_cpu": 0.007702368999999999
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 2
+		},
+		"start_s": 1713757694.4700031,
+		"took_ns": 17111431
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003105772,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 6,
+				"gradual_cpu": 0.003105772
+			},
+			"corekube-frontend": {
+				"cpu": 0.007106,
+				"memory": 14589952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.004808442
+			},
+			"corekube-worker": {
+				"cpu": 0.031523406,
+				"memory": 34639872.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 63,
+				"gradual_cpu": 0.008452369
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 2
+		},
+		"start_s": 1713757711.1057382,
+		"took_ns": 12982977
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003105772,
+				"memory": 679936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 6,
+				"gradual_cpu": 0.003105772
+			},
+			"corekube-frontend": {
+				"cpu": 0.007106,
+				"memory": 14589952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.005558441999999999
+			},
+			"corekube-worker": {
+				"cpu": 0.031523406,
+				"memory": 34639872.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 63,
+				"gradual_cpu": 0.009202369
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757727.7155564,
+		"took_ns": 23472915
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003660142,
+				"memory": 765952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003660142
+			},
+			"corekube-frontend": {
+				"cpu": 0.007796253,
+				"memory": 19353600.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.006308441999999999
+			},
+			"corekube-worker": {
+				"cpu": 0.0332198,
+				"memory": 67526656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.009952369
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757744.345137,
+		"took_ns": 27827291
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003660142,
+				"memory": 765952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003660142
+			},
+			"corekube-frontend": {
+				"cpu": 0.007796253,
+				"memory": 19353600.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007058441999999999
+			},
+			"corekube-worker": {
+				"cpu": 0.0332198,
+				"memory": 67526656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.010702369000000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757761.0570934,
+		"took_ns": 16318472
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003660142,
+				"memory": 765952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003660142
+			},
+			"corekube-frontend": {
+				"cpu": 0.007796253,
+				"memory": 19353600.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007796253
+			},
+			"corekube-worker": {
+				"cpu": 0.0332198,
+				"memory": 67526656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.011452369000000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757777.7084808,
+		"took_ns": 22428673
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003660142,
+				"memory": 765952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003660142
+			},
+			"corekube-frontend": {
+				"cpu": 0.007796253,
+				"memory": 19353600.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007796253
+			},
+			"corekube-worker": {
+				"cpu": 0.0332198,
+				"memory": 67526656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.012202369000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757794.3603432,
+		"took_ns": 18887326
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003747134,
+				"memory": 770048.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003747134
+			},
+			"corekube-frontend": {
+				"cpu": 0.008083721,
+				"memory": 24166400.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008083721
+			},
+			"corekube-worker": {
+				"cpu": 0.022074227000000002,
+				"memory": 69128192.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.012952369000000004
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757811.0621033,
+		"took_ns": 11451970
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003747134,
+				"memory": 770048.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003747134
+			},
+			"corekube-frontend": {
+				"cpu": 0.008083721,
+				"memory": 24166400.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008083721
+			},
+			"corekube-worker": {
+				"cpu": 0.022074227000000002,
+				"memory": 69128192.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.013702369000000004
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757827.723161,
+		"took_ns": 20231278
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003747134,
+				"memory": 770048.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003747134
+			},
+			"corekube-frontend": {
+				"cpu": 0.008083721,
+				"memory": 24166400.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008083721
+			},
+			"corekube-worker": {
+				"cpu": 0.022074227000000002,
+				"memory": 69128192.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.014452369000000005
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757844.365456,
+		"took_ns": 16812808
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003747134,
+				"memory": 770048.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003747134
+			},
+			"corekube-frontend": {
+				"cpu": 0.008083721,
+				"memory": 24166400.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008083721
+			},
+			"corekube-worker": {
+				"cpu": 0.022074227000000002,
+				"memory": 69128192.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.015202369000000006
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757861.0112345,
+		"took_ns": 11642762
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003717093,
+				"memory": 770048.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003717093
+			},
+			"corekube-frontend": {
+				"cpu": 0.008048812,
+				"memory": 29315072.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008048812
+			},
+			"corekube-worker": {
+				"cpu": 0.032463216,
+				"memory": 103780352.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.015952369000000004
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 2
+		},
+		"start_s": 1713757877.6758864,
+		"took_ns": 32980229
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003717093,
+				"memory": 770048.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003717093
+			},
+			"corekube-frontend": {
+				"cpu": 0.008048812,
+				"memory": 29315072.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008048812
+			},
+			"corekube-worker": {
+				"cpu": 0.032463216,
+				"memory": 103780352.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.016702369000000005
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 2
+		},
+		"start_s": 1713757894.433449,
+		"took_ns": 17919226
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003717093,
+				"memory": 770048.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003717093
+			},
+			"corekube-frontend": {
+				"cpu": 0.008048812,
+				"memory": 29315072.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008048812
+			},
+			"corekube-worker": {
+				"cpu": 0.021752432000000002,
+				"memory": 69361664.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.017452369000000006
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 2
+		},
+		"start_s": 1713757911.0879805,
+		"took_ns": 11743819
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.004088534,
+				"memory": 765952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 8,
+				"gradual_cpu": 0.004088534
+			},
+			"corekube-frontend": {
+				"cpu": 0.008215725,
+				"memory": 34000896.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008215725
+			},
+			"corekube-worker": {
+				"cpu": 0.031030170000000003,
+				"memory": 69308416.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.018202369000000006
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 2
+		},
+		"start_s": 1713757927.7561815,
+		"took_ns": 21727861
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.004088534,
+				"memory": 765952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 8,
+				"gradual_cpu": 0.004088534
+			},
+			"corekube-frontend": {
+				"cpu": 0.008215725,
+				"memory": 34000896.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008215725
+			},
+			"corekube-worker": {
+				"cpu": 0.031030170000000003,
+				"memory": 69308416.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.018952369000000007
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 2
+		},
+		"start_s": 1713757944.4838793,
+		"took_ns": 18115277
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.004088534,
+				"memory": 765952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 8,
+				"gradual_cpu": 0.004088534
+			},
+			"corekube-frontend": {
+				"cpu": 0.008215725,
+				"memory": 34000896.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008215725
+			},
+			"corekube-worker": {
+				"cpu": 0.031030170000000003,
+				"memory": 69308416.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.019702369000000008
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 2
+		},
+		"start_s": 1713757961.1985598,
+		"took_ns": 11699044
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.004088534,
+				"memory": 765952.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 8,
+				"gradual_cpu": 0.004088534
+			},
+			"corekube-frontend": {
+				"cpu": 0.008215725,
+				"memory": 34000896.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008215725
+			},
+			"corekube-worker": {
+				"cpu": 0.031030170000000003,
+				"memory": 69308416.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.02045236900000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757977.8469355,
+		"took_ns": 20292268
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003799049,
+				"memory": 749568.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 8,
+				"gradual_cpu": 0.003799049
+			},
+			"corekube-frontend": {
+				"cpu": 0.0075576,
+				"memory": 38236160.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.0075576
+			},
+			"corekube-worker": {
+				"cpu": 0.035461489,
+				"memory": 69398528.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.02120236900000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713757994.5040615,
+		"took_ns": 18101749
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003799049,
+				"memory": 749568.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 8,
+				"gradual_cpu": 0.003799049
+			},
+			"corekube-frontend": {
+				"cpu": 0.0075576,
+				"memory": 38236160.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.0075576
+			},
+			"corekube-worker": {
+				"cpu": 0.035461489,
+				"memory": 69398528.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.02195236900000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758011.1809096,
+		"took_ns": 9118927
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003799049,
+				"memory": 749568.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 8,
+				"gradual_cpu": 0.003799049
+			},
+			"corekube-frontend": {
+				"cpu": 0.0075576,
+				"memory": 38236160.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.0075576
+			},
+			"corekube-worker": {
+				"cpu": 0.035461489,
+				"memory": 69398528.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.02270236900000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758028.1291625,
+		"took_ns": 21650369
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534272,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534272
+			},
+			"corekube-frontend": {
+				"cpu": 0.007461854,
+				"memory": 42926080.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007461854
+			},
+			"corekube-worker": {
+				"cpu": 0.031635766,
+				"memory": 101498880.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.02345236900000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758044.848298,
+		"took_ns": 28718657
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534272,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534272
+			},
+			"corekube-frontend": {
+				"cpu": 0.007461854,
+				"memory": 42926080.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007461854
+			},
+			"corekube-worker": {
+				"cpu": 0.031635766,
+				"memory": 101498880.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.024202369000000012
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758061.5185375,
+		"took_ns": 13005150
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534272,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534272
+			},
+			"corekube-frontend": {
+				"cpu": 0.007461854,
+				"memory": 42926080.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007461854
+			},
+			"corekube-worker": {
+				"cpu": 0.031635766,
+				"memory": 101498880.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.024952369000000012
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758078.2124066,
+		"took_ns": 21967220
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534272,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534272
+			},
+			"corekube-frontend": {
+				"cpu": 0.007461854,
+				"memory": 42926080.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007461854
+			},
+			"corekube-worker": {
+				"cpu": 0.031635766,
+				"memory": 101498880.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.025702369000000013
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758094.941224,
+		"took_ns": 18891767
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003635962,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003635962
+			},
+			"corekube-frontend": {
+				"cpu": 0.007967,
+				"memory": 47566848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007967
+			},
+			"corekube-worker": {
+				"cpu": 0.030754034,
+				"memory": 104038400.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.026452369000000014
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758111.619277,
+		"took_ns": 9954591
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003635962,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003635962
+			},
+			"corekube-frontend": {
+				"cpu": 0.007967,
+				"memory": 47566848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007967
+			},
+			"corekube-worker": {
+				"cpu": 0.030754034,
+				"memory": 104038400.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.027202369000000014
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758128.2583003,
+		"took_ns": 22175247
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003635962,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003635962
+			},
+			"corekube-frontend": {
+				"cpu": 0.007967,
+				"memory": 47566848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007967
+			},
+			"corekube-worker": {
+				"cpu": 0.030754034,
+				"memory": 104038400.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.027952369000000015
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758144.9795513,
+		"took_ns": 17349796
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003635962,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003635962
+			},
+			"corekube-frontend": {
+				"cpu": 0.007967,
+				"memory": 47566848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007967
+			},
+			"corekube-worker": {
+				"cpu": 0.030754034,
+				"memory": 104038400.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.028702369000000016
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758161.6154625,
+		"took_ns": 11921282
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534907,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534907
+			},
+			"corekube-frontend": {
+				"cpu": 0.007350544,
+				"memory": 52903936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007350544
+			},
+			"corekube-worker": {
+				"cpu": 0.029976675,
+				"memory": 103923712.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.029452369000000016
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758178.2834673,
+		"took_ns": 20475931
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534907,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534907
+			},
+			"corekube-frontend": {
+				"cpu": 0.007350544,
+				"memory": 52903936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007350544
+			},
+			"corekube-worker": {
+				"cpu": 0.029976675,
+				"memory": 103923712.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.029976675
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758194.9185956,
+		"took_ns": 13711244
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534907,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534907
+			},
+			"corekube-frontend": {
+				"cpu": 0.007350544,
+				"memory": 52903936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007350544
+			},
+			"corekube-worker": {
+				"cpu": 0.029976675,
+				"memory": 103923712.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.029976675
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758211.5602584,
+		"took_ns": 11627759
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534584,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534584
+			},
+			"corekube-frontend": {
+				"cpu": 0.007482811,
+				"memory": 56999936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007482811
+			},
+			"corekube-worker": {
+				"cpu": 0.029381913000000003,
+				"memory": 103968768.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.029381913000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758228.2100003,
+		"took_ns": 19018767
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534584,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534584
+			},
+			"corekube-frontend": {
+				"cpu": 0.007482811,
+				"memory": 56999936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007482811
+			},
+			"corekube-worker": {
+				"cpu": 0.029381913000000003,
+				"memory": 103968768.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.029381913000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758244.9032683,
+		"took_ns": 17641390
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534584,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534584
+			},
+			"corekube-frontend": {
+				"cpu": 0.007482811,
+				"memory": 56999936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007482811
+			},
+			"corekube-worker": {
+				"cpu": 0.029381913000000003,
+				"memory": 103968768.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.029381913000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758261.6235347,
+		"took_ns": 9533232
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003534584,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003534584
+			},
+			"corekube-frontend": {
+				"cpu": 0.007482811,
+				"memory": 56999936.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007482811
+			},
+			"corekube-worker": {
+				"cpu": 0.029381913000000003,
+				"memory": 103968768.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.029381913000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758278.324195,
+		"took_ns": 24681466
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003601509,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003601509
+			},
+			"corekube-frontend": {
+				"cpu": 0.007695969,
+				"memory": 61939712.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007695969
+			},
+			"corekube-worker": {
+				"cpu": 0.030798849000000003,
+				"memory": 104210432.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.030131913000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758295.0554457,
+		"took_ns": 18221924
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003601509,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003601509
+			},
+			"corekube-frontend": {
+				"cpu": 0.007695969,
+				"memory": 61939712.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007695969
+			},
+			"corekube-worker": {
+				"cpu": 0.030798849000000003,
+				"memory": 104210432.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.030798849000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758311.7070644,
+		"took_ns": 9500961
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003601509,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003601509
+			},
+			"corekube-frontend": {
+				"cpu": 0.007695969,
+				"memory": 61939712.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007695969
+			},
+			"corekube-worker": {
+				"cpu": 0.030798849000000003,
+				"memory": 104210432.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.030798849000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758328.4288146,
+		"took_ns": 18479337
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003554656,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003554656
+			},
+			"corekube-frontend": {
+				"cpu": 0.007462135,
+				"memory": 66650112.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007462135
+			},
+			"corekube-worker": {
+				"cpu": 0.030036896,
+				"memory": 104046592.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030048849000000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758345.1664104,
+		"took_ns": 16849338
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003554656,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003554656
+			},
+			"corekube-frontend": {
+				"cpu": 0.007462135,
+				"memory": 66650112.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007462135
+			},
+			"corekube-worker": {
+				"cpu": 0.030036896,
+				"memory": 104046592.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030036896
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758361.8709316,
+		"took_ns": 15101494
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003554656,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003554656
+			},
+			"corekube-frontend": {
+				"cpu": 0.007462135,
+				"memory": 66650112.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007462135
+			},
+			"corekube-worker": {
+				"cpu": 0.030036896,
+				"memory": 104046592.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030036896
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758378.935344,
+		"took_ns": 19671171
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003554656,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003554656
+			},
+			"corekube-frontend": {
+				"cpu": 0.007462135,
+				"memory": 66650112.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007462135
+			},
+			"corekube-worker": {
+				"cpu": 0.030036896,
+				"memory": 104046592.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030036896
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758395.5916584,
+		"took_ns": 15678131
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003621953,
+				"memory": 790528.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003621953
+			},
+			"corekube-frontend": {
+				"cpu": 0.007500478,
+				"memory": 69910528.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007500478
+			},
+			"corekube-worker": {
+				"cpu": 0.031554140999999994,
+				"memory": 103997440.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.030786896
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758412.2578342,
+		"took_ns": 9641292
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003621953,
+				"memory": 790528.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003621953
+			},
+			"corekube-frontend": {
+				"cpu": 0.007500478,
+				"memory": 69910528.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007500478
+			},
+			"corekube-worker": {
+				"cpu": 0.031554140999999994,
+				"memory": 103997440.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.031536896
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758429.0833182,
+		"took_ns": 18887482
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003621953,
+				"memory": 790528.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003621953
+			},
+			"corekube-frontend": {
+				"cpu": 0.007500478,
+				"memory": 69910528.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007500478
+			},
+			"corekube-worker": {
+				"cpu": 0.031554140999999994,
+				"memory": 103997440.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.031554140999999994
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758445.8576176,
+		"took_ns": 14005943
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003516157,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003516157
+			},
+			"corekube-frontend": {
+				"cpu": 0.007457723,
+				"memory": 75055104.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007457723
+			},
+			"corekube-worker": {
+				"cpu": 0.029456833,
+				"memory": 104144896.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030804140999999993
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758462.4509606,
+		"took_ns": 11699749
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003516157,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003516157
+			},
+			"corekube-frontend": {
+				"cpu": 0.007457723,
+				"memory": 75055104.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007457723
+			},
+			"corekube-worker": {
+				"cpu": 0.029456833,
+				"memory": 104144896.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030054140999999993
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758479.2712617,
+		"took_ns": 22024566
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003516157,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003516157
+			},
+			"corekube-frontend": {
+				"cpu": 0.007457723,
+				"memory": 75055104.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007457723
+			},
+			"corekube-worker": {
+				"cpu": 0.029456833,
+				"memory": 104144896.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.029456833
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758496.0042512,
+		"took_ns": 14322900
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.003516157,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.003516157
+			},
+			"corekube-frontend": {
+				"cpu": 0.007457723,
+				"memory": 75055104.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007457723
+			},
+			"corekube-worker": {
+				"cpu": 0.029456833,
+				"memory": 104144896.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.029456833
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758512.6593301,
+		"took_ns": 9320996
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00364524,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.00364524
+			},
+			"corekube-frontend": {
+				"cpu": 0.007697344,
+				"memory": 79642624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007697344
+			},
+			"corekube-worker": {
+				"cpu": 0.030670844000000003,
+				"memory": 103919616.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030206833000000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758529.4286752,
+		"took_ns": 21684609
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00364524,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.00364524
+			},
+			"corekube-frontend": {
+				"cpu": 0.007697344,
+				"memory": 79642624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007697344
+			},
+			"corekube-worker": {
+				"cpu": 0.030670844000000003,
+				"memory": 103919616.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030670844000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758546.2970512,
+		"took_ns": 14807510
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00364524,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.00364524
+			},
+			"corekube-frontend": {
+				"cpu": 0.007697344,
+				"memory": 79642624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007697344
+			},
+			"corekube-worker": {
+				"cpu": 0.030670844000000003,
+				"memory": 103919616.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030670844000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758563.0250978,
+		"took_ns": 9181248
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00364524,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 7,
+				"gradual_cpu": 0.00364524
+			},
+			"corekube-frontend": {
+				"cpu": 0.007697344,
+				"memory": 79642624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007697344
+			},
+			"corekube-worker": {
+				"cpu": 0.030670844000000003,
+				"memory": 103919616.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030670844000000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758579.9268758,
+		"took_ns": 19817685
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.005012918,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 10,
+				"gradual_cpu": 0.00439524
+			},
+			"corekube-frontend": {
+				"cpu": 0.010807833,
+				"memory": 87191552.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.008447344
+			},
+			"corekube-worker": {
+				"cpu": 0.041744133,
+				"memory": 104046592.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.031420844
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758596.7244232,
+		"took_ns": 16173396
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.005012918,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 10,
+				"gradual_cpu": 0.005012918
+			},
+			"corekube-frontend": {
+				"cpu": 0.010807833,
+				"memory": 87191552.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.009197344000000001
+			},
+			"corekube-worker": {
+				"cpu": 0.041744133,
+				"memory": 104046592.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.032170844000000004
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758613.388625,
+		"took_ns": 9593205
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.005012918,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 10,
+				"gradual_cpu": 0.005012918
+			},
+			"corekube-frontend": {
+				"cpu": 0.010807833,
+				"memory": 87191552.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.009947344000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.041744133,
+				"memory": 104046592.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.032920844000000005
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758630.2010288,
+		"took_ns": 20017338
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006756746,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.005762918
+			},
+			"corekube-frontend": {
+				"cpu": 0.014110333,
+				"memory": 96800768.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.010697344000000003
+			},
+			"corekube-worker": {
+				"cpu": 0.056354602000000004,
+				"memory": 104144896.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 38,
+				"gradual_cpu": 0.033670844000000005
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758647.0325704,
+		"took_ns": 16691579
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006756746,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.0065129179999999995
+			},
+			"corekube-frontend": {
+				"cpu": 0.014110333,
+				"memory": 96800768.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.011447344000000003
+			},
+			"corekube-worker": {
+				"cpu": 0.056354602000000004,
+				"memory": 104144896.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 38,
+				"gradual_cpu": 0.034420844000000006
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758663.6674404,
+		"took_ns": 13750467
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006756746,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.006756746
+			},
+			"corekube-frontend": {
+				"cpu": 0.014110333,
+				"memory": 96800768.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.012197344000000004
+			},
+			"corekube-worker": {
+				"cpu": 0.056354602000000004,
+				"memory": 104144896.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 38,
+				"gradual_cpu": 0.03517084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 3
+		},
+		"start_s": 1713758680.7673082,
+		"took_ns": 20526807
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006756746,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.006756746
+			},
+			"corekube-frontend": {
+				"cpu": 0.014110333,
+				"memory": 96800768.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.012947344000000005
+			},
+			"corekube-worker": {
+				"cpu": 0.056354602000000004,
+				"memory": 104144896.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 38,
+				"gradual_cpu": 0.03592084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758697.4863122,
+		"took_ns": 13709675
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006610116,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 13,
+				"gradual_cpu": 0.006610116
+			},
+			"corekube-frontend": {
+				"cpu": 0.014232898,
+				"memory": 106024960.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.013697344000000005
+			},
+			"corekube-worker": {
+				"cpu": 0.056589113999999996,
+				"memory": 104116224.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 38,
+				"gradual_cpu": 0.03667084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758714.2019296,
+		"took_ns": 13358342
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006610116,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 13,
+				"gradual_cpu": 0.006610116
+			},
+			"corekube-frontend": {
+				"cpu": 0.014232898,
+				"memory": 106024960.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.014232898
+			},
+			"corekube-worker": {
+				"cpu": 0.056589113999999996,
+				"memory": 104116224.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 38,
+				"gradual_cpu": 0.03742084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758730.9341872,
+		"took_ns": 20190700
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006610116,
+				"memory": 794624.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 13,
+				"gradual_cpu": 0.006610116
+			},
+			"corekube-frontend": {
+				"cpu": 0.014232898,
+				"memory": 106024960.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.014232898
+			},
+			"corekube-worker": {
+				"cpu": 0.056589113999999996,
+				"memory": 104116224.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 38,
+				"gradual_cpu": 0.03817084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758747.7000945,
+		"took_ns": 12836362
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006882481,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.006882481
+			},
+			"corekube-frontend": {
+				"cpu": 0.014304818,
+				"memory": 116371456.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.014304818
+			},
+			"corekube-worker": {
+				"cpu": 0.056645597000000006,
+				"memory": 136798208.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.03892084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758764.397645,
+		"took_ns": 22504561
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006882481,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.006882481
+			},
+			"corekube-frontend": {
+				"cpu": 0.014304818,
+				"memory": 116371456.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.014304818
+			},
+			"corekube-worker": {
+				"cpu": 0.056645597000000006,
+				"memory": 136798208.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.03967084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758781.215308,
+		"took_ns": 19426507
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006882481,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.006882481
+			},
+			"corekube-frontend": {
+				"cpu": 0.014304818,
+				"memory": 116371456.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.014304818
+			},
+			"corekube-worker": {
+				"cpu": 0.056645597000000006,
+				"memory": 136798208.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.04042084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758797.9920027,
+		"took_ns": 15069683
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.006882481,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.006882481
+			},
+			"corekube-frontend": {
+				"cpu": 0.014304818,
+				"memory": 116371456.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.014304818
+			},
+			"corekube-worker": {
+				"cpu": 0.056645597000000006,
+				"memory": 136798208.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.04117084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758814.724116,
+		"took_ns": 15502609
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00720658,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.00720658
+			},
+			"corekube-frontend": {
+				"cpu": 0.014704896,
+				"memory": 125218816.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.014704896
+			},
+			"corekube-worker": {
+				"cpu": 0.059783756,
+				"memory": 138739712.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.04192084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758831.4550176,
+		"took_ns": 21656489
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00720658,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.00720658
+			},
+			"corekube-frontend": {
+				"cpu": 0.014704896,
+				"memory": 125218816.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.014704896
+			},
+			"corekube-worker": {
+				"cpu": 0.059783756,
+				"memory": 138739712.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.04267084400000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758848.2448628,
+		"took_ns": 16100846
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00720658,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.00720658
+			},
+			"corekube-frontend": {
+				"cpu": 0.014704896,
+				"memory": 125218816.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.014704896
+			},
+			"corekube-worker": {
+				"cpu": 0.059783756,
+				"memory": 138739712.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.043420844000000014
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758865.0682156,
+		"took_ns": 12705415
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00720658,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.00720658
+			},
+			"corekube-frontend": {
+				"cpu": 0.014704896,
+				"memory": 125218816.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.014704896
+			},
+			"corekube-worker": {
+				"cpu": 0.059783756,
+				"memory": 138739712.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.044170844000000015
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 1,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758881.8716753,
+		"took_ns": 21377272
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007736032,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007736032
+			},
+			"corekube-frontend": {
+				"cpu": 0.0161168,
+				"memory": 134569984.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.015454896000000001
+			},
+			"corekube-worker": {
+				"cpu": 0.065271703,
+				"memory": 138711040.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.044920844000000015
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758898.720934,
+		"took_ns": 16257237
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007736032,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007736032
+			},
+			"corekube-frontend": {
+				"cpu": 0.0161168,
+				"memory": 134569984.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.0161168
+			},
+			"corekube-worker": {
+				"cpu": 0.065271703,
+				"memory": 138711040.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.045670844000000016
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758915.5141013,
+		"took_ns": 10259732
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007736032,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007736032
+			},
+			"corekube-frontend": {
+				"cpu": 0.0161168,
+				"memory": 134569984.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.0161168
+			},
+			"corekube-worker": {
+				"cpu": 0.065271703,
+				"memory": 138711040.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.04642084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713758932.4834986,
+		"took_ns": 20691600
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00710664,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.00710664
+			},
+			"corekube-frontend": {
+				"cpu": 0.017394892000000002,
+				"memory": 143462400.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.0168668
+			},
+			"corekube-worker": {
+				"cpu": 0.057806716,
+				"memory": 138723328.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.04717084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713758949.3124325,
+		"took_ns": 32388551
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00710664,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.00710664
+			},
+			"corekube-frontend": {
+				"cpu": 0.017394892000000002,
+				"memory": 143462400.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.017394892000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.057806716,
+				"memory": 138723328.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.04792084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713758966.2328494,
+		"took_ns": 15339505
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00710664,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.00710664
+			},
+			"corekube-frontend": {
+				"cpu": 0.017394892000000002,
+				"memory": 143462400.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.017394892000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.057806716,
+				"memory": 138723328.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.04867084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713758982.9821382,
+		"took_ns": 21286441
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.00710664,
+				"memory": 839680.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.00710664
+			},
+			"corekube-frontend": {
+				"cpu": 0.017394892000000002,
+				"memory": 143462400.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.017394892000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.057806716,
+				"memory": 138723328.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.04942084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713758999.9207432,
+		"took_ns": 16125416
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007209075,
+				"memory": 880640.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.007209075
+			},
+			"corekube-frontend": {
+				"cpu": 0.014967669999999999,
+				"memory": 153571328.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.016644892
+			},
+			"corekube-worker": {
+				"cpu": 0.059055465,
+				"memory": 170668032.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.05017084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759016.7456625,
+		"took_ns": 18677358
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007209075,
+				"memory": 880640.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.007209075
+			},
+			"corekube-frontend": {
+				"cpu": 0.014967669999999999,
+				"memory": 153571328.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.015894892
+			},
+			"corekube-worker": {
+				"cpu": 0.059055465,
+				"memory": 170668032.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.05092084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713759033.5000536,
+		"took_ns": 24507017
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007209075,
+				"memory": 880640.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 14,
+				"gradual_cpu": 0.007209075
+			},
+			"corekube-frontend": {
+				"cpu": 0.014967669999999999,
+				"memory": 153571328.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.015144892
+			},
+			"corekube-worker": {
+				"cpu": 0.059055465,
+				"memory": 170668032.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.05167084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713759050.4345372,
+		"took_ns": 19482260
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008057532,
+				"memory": 876544.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007959075
+			},
+			"corekube-frontend": {
+				"cpu": 0.017122272,
+				"memory": 162955264.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.015894892
+			},
+			"corekube-worker": {
+				"cpu": 0.055230930000000004,
+				"memory": 138633216.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.05242084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713759067.2868564,
+		"took_ns": 12948157
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008057532,
+				"memory": 876544.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008057532
+			},
+			"corekube-frontend": {
+				"cpu": 0.017122272,
+				"memory": 162955264.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016644892
+			},
+			"corekube-worker": {
+				"cpu": 0.055230930000000004,
+				"memory": 138633216.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.05317084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713759084.1253457,
+		"took_ns": 7938180
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008057532,
+				"memory": 876544.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008057532
+			},
+			"corekube-frontend": {
+				"cpu": 0.017122272,
+				"memory": 162955264.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.017122272
+			},
+			"corekube-worker": {
+				"cpu": 0.055230930000000004,
+				"memory": 138633216.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.05392084400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713759100.9650342,
+		"took_ns": 17377905
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008057532,
+				"memory": 876544.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008057532
+			},
+			"corekube-frontend": {
+				"cpu": 0.017122272,
+				"memory": 162955264.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.017122272
+			},
+			"corekube-worker": {
+				"cpu": 0.055230930000000004,
+				"memory": 138633216.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.054670844000000024
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713759117.7173657,
+		"took_ns": 15457022
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008141545,
+				"memory": 864256.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008141545
+			},
+			"corekube-frontend": {
+				"cpu": 0.016736187,
+				"memory": 172134400.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016736187
+			},
+			"corekube-worker": {
+				"cpu": 0.068378515,
+				"memory": 138588160.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.055420844000000025
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713759134.6038337,
+		"took_ns": 9434810
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008141545,
+				"memory": 864256.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008141545
+			},
+			"corekube-frontend": {
+				"cpu": 0.016736187,
+				"memory": 172134400.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016736187
+			},
+			"corekube-worker": {
+				"cpu": 0.068378515,
+				"memory": 138588160.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.056170844000000025
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713759151.3941271,
+		"took_ns": 17433333
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008141545,
+				"memory": 864256.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008141545
+			},
+			"corekube-frontend": {
+				"cpu": 0.016736187,
+				"memory": 172134400.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016736187
+			},
+			"corekube-worker": {
+				"cpu": 0.068378515,
+				"memory": 138588160.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.056920844000000026
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713759168.192769,
+		"took_ns": 12711490
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008427559,
+				"memory": 864256.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.008427559
+			},
+			"corekube-frontend": {
+				"cpu": 0.017090501,
+				"memory": 180871168.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.017090501
+			},
+			"corekube-worker": {
+				"cpu": 0.069299259,
+				"memory": 138842112.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.05767084400000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 4
+		},
+		"start_s": 1713759185.0520298,
+		"took_ns": 10643363
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008427559,
+				"memory": 864256.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.008427559
+			},
+			"corekube-frontend": {
+				"cpu": 0.017090501,
+				"memory": 180871168.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.017090501
+			},
+			"corekube-worker": {
+				"cpu": 0.069299259,
+				"memory": 138842112.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.05842084400000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759202.0859976,
+		"took_ns": 20799300
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008427559,
+				"memory": 864256.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.008427559
+			},
+			"corekube-frontend": {
+				"cpu": 0.017090501,
+				"memory": 180871168.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.017090501
+			},
+			"corekube-worker": {
+				"cpu": 0.069299259,
+				"memory": 138842112.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.05917084400000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759218.9970016,
+		"took_ns": 15350358
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008427559,
+				"memory": 864256.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.008427559
+			},
+			"corekube-frontend": {
+				"cpu": 0.017090501,
+				"memory": 180871168.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.017090501
+			},
+			"corekube-worker": {
+				"cpu": 0.069299259,
+				"memory": 138842112.0,
+				"count": 4,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.05992084400000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759235.8237941,
+		"took_ns": 9391945
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008139078,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008139078
+			},
+			"corekube-frontend": {
+				"cpu": 0.016213864,
+				"memory": 189390848.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016340501
+			},
+			"corekube-worker": {
+				"cpu": 0.07372607,
+				"memory": 160223232.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.06067084400000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759252.5872724,
+		"took_ns": 33153583
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008139078,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008139078
+			},
+			"corekube-frontend": {
+				"cpu": 0.016213864,
+				"memory": 189390848.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016213864
+			},
+			"corekube-worker": {
+				"cpu": 0.07372607,
+				"memory": 160223232.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.06142084400000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759269.4971035,
+		"took_ns": 14632489
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008139078,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008139078
+			},
+			"corekube-frontend": {
+				"cpu": 0.016213864,
+				"memory": 189390848.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016213864
+			},
+			"corekube-worker": {
+				"cpu": 0.07372607,
+				"memory": 160223232.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.06217084400000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759286.4712858,
+		"took_ns": 8956007
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007934278,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007934278
+			},
+			"corekube-frontend": {
+				"cpu": 0.016271679,
+				"memory": 199663616.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016271679
+			},
+			"corekube-worker": {
+				"cpu": 0.063412175,
+				"memory": 173019136.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.06292084400000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759303.2665813,
+		"took_ns": 21316504
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007934278,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007934278
+			},
+			"corekube-frontend": {
+				"cpu": 0.016271679,
+				"memory": 199663616.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016271679
+			},
+			"corekube-worker": {
+				"cpu": 0.063412175,
+				"memory": 173019136.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.063412175
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759320.2073145,
+		"took_ns": 16188731
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007934278,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007934278
+			},
+			"corekube-frontend": {
+				"cpu": 0.016271679,
+				"memory": 199663616.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016271679
+			},
+			"corekube-worker": {
+				"cpu": 0.063412175,
+				"memory": 173019136.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.063412175
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759337.0519555,
+		"took_ns": 10388218
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007934278,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007934278
+			},
+			"corekube-frontend": {
+				"cpu": 0.016271679,
+				"memory": 199663616.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016271679
+			},
+			"corekube-worker": {
+				"cpu": 0.063412175,
+				"memory": 173019136.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.063412175
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759353.7534516,
+		"took_ns": 21587735
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007588681,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007588681
+			},
+			"corekube-frontend": {
+				"cpu": 0.015755155,
+				"memory": 209653760.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.015755155
+			},
+			"corekube-worker": {
+				"cpu": 0.058949362000000005,
+				"memory": 173219840.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.062662175
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759370.7061653,
+		"took_ns": 18059026
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007588681,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007588681
+			},
+			"corekube-frontend": {
+				"cpu": 0.015755155,
+				"memory": 209653760.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.015755155
+			},
+			"corekube-worker": {
+				"cpu": 0.058949362000000005,
+				"memory": 173219840.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.061912175
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759387.5450976,
+		"took_ns": 9541855
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007588681,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007588681
+			},
+			"corekube-frontend": {
+				"cpu": 0.015755155,
+				"memory": 209653760.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.015755155
+			},
+			"corekube-worker": {
+				"cpu": 0.058949362000000005,
+				"memory": 173219840.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.061162175
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759404.3322062,
+		"took_ns": 24320525
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007588681,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.007588681
+			},
+			"corekube-frontend": {
+				"cpu": 0.015755155,
+				"memory": 209653760.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.015755155
+			},
+			"corekube-worker": {
+				"cpu": 0.058949362000000005,
+				"memory": 173219840.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.060412175
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759421.2233744,
+		"took_ns": 15800542
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007957034,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007957034
+			},
+			"corekube-frontend": {
+				"cpu": 0.015940483999999998,
+				"memory": 217542656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.015940483999999998
+			},
+			"corekube-worker": {
+				"cpu": 0.062620232,
+				"memory": 173219840.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.061162175
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759438.3922987,
+		"took_ns": 15105060
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007957034,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007957034
+			},
+			"corekube-frontend": {
+				"cpu": 0.015940483999999998,
+				"memory": 217542656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.015940483999999998
+			},
+			"corekube-worker": {
+				"cpu": 0.062620232,
+				"memory": 173219840.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.061912175
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759455.274382,
+		"took_ns": 24441338
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.007957034,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.007957034
+			},
+			"corekube-frontend": {
+				"cpu": 0.015940483999999998,
+				"memory": 217542656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.015940483999999998
+			},
+			"corekube-worker": {
+				"cpu": 0.062620232,
+				"memory": 173219840.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.062620232
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759472.0872064,
+		"took_ns": 17799619
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008195543,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008195543
+			},
+			"corekube-frontend": {
+				"cpu": 0.016699361,
+				"memory": 227090432.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016690484
+			},
+			"corekube-worker": {
+				"cpu": 0.063603733,
+				"memory": 173461504.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.063370232
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759489.034871,
+		"took_ns": 15525940
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008195543,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008195543
+			},
+			"corekube-frontend": {
+				"cpu": 0.016699361,
+				"memory": 227090432.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016699361
+			},
+			"corekube-worker": {
+				"cpu": 0.063603733,
+				"memory": 173461504.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.063603733
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759506.0463667,
+		"took_ns": 10211173
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008195543,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008195543
+			},
+			"corekube-frontend": {
+				"cpu": 0.016699361,
+				"memory": 227090432.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016699361
+			},
+			"corekube-worker": {
+				"cpu": 0.063603733,
+				"memory": 173461504.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.063603733
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759522.8917747,
+		"took_ns": 18007676
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008195543,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008195543
+			},
+			"corekube-frontend": {
+				"cpu": 0.016699361,
+				"memory": 227090432.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016699361
+			},
+			"corekube-worker": {
+				"cpu": 0.063603733,
+				"memory": 173461504.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.063603733
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759539.8372602,
+		"took_ns": 12359081
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008177593,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008177593
+			},
+			"corekube-frontend": {
+				"cpu": 0.016528037000000002,
+				"memory": 236363776.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016528037000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.064689498,
+				"memory": 173355008.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 26,
+				"gradual_cpu": 0.064353733
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759556.7134795,
+		"took_ns": 11162891
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008177593,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008177593
+			},
+			"corekube-frontend": {
+				"cpu": 0.016528037000000002,
+				"memory": 236363776.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016528037000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.064689498,
+				"memory": 173355008.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 26,
+				"gradual_cpu": 0.064689498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759573.5711246,
+		"took_ns": 19660251
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.008177593,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.008177593
+			},
+			"corekube-frontend": {
+				"cpu": 0.016528037000000002,
+				"memory": 236363776.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016528037000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.064689498,
+				"memory": 173355008.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 26,
+				"gradual_cpu": 0.064689498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759590.4622452,
+		"took_ns": 16938088
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.010640491,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.008927593000000001
+			},
+			"corekube-frontend": {
+				"cpu": 0.021260343,
+				"memory": 247123968.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.017278037000000003
+			},
+			"corekube-worker": {
+				"cpu": 0.086087782,
+				"memory": 173662208.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.065439498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759607.4101758,
+		"took_ns": 11917170
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.010640491,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.009677593000000002
+			},
+			"corekube-frontend": {
+				"cpu": 0.021260343,
+				"memory": 247123968.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.018028037000000004
+			},
+			"corekube-worker": {
+				"cpu": 0.086087782,
+				"memory": 173662208.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.066189498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759624.290927,
+		"took_ns": 24859726
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.010640491,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.010427593000000002
+			},
+			"corekube-frontend": {
+				"cpu": 0.021260343,
+				"memory": 247123968.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.018778037000000004
+			},
+			"corekube-worker": {
+				"cpu": 0.086087782,
+				"memory": 173662208.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.066939498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759641.3135805,
+		"took_ns": 15240957
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.010640491,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.010640491
+			},
+			"corekube-frontend": {
+				"cpu": 0.021260343,
+				"memory": 247123968.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 21,
+				"gradual_cpu": 0.019528037000000005
+			},
+			"corekube-worker": {
+				"cpu": 0.086087782,
+				"memory": 173662208.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.067689498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759658.1837575,
+		"took_ns": 12772755
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012191369,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011390491
+			},
+			"corekube-frontend": {
+				"cpu": 0.02499425,
+				"memory": 262098944.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.020278037000000006
+			},
+			"corekube-worker": {
+				"cpu": 0.09850625300000002,
+				"memory": 173625344.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 39,
+				"gradual_cpu": 0.068439498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 5
+		},
+		"start_s": 1713759675.5243564,
+		"took_ns": 20239884
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012191369,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012140491000000002
+			},
+			"corekube-frontend": {
+				"cpu": 0.02499425,
+				"memory": 262098944.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.021028037000000006
+			},
+			"corekube-worker": {
+				"cpu": 0.09850625300000002,
+				"memory": 173625344.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 39,
+				"gradual_cpu": 0.069189498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713759692.4297285,
+		"took_ns": 16228941
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012191369,
+				"memory": 905216.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012191369
+			},
+			"corekube-frontend": {
+				"cpu": 0.02499425,
+				"memory": 262098944.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.021778037000000007
+			},
+			"corekube-worker": {
+				"cpu": 0.09850625300000002,
+				"memory": 173625344.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 39,
+				"gradual_cpu": 0.069939498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713759709.3394532,
+		"took_ns": 11992252
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012407423,
+				"memory": 950272.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012407423
+			},
+			"corekube-frontend": {
+				"cpu": 0.024188869,
+				"memory": 276652032.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.022528037000000008
+			},
+			"corekube-worker": {
+				"cpu": 0.092361789,
+				"memory": 173371392.0,
+				"count": 5,
+				"pods": {},
+				"utilization": 37,
+				"gradual_cpu": 0.070689498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713759726.3146973,
+		"took_ns": 30751847
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012407423,
+				"memory": 950272.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012407423
+			},
+			"corekube-frontend": {
+				"cpu": 0.024188869,
+				"memory": 276652032.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.02327803700000001
+			},
+			"corekube-worker": {
+				"cpu": 0.106438922,
+				"memory": 192782336.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.071439498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759743.1654146,
+		"took_ns": 23738121
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012407423,
+				"memory": 950272.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012407423
+			},
+			"corekube-frontend": {
+				"cpu": 0.024188869,
+				"memory": 276652032.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.02402803700000001
+			},
+			"corekube-worker": {
+				"cpu": 0.106438922,
+				"memory": 192782336.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.072189498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759760.1866033,
+		"took_ns": 15182220
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012407423,
+				"memory": 950272.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012407423
+			},
+			"corekube-frontend": {
+				"cpu": 0.024188869,
+				"memory": 276652032.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024188869
+			},
+			"corekube-worker": {
+				"cpu": 0.106438922,
+				"memory": 192782336.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.072939498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759777.079231,
+		"took_ns": 25785483
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012002482,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012002482
+			},
+			"corekube-frontend": {
+				"cpu": 0.025102943000000003,
+				"memory": 289710080.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024938869000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.10175066,
+				"memory": 234536960.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.073689498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759794.0276759,
+		"took_ns": 25667396
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012002482,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012002482
+			},
+			"corekube-frontend": {
+				"cpu": 0.025102943000000003,
+				"memory": 289710080.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.025102943000000003
+			},
+			"corekube-worker": {
+				"cpu": 0.10175066,
+				"memory": 234536960.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.074439498
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759810.9875622,
+		"took_ns": 16651574
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012002482,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012002482
+			},
+			"corekube-frontend": {
+				"cpu": 0.025102943000000003,
+				"memory": 289710080.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.025102943000000003
+			},
+			"corekube-worker": {
+				"cpu": 0.10175066,
+				"memory": 234536960.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.07518949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759827.9084678,
+		"took_ns": 10258810
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012758178,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 26,
+				"gradual_cpu": 0.012752482
+			},
+			"corekube-frontend": {
+				"cpu": 0.026800013,
+				"memory": 304918528.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.025852943000000003
+			},
+			"corekube-worker": {
+				"cpu": 0.097150239,
+				"memory": 242515968.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.07593949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759844.875895,
+		"took_ns": 20485566
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012758178,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 26,
+				"gradual_cpu": 0.012758178
+			},
+			"corekube-frontend": {
+				"cpu": 0.026800013,
+				"memory": 304918528.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.026602943000000004
+			},
+			"corekube-worker": {
+				"cpu": 0.097150239,
+				"memory": 242515968.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.07668949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759861.8140347,
+		"took_ns": 19749167
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012758178,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 26,
+				"gradual_cpu": 0.012758178
+			},
+			"corekube-frontend": {
+				"cpu": 0.026800013,
+				"memory": 304918528.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.026800013
+			},
+			"corekube-worker": {
+				"cpu": 0.097150239,
+				"memory": 242515968.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.07743949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759878.8360586,
+		"took_ns": 11372762
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012758178,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 26,
+				"gradual_cpu": 0.012758178
+			},
+			"corekube-frontend": {
+				"cpu": 0.026800013,
+				"memory": 304918528.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.026800013
+			},
+			"corekube-worker": {
+				"cpu": 0.097150239,
+				"memory": 242515968.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.07818949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759896.1020503,
+		"took_ns": 20179698
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.01201066,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.01201066
+			},
+			"corekube-frontend": {
+				"cpu": 0.023671268000000002,
+				"memory": 319803392.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.026050013
+			},
+			"corekube-worker": {
+				"cpu": 0.09625234699999999,
+				"memory": 242642944.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.07893949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759912.9937418,
+		"took_ns": 18008638
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.01201066,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.01201066
+			},
+			"corekube-frontend": {
+				"cpu": 0.023671268000000002,
+				"memory": 319803392.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.025300013
+			},
+			"corekube-worker": {
+				"cpu": 0.09625234699999999,
+				"memory": 242642944.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.07968949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759930.0435946,
+		"took_ns": 10629076
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.01201066,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.01201066
+			},
+			"corekube-frontend": {
+				"cpu": 0.023671268000000002,
+				"memory": 319803392.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024550013
+			},
+			"corekube-worker": {
+				"cpu": 0.09625234699999999,
+				"memory": 242642944.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.08043949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759947.0771134,
+		"took_ns": 22773943
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012259573,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012259573
+			},
+			"corekube-frontend": {
+				"cpu": 0.024881191,
+				"memory": 333254656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024881191
+			},
+			"corekube-worker": {
+				"cpu": 0.09510452500000001,
+				"memory": 242561024.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.08118949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759964.022407,
+		"took_ns": 16607749
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012259573,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012259573
+			},
+			"corekube-frontend": {
+				"cpu": 0.024881191,
+				"memory": 333254656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024881191
+			},
+			"corekube-worker": {
+				"cpu": 0.09510452500000001,
+				"memory": 242561024.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.08193949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759981.0346398,
+		"took_ns": 12355996
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012259573,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012259573
+			},
+			"corekube-frontend": {
+				"cpu": 0.024881191,
+				"memory": 333254656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024881191
+			},
+			"corekube-worker": {
+				"cpu": 0.09510452500000001,
+				"memory": 242561024.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.08268949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713759997.9132266,
+		"took_ns": 24442475
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012259573,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012259573
+			},
+			"corekube-frontend": {
+				"cpu": 0.024881191,
+				"memory": 333254656.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024881191
+			},
+			"corekube-worker": {
+				"cpu": 0.09510452500000001,
+				"memory": 242561024.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.08343949800000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760014.8028455,
+		"took_ns": 17351152
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011015177,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.011509572999999999
+			},
+			"corekube-frontend": {
+				"cpu": 0.023337056000000002,
+				"memory": 347160576.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.024131191
+			},
+			"corekube-worker": {
+				"cpu": 0.085539919,
+				"memory": 242642944.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.08418949800000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760031.6959715,
+		"took_ns": 13955174
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011015177,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.011015177
+			},
+			"corekube-frontend": {
+				"cpu": 0.023337056000000002,
+				"memory": 347160576.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.023381191
+			},
+			"corekube-worker": {
+				"cpu": 0.085539919,
+				"memory": 242642944.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.08493949800000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760048.6100907,
+		"took_ns": 8578280
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011015177,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.011015177
+			},
+			"corekube-frontend": {
+				"cpu": 0.023337056000000002,
+				"memory": 347160576.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.023337056000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.085539919,
+				"memory": 242642944.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.085539919
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760065.5946348,
+		"took_ns": 18911966
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011015177,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.011015177
+			},
+			"corekube-frontend": {
+				"cpu": 0.023337056000000002,
+				"memory": 347160576.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.023337056000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.085539919,
+				"memory": 242642944.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.085539919
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760082.380336,
+		"took_ns": 13768991
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011089142,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.011089142
+			},
+			"corekube-frontend": {
+				"cpu": 0.023178834000000002,
+				"memory": 360108032.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.023178834000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.084733171,
+				"memory": 242556928.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.084789919
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760099.7480848,
+		"took_ns": 10355268
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011089142,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.011089142
+			},
+			"corekube-frontend": {
+				"cpu": 0.023178834000000002,
+				"memory": 360108032.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.023178834000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.073029281,
+				"memory": 207904768.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.084039919
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760116.7500143,
+		"took_ns": 20251645
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011089142,
+				"memory": 991232.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.011089142
+			},
+			"corekube-frontend": {
+				"cpu": 0.023178834000000002,
+				"memory": 360108032.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.023178834000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.073029281,
+				"memory": 207904768.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.083289919
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760133.6742923,
+		"took_ns": 16769281
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011816704,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011816704
+			},
+			"corekube-frontend": {
+				"cpu": 0.023627089,
+				"memory": 374591488.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.023627089
+			},
+			"corekube-worker": {
+				"cpu": 0.084998888,
+				"memory": 207912960.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.084039919
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760150.6985354,
+		"took_ns": 11085961
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011816704,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011816704
+			},
+			"corekube-frontend": {
+				"cpu": 0.023627089,
+				"memory": 374591488.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.023627089
+			},
+			"corekube-worker": {
+				"cpu": 0.084998888,
+				"memory": 207912960.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.084789919
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760167.7147381,
+		"took_ns": 26884272
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011816704,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011816704
+			},
+			"corekube-frontend": {
+				"cpu": 0.023627089,
+				"memory": 374591488.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.023627089
+			},
+			"corekube-worker": {
+				"cpu": 0.084998888,
+				"memory": 207912960.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.084998888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760184.7358315,
+		"took_ns": 15599179
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011816704,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011816704
+			},
+			"corekube-frontend": {
+				"cpu": 0.023627089,
+				"memory": 374591488.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.023627089
+			},
+			"corekube-worker": {
+				"cpu": 0.084998888,
+				"memory": 207912960.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.084998888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760201.7511723,
+		"took_ns": 11518376
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011986964,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011986964
+			},
+			"corekube-frontend": {
+				"cpu": 0.024778288000000002,
+				"memory": 387862528.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024377089
+			},
+			"corekube-worker": {
+				"cpu": 0.09523283699999999,
+				"memory": 208027648.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.085748888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760218.718402,
+		"took_ns": 25507144
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011986964,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011986964
+			},
+			"corekube-frontend": {
+				"cpu": 0.024778288000000002,
+				"memory": 387862528.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024778288000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.09523283699999999,
+				"memory": 208027648.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.086498888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760235.706266,
+		"took_ns": 18868461
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011986964,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011986964
+			},
+			"corekube-frontend": {
+				"cpu": 0.024778288000000002,
+				"memory": 387862528.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024778288000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.09523283699999999,
+				"memory": 208027648.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.087248888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760252.622245,
+		"took_ns": 14878139
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012511932,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012511932
+			},
+			"corekube-frontend": {
+				"cpu": 0.024142626,
+				"memory": 401551360.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024142626
+			},
+			"corekube-worker": {
+				"cpu": 0.097300027,
+				"memory": 208023552.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.087998888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760269.5712948,
+		"took_ns": 9238385
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012511932,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012511932
+			},
+			"corekube-frontend": {
+				"cpu": 0.024142626,
+				"memory": 401551360.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024142626
+			},
+			"corekube-worker": {
+				"cpu": 0.097300027,
+				"memory": 208023552.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.088748888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760286.8873277,
+		"took_ns": 20788443
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012511932,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012511932
+			},
+			"corekube-frontend": {
+				"cpu": 0.024142626,
+				"memory": 401551360.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024142626
+			},
+			"corekube-worker": {
+				"cpu": 0.097300027,
+				"memory": 208023552.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.089498888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760303.8344436,
+		"took_ns": 17807572
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012511932,
+				"memory": 974848.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012511932
+			},
+			"corekube-frontend": {
+				"cpu": 0.024142626,
+				"memory": 401551360.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024142626
+			},
+			"corekube-worker": {
+				"cpu": 0.097300027,
+				"memory": 208023552.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.090248888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760320.8873885,
+		"took_ns": 11043472
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012021575,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012021575
+			},
+			"corekube-frontend": {
+				"cpu": 0.024345905,
+				"memory": 416911360.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024345905
+			},
+			"corekube-worker": {
+				"cpu": 0.094193878,
+				"memory": 207998976.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.090998888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760337.8543274,
+		"took_ns": 20256979
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012021575,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012021575
+			},
+			"corekube-frontend": {
+				"cpu": 0.024345905,
+				"memory": 416911360.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024345905
+			},
+			"corekube-worker": {
+				"cpu": 0.094193878,
+				"memory": 207998976.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.091748888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760354.8407588,
+		"took_ns": 22185778
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012021575,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012021575
+			},
+			"corekube-frontend": {
+				"cpu": 0.024345905,
+				"memory": 416911360.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024345905
+			},
+			"corekube-worker": {
+				"cpu": 0.094193878,
+				"memory": 207998976.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.092498888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760371.8316553,
+		"took_ns": 10983596
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012204188,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012204188
+			},
+			"corekube-frontend": {
+				"cpu": 0.025213057,
+				"memory": 430231552.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.025095905
+			},
+			"corekube-worker": {
+				"cpu": 0.079945142,
+				"memory": 208076800.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.091748888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760388.8338296,
+		"took_ns": 26065368
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012204188,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012204188
+			},
+			"corekube-frontend": {
+				"cpu": 0.025213057,
+				"memory": 430231552.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.025213057
+			},
+			"corekube-worker": {
+				"cpu": 0.079945142,
+				"memory": 208076800.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.090998888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760405.9192557,
+		"took_ns": 16890851
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012204188,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012204188
+			},
+			"corekube-frontend": {
+				"cpu": 0.025213057,
+				"memory": 430231552.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.025213057
+			},
+			"corekube-worker": {
+				"cpu": 0.079945142,
+				"memory": 208076800.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.090248888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760422.8240337,
+		"took_ns": 11798818
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012204188,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.012204188
+			},
+			"corekube-frontend": {
+				"cpu": 0.025213057,
+				"memory": 430231552.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.025213057
+			},
+			"corekube-worker": {
+				"cpu": 0.079945142,
+				"memory": 208076800.0,
+				"count": 6,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.089498888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 6
+		},
+		"start_s": 1713760439.8867643,
+		"took_ns": 23538131
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012271017,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012271017
+			},
+			"corekube-frontend": {
+				"cpu": 0.024739285,
+				"memory": 443277312.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024739285
+			},
+			"corekube-worker": {
+				"cpu": 0.095226907,
+				"memory": 242626560.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.090248888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760456.9642513,
+		"took_ns": 34881323
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012271017,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012271017
+			},
+			"corekube-frontend": {
+				"cpu": 0.024739285,
+				"memory": 443277312.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024739285
+			},
+			"corekube-worker": {
+				"cpu": 0.095226907,
+				"memory": 242626560.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.090998888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760474.3302457,
+		"took_ns": 18251308
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012271017,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012271017
+			},
+			"corekube-frontend": {
+				"cpu": 0.024739285,
+				"memory": 443277312.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.024739285
+			},
+			"corekube-worker": {
+				"cpu": 0.095226907,
+				"memory": 242626560.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 27,
+				"gradual_cpu": 0.091748888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760491.3189712,
+		"took_ns": 10539894
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012521586,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012521586
+			},
+			"corekube-frontend": {
+				"cpu": 0.025148144,
+				"memory": 457232384.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.025148144
+			},
+			"corekube-worker": {
+				"cpu": 0.097546306,
+				"memory": 242720768.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.092498888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760508.3422816,
+		"took_ns": 20530332
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012521586,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012521586
+			},
+			"corekube-frontend": {
+				"cpu": 0.025148144,
+				"memory": 457232384.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.025148144
+			},
+			"corekube-worker": {
+				"cpu": 0.097546306,
+				"memory": 242720768.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.093248888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760525.4326026,
+		"took_ns": 16285782
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012521586,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012521586
+			},
+			"corekube-frontend": {
+				"cpu": 0.025148144,
+				"memory": 457232384.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.025148144
+			},
+			"corekube-worker": {
+				"cpu": 0.097546306,
+				"memory": 242720768.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.093998888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760542.375845,
+		"took_ns": 11983974
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.012521586,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.012521586
+			},
+			"corekube-frontend": {
+				"cpu": 0.025148144,
+				"memory": 457232384.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 25,
+				"gradual_cpu": 0.025148144
+			},
+			"corekube-worker": {
+				"cpu": 0.097546306,
+				"memory": 242720768.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.094748888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760559.4319348,
+		"took_ns": 18184405
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011824656,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011824656
+			},
+			"corekube-frontend": {
+				"cpu": 0.024357552,
+				"memory": 471707648.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024398144
+			},
+			"corekube-worker": {
+				"cpu": 0.09258983300000001,
+				"memory": 242798592.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 26,
+				"gradual_cpu": 0.093998888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760576.4521027,
+		"took_ns": 16997479
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011824656,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011824656
+			},
+			"corekube-frontend": {
+				"cpu": 0.024357552,
+				"memory": 471707648.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024357552
+			},
+			"corekube-worker": {
+				"cpu": 0.09258983300000001,
+				"memory": 242798592.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 26,
+				"gradual_cpu": 0.093248888
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760593.5328357,
+		"took_ns": 12858371
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.011824656,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.011824656
+			},
+			"corekube-frontend": {
+				"cpu": 0.024357552,
+				"memory": 471707648.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.024357552
+			},
+			"corekube-worker": {
+				"cpu": 0.09258983300000001,
+				"memory": 242798592.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 26,
+				"gradual_cpu": 0.09258983300000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760610.6409328,
+		"took_ns": 24810310
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.01436805,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.012574656
+			},
+			"corekube-frontend": {
+				"cpu": 0.030226643,
+				"memory": 489721856.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.025107552
+			},
+			"corekube-worker": {
+				"cpu": 0.111714328,
+				"memory": 242847744.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.09333983300000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760627.6606786,
+		"took_ns": 16171620
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.01436805,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.013324656
+			},
+			"corekube-frontend": {
+				"cpu": 0.030226643,
+				"memory": 489721856.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.025857552000000002
+			},
+			"corekube-worker": {
+				"cpu": 0.111714328,
+				"memory": 242847744.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.09408983300000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760644.6401887,
+		"took_ns": 14262007
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.01436805,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.014074656000000001
+			},
+			"corekube-frontend": {
+				"cpu": 0.030226643,
+				"memory": 489721856.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.026607552000000003
+			},
+			"corekube-worker": {
+				"cpu": 0.111714328,
+				"memory": 242847744.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.09483983300000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760661.991074,
+		"took_ns": 10053046
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.01436805,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.01436805
+			},
+			"corekube-frontend": {
+				"cpu": 0.030226643,
+				"memory": 489721856.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.027357552000000004
+			},
+			"corekube-worker": {
+				"cpu": 0.111714328,
+				"memory": 242847744.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.09558983300000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760679.1196759,
+		"took_ns": 21848402
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.014896426,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.014896426
+			},
+			"corekube-frontend": {
+				"cpu": 0.030824548,
+				"memory": 505184256.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.028107552000000004
+			},
+			"corekube-worker": {
+				"cpu": 0.115304249,
+				"memory": 242601984.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.09633983300000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760696.2300813,
+		"took_ns": 16294837
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.014896426,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.014896426
+			},
+			"corekube-frontend": {
+				"cpu": 0.030824548,
+				"memory": 505184256.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.028857552000000005
+			},
+			"corekube-worker": {
+				"cpu": 0.115304249,
+				"memory": 242601984.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.09708983300000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 7
+		},
+		"start_s": 1713760713.27431,
+		"took_ns": 11875947
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.014896426,
+				"memory": 1015808.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.014896426
+			},
+			"corekube-frontend": {
+				"cpu": 0.030824548,
+				"memory": 505184256.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.029607552000000006
+			},
+			"corekube-worker": {
+				"cpu": 0.115304249,
+				"memory": 242601984.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.09783983300000001
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 2,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760730.3539233,
+		"took_ns": 36987146
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016544409,
+				"memory": 1056768.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.015646426
+			},
+			"corekube-frontend": {
+				"cpu": 0.033558941999999994,
+				"memory": 528138240.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.030357552000000006
+			},
+			"corekube-worker": {
+				"cpu": 0.123524353,
+				"memory": 242700288.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.09858983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760747.4632127,
+		"took_ns": 16676996
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016544409,
+				"memory": 1056768.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.016396426000000002
+			},
+			"corekube-frontend": {
+				"cpu": 0.033558941999999994,
+				"memory": 528138240.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.031107552000000007
+			},
+			"corekube-worker": {
+				"cpu": 0.123524353,
+				"memory": 242700288.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.09933983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760764.5365875,
+		"took_ns": 17535945
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016544409,
+				"memory": 1056768.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.016544409
+			},
+			"corekube-frontend": {
+				"cpu": 0.033558941999999994,
+				"memory": 528138240.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.031857552000000004
+			},
+			"corekube-worker": {
+				"cpu": 0.123524353,
+				"memory": 242700288.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.10008983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760781.6249914,
+		"took_ns": 23039890
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016544409,
+				"memory": 1056768.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.016544409
+			},
+			"corekube-frontend": {
+				"cpu": 0.033558941999999994,
+				"memory": 528138240.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 34,
+				"gradual_cpu": 0.032607552000000005
+			},
+			"corekube-worker": {
+				"cpu": 0.123524353,
+				"memory": 242700288.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 35,
+				"gradual_cpu": 0.10083983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760798.7123992,
+		"took_ns": 18231791
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016940943,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016940943
+			},
+			"corekube-frontend": {
+				"cpu": 0.036106491,
+				"memory": 543657984.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.033357552000000006
+			},
+			"corekube-worker": {
+				"cpu": 0.11381034000000001,
+				"memory": 242515968.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.10158983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760815.7348104,
+		"took_ns": 30984290
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016940943,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016940943
+			},
+			"corekube-frontend": {
+				"cpu": 0.036106491,
+				"memory": 543657984.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.034107552000000006
+			},
+			"corekube-worker": {
+				"cpu": 0.11381034000000001,
+				"memory": 242515968.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.10233983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760832.7010765,
+		"took_ns": 8499230
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016940943,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016940943
+			},
+			"corekube-frontend": {
+				"cpu": 0.036106491,
+				"memory": 543657984.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 24,
+				"gradual_cpu": 0.03485755200000001
+			},
+			"corekube-worker": {
+				"cpu": 0.11381034000000001,
+				"memory": 242515968.0,
+				"count": 7,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.10308983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760850.0831375,
+		"took_ns": 21295966
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016485379,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016485379
+			},
+			"corekube-frontend": {
+				"cpu": 0.033012373,
+				"memory": 561790976.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.034107552000000006
+			},
+			"corekube-worker": {
+				"cpu": 0.126844896,
+				"memory": 277266432.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.10383983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760867.2232234,
+		"took_ns": 23661964
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016485379,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016485379
+			},
+			"corekube-frontend": {
+				"cpu": 0.033012373,
+				"memory": 561790976.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.033357552000000006
+			},
+			"corekube-worker": {
+				"cpu": 0.126844896,
+				"memory": 277266432.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.10458983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760884.3031962,
+		"took_ns": 14146896
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016485379,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016485379
+			},
+			"corekube-frontend": {
+				"cpu": 0.033012373,
+				"memory": 561790976.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.033012373
+			},
+			"corekube-worker": {
+				"cpu": 0.126844896,
+				"memory": 277266432.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.10533983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760901.3879561,
+		"took_ns": 21457014
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016485379,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016485379
+			},
+			"corekube-frontend": {
+				"cpu": 0.033012373,
+				"memory": 561790976.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.033012373
+			},
+			"corekube-worker": {
+				"cpu": 0.126844896,
+				"memory": 277266432.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 32,
+				"gradual_cpu": 0.10608983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760918.4203305,
+		"took_ns": 16793193
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016615196,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016615196
+			},
+			"corekube-frontend": {
+				"cpu": 0.033782196,
+				"memory": 583061504.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.033762373
+			},
+			"corekube-worker": {
+				"cpu": 0.133276933,
+				"memory": 277360640.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.10683983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760935.4484618,
+		"took_ns": 12035708
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016615196,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016615196
+			},
+			"corekube-frontend": {
+				"cpu": 0.033782196,
+				"memory": 583061504.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.033782196
+			},
+			"corekube-worker": {
+				"cpu": 0.133276933,
+				"memory": 277360640.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.10758983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760952.378298,
+		"took_ns": 22755560
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016615196,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 17,
+				"gradual_cpu": 0.016615196
+			},
+			"corekube-frontend": {
+				"cpu": 0.033782196,
+				"memory": 583061504.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.033782196
+			},
+			"corekube-worker": {
+				"cpu": 0.133276933,
+				"memory": 277360640.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 33,
+				"gradual_cpu": 0.10833983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760969.4658563,
+		"took_ns": 17397492
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016328659,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016328659
+			},
+			"corekube-frontend": {
+				"cpu": 0.033119944,
+				"memory": 601309184.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.033119944
+			},
+			"corekube-worker": {
+				"cpu": 0.12295292000000001,
+				"memory": 277450752.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.10908983300000002
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713760986.6411383,
+		"took_ns": 14124756
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016328659,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016328659
+			},
+			"corekube-frontend": {
+				"cpu": 0.033119944,
+				"memory": 601309184.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.033119944
+			},
+			"corekube-worker": {
+				"cpu": 0.12295292000000001,
+				"memory": 277450752.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.10983983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761003.9737818,
+		"took_ns": 11652918
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016328659,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016328659
+			},
+			"corekube-frontend": {
+				"cpu": 0.033119944,
+				"memory": 601309184.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.033119944
+			},
+			"corekube-worker": {
+				"cpu": 0.12295292000000001,
+				"memory": 277450752.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.11058983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761021.1631489,
+		"took_ns": 21383264
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016328659,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016328659
+			},
+			"corekube-frontend": {
+				"cpu": 0.033119944,
+				"memory": 601309184.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.033119944
+			},
+			"corekube-worker": {
+				"cpu": 0.12295292000000001,
+				"memory": 277450752.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.11133983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761038.2875516,
+		"took_ns": 14741795
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016251157,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016251157
+			},
+			"corekube-frontend": {
+				"cpu": 0.033774972,
+				"memory": 619929600.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.033774972
+			},
+			"corekube-worker": {
+				"cpu": 0.125106815,
+				"memory": 277381120.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.11208983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761055.3890755,
+		"took_ns": 15830898
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016251157,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016251157
+			},
+			"corekube-frontend": {
+				"cpu": 0.033774972,
+				"memory": 619929600.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.033774972
+			},
+			"corekube-worker": {
+				"cpu": 0.125106815,
+				"memory": 277381120.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.11283983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761072.4210715,
+		"took_ns": 21633782
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.016251157,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 16,
+				"gradual_cpu": 0.016251157
+			},
+			"corekube-frontend": {
+				"cpu": 0.033774972,
+				"memory": 619929600.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 23,
+				"gradual_cpu": 0.033774972
+			},
+			"corekube-worker": {
+				"cpu": 0.125106815,
+				"memory": 277381120.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 31,
+				"gradual_cpu": 0.11358983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761089.51037,
+		"took_ns": 18060850
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.015461121,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.015501156999999998
+			},
+			"corekube-frontend": {
+				"cpu": 0.032690417,
+				"memory": 637681664.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.033024972
+			},
+			"corekube-worker": {
+				"cpu": 0.11861499300000002,
+				"memory": 277237760.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.11433983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761106.673292,
+		"took_ns": 12408268
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.015461121,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.015461121
+			},
+			"corekube-frontend": {
+				"cpu": 0.032690417,
+				"memory": 637681664.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.032690417
+			},
+			"corekube-worker": {
+				"cpu": 0.11861499300000002,
+				"memory": 277237760.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.11508983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761123.609387,
+		"took_ns": 32333838
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.015461121,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.015461121
+			},
+			"corekube-frontend": {
+				"cpu": 0.032690417,
+				"memory": 637681664.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.032690417
+			},
+			"corekube-worker": {
+				"cpu": 0.11861499300000002,
+				"memory": 277237760.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.11583983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761140.7897456,
+		"took_ns": 21725814
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.015461121,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.015461121
+			},
+			"corekube-frontend": {
+				"cpu": 0.032690417,
+				"memory": 637681664.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 22,
+				"gradual_cpu": 0.032690417
+			},
+			"corekube-worker": {
+				"cpu": 0.11861499300000002,
+				"memory": 277237760.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.11658983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 2,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761157.791827,
+		"took_ns": 15506604
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.014755941,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.014755941
+			},
+			"corekube-frontend": {
+				"cpu": 0.030473805,
+				"memory": 655745024.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.031940417
+			},
+			"corekube-worker": {
+				"cpu": 0.113183668,
+				"memory": 277458944.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.11583983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761175.0032506,
+		"took_ns": 11214399
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.014755941,
+				"memory": 1683456.0,
+				"count": 2,
+				"pods": {},
+				"utilization": 15,
+				"gradual_cpu": 0.014755941
+			},
+			"corekube-frontend": {
+				"cpu": 0.030473805,
+				"memory": 655745024.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.031190416999999998
+			},
+			"corekube-worker": {
+				"cpu": 0.113183668,
+				"memory": 277458944.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.11508983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761192.0473826,
+		"took_ns": 20971394
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.014755941,
+				"memory": 1060864.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.014755941
+			},
+			"corekube-frontend": {
+				"cpu": 0.030473805,
+				"memory": 655745024.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030473805
+			},
+			"corekube-worker": {
+				"cpu": 0.113183668,
+				"memory": 277458944.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 28,
+				"gradual_cpu": 0.11433983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761209.1790583,
+		"took_ns": 17950829
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.014751927,
+				"memory": 1060864.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.014751927
+			},
+			"corekube-frontend": {
+				"cpu": 0.030663464,
+				"memory": 675237888.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030663464
+			},
+			"corekube-worker": {
+				"cpu": 0.11598429400000002,
+				"memory": 277344256.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.11508983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761226.3776464,
+		"took_ns": 13435657
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.014751927,
+				"memory": 1060864.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.014751927
+			},
+			"corekube-frontend": {
+				"cpu": 0.030663464,
+				"memory": 675237888.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030663464
+			},
+			"corekube-worker": {
+				"cpu": 0.11598429400000002,
+				"memory": 277344256.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.11583983300000003
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761243.4224591,
+		"took_ns": 23600130
+	},
+	{
+		"metrics": {
+			"corekube-db": {
+				"cpu": 0.014751927,
+				"memory": 1060864.0,
+				"count": 1,
+				"pods": {},
+				"utilization": 30,
+				"gradual_cpu": 0.014751927
+			},
+			"corekube-frontend": {
+				"cpu": 0.030663464,
+				"memory": 675237888.0,
+				"count": 3,
+				"pods": {},
+				"utilization": 20,
+				"gradual_cpu": 0.030663464
+			},
+			"corekube-worker": {
+				"cpu": 0.11598429400000002,
+				"memory": 277344256.0,
+				"count": 8,
+				"pods": {},
+				"utilization": 29,
+				"gradual_cpu": 0.11598429400000002
+			}
+		},
+		"desired": {
+			"corekube-db": 1,
+			"corekube-frontend": 3,
+			"corekube-worker": 8
+		},
+		"start_s": 1713761260.6448529,
+		"took_ns": 17025670
+	}
+]

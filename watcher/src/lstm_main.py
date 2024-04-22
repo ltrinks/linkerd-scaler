@@ -1,5 +1,6 @@
 from kubernetes import client, config, watch
 import matplotlib.pyplot as plt
+import predict
 
 import glob
 import os
@@ -13,7 +14,7 @@ import pandas as pd
 import graph
 import requests
 
-ACTIVE = False # scale if true, watch only if false
+ACTIVE = True # scale if true, watch only if false
 POLL = 15 # seconds
 RUNFOR = 70 # minutes
 
@@ -22,6 +23,9 @@ MAX_PODS = 10 # max pods allowed for a deployment (bots and nodevoto)
 INCREASES = 4 # number of times to increase before resetting
 POLLS_PER_INCREASE = 60 # number of polls between each increase
 TARGET = "15m" # CPU target metric, to update for HPA see nodevoto-hpa.yaml
+
+run_file = open("run.json")
+run = json.load(run_file)
 
 # remove previous run
 files = glob.glob('/metrics/*')
@@ -38,6 +42,7 @@ metrics_over_time = []
 bots_over_time = []
 combined_over_time = []
 gradual_change_over_time = {}
+used_values = {}
 
 # for specified time, get metrics, and adjust scale if needed
 requests.post("http://172.16.118.182:3001", data = {"rps": 1})
@@ -80,9 +85,9 @@ while i * POLL <= RUNFOR * 60:
                 
                 prev = gradual_change[-1]
                 change = usage - prev
-                percent_change = abs(change) / (prev + 0.0000001)
+                percent_change = abs(change) / (prev + 0.00001)
                 if abs(change) > 0.05 * target_cpu:
-                    direction = 1
+                    direction = 2
                     if change < 0:
                         direction = -1
                     gradual_change.append(prev + (direction * 0.05 * target_cpu))
@@ -93,8 +98,18 @@ while i * POLL <= RUNFOR * 60:
 
             value["gradual_cpu"] = gradual_change[-1]
 
+            # get the future values of the deployment from another run
+            use_value = predict.get_prediction(combined_over_time, deployment) if (len(combined_over_time) >= 32) else 0
+
+            max_value = max(gradual_change[-1], use_value)
+            if not deployment in used_values:
+                used_values[deployment] = []
+            used_values[deployment].append(max_value)
+
+            max_last_20 = max(used_values[deployment][-20 : ])
+
             # based on https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/#algorithm-details
-            desired = max(math.ceil(gradual_change[-1] / target_cpu), 1)
+            desired = max(math.ceil(max(max_value, max_last_20) / target_cpu), 1)
             desired_state[deployment] = desired
 
             # if active and a change desired, request the change

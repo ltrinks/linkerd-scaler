@@ -13,12 +13,18 @@ import tensorflow as tf
 run_file = open("../../runs/long_corekube/run.json")
 run = json.load(run_file)
 
+deployment = "corekube-db"
+
 # convert into data frame
-time_series_worker = [{"start": datetime.datetime.fromtimestamp(i["start_s"]), "cpu": i["metrics"]["corekube-worker"]["cpu"]} for i in run]
-data_frame = pandas.DataFrame({"time": [i["start"] for i in time_series_worker], "cpu": [i["cpu"] for i in time_series_worker]})
-data_frame.index = [i["start"] for i in time_series_worker]
-data_frame.index = pandas.DatetimeIndex(data_frame.index)
-del data_frame["time"]
+def run_to_df(run):
+    time_series_worker = [{"start": datetime.datetime.fromtimestamp(i["start_s"]), "cpu": i["metrics"][deployment]["cpu"]} for i in run]
+    data_frame = pandas.DataFrame({"time": [i["start"] for i in time_series_worker], "cpu": [i["cpu"] for i in time_series_worker]})
+    data_frame.index = [i["start"] for i in time_series_worker]
+    data_frame.index = pandas.DatetimeIndex(data_frame.index)
+    del data_frame["time"]
+    return data_frame
+
+data_frame = run_to_df(run)
 
 # split into test and train
 boundary = math.ceil((len(data_frame) * 0.75))
@@ -30,10 +36,10 @@ def df_to_x_y(df, window_size):
     df_as_np = df.to_numpy()
     x = []
     y = []
-    for i in range(len(df_as_np) - (window_size)):
+    for i in range(len(df_as_np) - (window_size + 60)):
         row = [[a] for a in df_as_np[i: i + window_size]]
         x.append(row)
-        label = df_as_np[i + window_size]
+        label = df_as_np[i + window_size + 60]
         y.append(label)
     return np.array(x), np.array(y)
 
@@ -54,23 +60,24 @@ from tensorflow.keras.optimizers import Adam
 
 model1 = Sequential()
 model1.add(InputLayer((5, 1)))
-model1.add(LSTM(64))
+model1.add(LSTM(140))
 model1.add(Dense(8, "relu"))
 model1.add(Dense(1, "linear"))
 model1.summary()
 
-cp = ModelCheckpoint("./model1.keras", save_best_only = True)
-model1.compile(loss = MeanSquaredError(), optimizer = Adam(learning_rate = 0.00001), metrics = [RootMeanSquaredError()])
+cp = ModelCheckpoint(f"./{deployment}.keras", save_best_only = True)
+model1.compile(loss = MeanSquaredError(), optimizer = Adam(learning_rate = 0.0001), metrics = [RootMeanSquaredError()])
 model1.fit(x, y, validation_data=(x_val, y_val), epochs = 100, callbacks=[cp])
 
 from tensorflow.keras.models import load_model
 
-best = load_model("./model1.keras")
+best = load_model(f"./{deployment}.keras")
 
-train_predictions = model1.predict(x_test).flatten()
+train_predictions = best.predict(x_test).flatten()
 train_results = pandas.DataFrame(data ={"Train Predictions": train_predictions, "Actuals": [i[0] for i in y_test]})
 
 plt.plot(train_results["Train Predictions"], label = 'Predicted', color = "orange")
 plt.plot(test.to_numpy(), label = "Actual", color = "blue")
 plt.legend()
 plt.savefig("./lstm.png")
+
