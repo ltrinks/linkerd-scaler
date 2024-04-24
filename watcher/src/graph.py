@@ -10,7 +10,7 @@ def generate_graph(POLL, ACTIVE, metrics_over_time, combined_over_time, bots_ove
     x_axis = [i - start_ts for i in timestamps]
 
     y_axis = []
-    # web_latency = []
+    web_latency = []
     web_cpu_utilization = []
     for slice in metrics_over_time:
         counts = 0
@@ -18,7 +18,7 @@ def generate_graph(POLL, ACTIVE, metrics_over_time, combined_over_time, bots_ove
             counts += slice[deployment]["count"]
         y_axis.append(counts)
         if "corekube-worker" in slice:
-            # web_latency.append(round(float(slice["web"]["latency"])))
+            web_latency.append(round(float(slice["corekube-worker"]["latency"])))
             web_cpu_utilization.append(round(100 * float(slice["corekube-worker"]["cpu"] /  float(quantity.parse_quantity("50m"))) / slice["corekube-worker"]["count"]))
         else:
             web_cpu_utilization.append(0)
@@ -44,42 +44,46 @@ def generate_graph(POLL, ACTIVE, metrics_over_time, combined_over_time, bots_ove
 
     ax1.set_xlabel("Time (s)")
     ax1.set_ylabel("Pod Count")
+    ax1.set_ylim([0, 20])
     ax1.plot(x_axis, y_axis, label="Pods", color="blue")
     ax1.plot(x_axis, desired_pods, label="Desired", color="purple")
 
     fig.legend(loc='upper left') 
-    plt.title("CoreKube Pods (desired) " + (" (HPA)" if not ACTIVE else ""))
+    plt.title("CoreKube Pods (desired) " + (" (No Action)" if not ACTIVE else ""))
     fig.tight_layout()
     plt.savefig("/metrics/desired_pods_over_time.png")
     plt.close()
 
-    # fig, ax1 = plt.subplots()
+    fig, ax1 = plt.subplots()
 
-    # ax1.set_xlabel("Time (s)")
-    # ax1.set_ylabel("Pod Count")
-    # ax1.plot(x_axis, y_axis, label="Pods", color="blue")
+    ax1.set_xlabel("Time (s)")
+    ax1.set_ylabel("Pod Count")
+    ax1.set_ylim([0, 20])
+    ax1.plot(x_axis, y_axis, label="Pods", color="blue")
 
-    # ax2 = ax1.twinx()
-    # ax2.set_ylabel("Web P95 Latency (ms)")
-    # ax2.plot(x_axis, web_latency, color="red", label="Latency")
-    # fig.legend(loc='upper left') 
-    # plt.title("Nodevoto Pods (Latency) " + (" (HPA)" if not ACTIVE else ""))
-    # fig.tight_layout()
-    # plt.savefig("/metrics/latency_pods_over_time.png")
-    # plt.close()
+    ax2 = ax1.twinx()
+    ax2.set_ylabel("CoreKube P95 Latency (ms)")
+    ax2.plot(x_axis, web_latency, color="red", label="Latency")
+    fig.legend(loc='upper left') 
+    plt.title("CoreKube Pods (Latency) " + (" (No Action)" if not ACTIVE else ""))
+    fig.tight_layout()
+    plt.savefig("/metrics/latency_pods_over_time.png")
+    plt.close()
 
 
     fig, ax1 = plt.subplots()
 
     ax1.set_xlabel("Time (s)")
     ax1.set_ylabel("Pod Count")
+    ax1.set_ylim([0, 20])
     ax1.plot(x_axis, y_axis, label="Pods", color="blue")
 
     ax2 = ax1.twinx()
     ax2.set_ylabel("Worker CPU Utilization (%)")
+    #ax2.set_ylim([0, 100])
     ax2.plot(x_axis, web_cpu_utilization, color="red", label="CPU")
     fig.legend(loc='upper left') 
-    plt.title("CoreKube Pods (CPU) " + (" (HPA)" if not ACTIVE else ""))
+    plt.title("CoreKube Pods (CPU) " + (" (No Action)" if not ACTIVE else ""))
     fig.tight_layout()
     plt.savefig("/metrics/cpu_pods_over_time.png")
     plt.close()

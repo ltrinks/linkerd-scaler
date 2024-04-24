@@ -20,4 +20,4 @@ WORKDIR /usr/watcher
 COPY src .
 
 # execute when started
-CMD python3 lstm_main.py
+CMD python3 main.py

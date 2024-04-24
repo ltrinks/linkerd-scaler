@@ -23,6 +23,8 @@ def getPodName(pod):
 passed_pods = set()
 def getResourceMetrics(namespace):
     info = {}
+    latency = requests.get("http://172.16.118.182:3001/latency").json()["95%-ile"]
+
     for pod in topApiClient.list_namespaced_custom_object("metrics.k8s.io", "v1beta1", namespace, "pods")["items"]:
         pod_name = getPodName(pod["metadata"]["name"])
         
@@ -46,7 +48,7 @@ def getResourceMetrics(namespace):
 
         if pod_name not in info:
             info[pod_name] = {"cpu": 0, "memory": 0, "count": 0, "pods": {}}
-            #info[pod_name]["latency"] =  getNamespaceDeploymentResponseLatency(namespace, pod_name, 0.95, "30s")
+            info[pod_name]["latency"] =  latency
 
         info[pod_name]["count"] += 1
         #info[pod_name]["pods"][pod["metadata"]["name"]] = {"cpu": 0, "memory": 0}
@@ -80,27 +82,6 @@ def getResourceMetricsNoLinkerd(namespace):
 
     return info
 
-
-# fetch latency of a deployment from Linkerd
-prometheus_pod_ip = ""
-def getNamespaceDeploymentResponseLatency(namespace, deployment, percentile, period):
-    try:
-        # bypass coredns for getting pod ip
-        global prometheus_pod_ip
-        if prometheus_pod_ip == "":
-            viz_pods = coreApiClient.list_namespaced_pod("linkerd-viz")
-            for i in viz_pods.items:
-                if "prometheus" in i.metadata.name:
-                    prometheus_pod_ip = i.status.pod_ip
-
-        metrics = requests.get(f"http://{prometheus_pod_ip}:9090/api/v1/query?query=histogram_quantile({percentile}, sum(rate(response_latency_ms_bucket{{namespace=\"{namespace}\", deployment=\"{deployment}\", direction=\"inbound\"}}[{period}])) by (le))").json()
-        latency = metrics["data"]["result"][0]["value"][1]
-        return latency
-    except Exception as err:
-        print("Error fetching latency " + str(err))
-        prometheus_pod_ip = ""
-
-        return 0.0
 
 # get resources collected by linkerd injected prometheus
 def getPrometheusMetrics(ip):

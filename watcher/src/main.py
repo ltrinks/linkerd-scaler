@@ -15,13 +15,14 @@ import requests
 
 ACTIVE = False # scale if true, watch only if false
 POLL = 15 # seconds
-RUNFOR = 70 # minutes
+RUNFOR = 44 # minutes
 
-SCALE_FACTOR = 20 # how many bots to add each increase
+SCALE_FACTOR = 3 # how many bots to add each increase
 MAX_PODS = 10 # max pods allowed for a deployment (bots and nodevoto)
-INCREASES = 4 # number of times to increase before resetting
-POLLS_PER_INCREASE = 60 # number of polls between each increase
-TARGET = "15m" # CPU target metric, to update for HPA see nodevoto-hpa.yaml
+INCREASES = 10 # number of times to increase before resetting
+POLLS_PER_INCREASE = 15 # number of polls between each increase
+TARGET = "300m" # CPU target metric, to update for HPA see nodevoto-hpa.yaml
+LIMIT = "500m"
 
 # remove previous run
 files = glob.glob('/metrics/*')
@@ -40,7 +41,9 @@ combined_over_time = []
 gradual_change_over_time = {}
 
 # for specified time, get metrics, and adjust scale if needed
-requests.post("http://172.16.118.182:3001", data = {"rps": 1})
+for port in range(3001, 3002):
+    requests.post(f"http://172.16.118.182:{port}", data = {"rps": 1})
+    time.sleep(0.05)
 rps = 1
 while i * POLL <= RUNFOR * 60:
     try:
@@ -48,7 +51,8 @@ while i * POLL <= RUNFOR * 60:
         if (i % POLLS_PER_INCREASE == 0):
             print(f"{((i * POLL) / (RUNFOR * 60)) * 100}%")
             rps = SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE
-            requests.post("http://172.16.118.182:3001", data = {"rps": (SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)})
+            for port in range(3001, 3002):
+                requests.post(f"http://172.16.118.182:{port}", data = {"rps": ((SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)) // 2})
 
         # get CPU, latency, counts, for targeted namespace
         start_timestamp = time.time()
@@ -131,7 +135,8 @@ json.dump({"active": ACTIVE,
            "max_pods": MAX_PODS, 
            "increases": INCREASES, 
            "polls_per_increase": POLLS_PER_INCREASE,
-            "target": TARGET}, params_file, indent="\t")
+            "target": TARGET,
+            "limit": LIMIT}, params_file, indent="\t")
 params_file.close()
 
 # generate graphs
