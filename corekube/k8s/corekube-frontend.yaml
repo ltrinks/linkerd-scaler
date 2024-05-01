@@ -47,7 +47,7 @@ spec:
           protocol: SCTP
         resources:
           limits:
-            cpu: 100m
+            cpu: 50m
           requests:
             cpu: 50m
         terminationMessagePath: /dev/termination-log

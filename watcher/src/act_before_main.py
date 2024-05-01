@@ -83,7 +83,7 @@ while i * POLL <= RUNFOR * 60:
                 
                 prev = gradual_change[-1]
                 change = usage - prev
-                percent_change = abs(change) / prev
+                percent_change = abs(change) / (prev + 0.00001)
                 if abs(change) > 0.05 * target_cpu:
                     direction = 1
                     if change < 0:
@@ -97,7 +97,7 @@ while i * POLL <= RUNFOR * 60:
             value["gradual_cpu"] = gradual_change[-1]
 
             # get the future values of the deployment from another run
-            future_values = [j["metrics"][deployment]["gradual_cpu"] for j in run[i: i + 45]]
+            future_values = [j["metrics"][deployment]["gradual_cpu"] for j in run[i: i + 60]]
             use_value = max(max(future_values), 0) if len(future_values) > 1 else 0
 
             # based on https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/#algorithm-details

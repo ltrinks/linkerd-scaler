@@ -13,16 +13,16 @@ import pandas as pd
 import graph
 import requests
 
-ACTIVE = False # scale if true, watch only if false
+ACTIVE = True # scale if true, watch only if false
 POLL = 15 # seconds
-RUNFOR = 44 # minutes
+RUNFOR = 70 # minutes
 
-SCALE_FACTOR = 3 # how many bots to add each increase
+SCALE_FACTOR = 20 # how many bots to add each increase
 MAX_PODS = 10 # max pods allowed for a deployment (bots and nodevoto)
-INCREASES = 10 # number of times to increase before resetting
-POLLS_PER_INCREASE = 15 # number of polls between each increase
-TARGET = "300m" # CPU target metric, to update for HPA see nodevoto-hpa.yaml
-LIMIT = "500m"
+INCREASES = 4 # number of times to increase before resetting
+POLLS_PER_INCREASE = 60 # number of polls between each increase
+TARGET = "15m" # CPU target metric, to update for HPA see nodevoto-hpa.yaml
+LIMIT = "50m"
 
 # remove previous run
 files = glob.glob('/metrics/*')
@@ -52,7 +52,7 @@ while i * POLL <= RUNFOR * 60:
             print(f"{((i * POLL) / (RUNFOR * 60)) * 100}%")
             rps = SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE
             for port in range(3001, 3002):
-                requests.post(f"http://172.16.118.182:{port}", data = {"rps": ((SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE)) // 2})
+                requests.post(f"http://172.16.118.182:{port}", data = {"rps": ((SCALE_FACTOR * (i % (POLLS_PER_INCREASE * (INCREASES + 1))) // POLLS_PER_INCREASE))})
 
         # get CPU, latency, counts, for targeted namespace
         start_timestamp = time.time()

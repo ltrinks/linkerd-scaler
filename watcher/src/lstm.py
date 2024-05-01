@@ -79,5 +79,6 @@ train_results = pandas.DataFrame(data ={"Train Predictions": train_predictions, 
 plt.plot(train_results["Train Predictions"], label = 'Predicted', color = "orange")
 plt.plot(test.to_numpy(), label = "Actual", color = "blue")
 plt.legend()
-plt.savefig("./lstm.png")
+plt.title(f"{deployment} LSTM Test Forecast")
+plt.savefig(f"./lstm-{deployment}.png")
 

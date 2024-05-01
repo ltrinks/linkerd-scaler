@@ -84,16 +84,17 @@ cpu_stability = [cpu_limit_exceeded(i) for i in range(len(cpu))]
 instability_event_lengths = []
 i = 0
 while i < len(cpu):
-    if cpu_stability[i] == False:
+    if cpu_stability[i] == True:
         length = 1
-        while i + length < len(cpu_stability) and cpu_stability[i + length] == False:
+        while i + length < len(cpu_stability) and cpu_stability[i + length] == True:
             length += 1
         instability_event_lengths.append(length)
         i = i + length - 1
     i += 1
 
 print(f"cpu exceeded events: {len(instability_event_lengths)}")
-print(f"cpu exceeded average length: {sum(instability_event_lengths) / len(instability_event_lengths)}")
+if (len(instability_event_lengths) > 0):
+    print(f"cpu exceeded average length: {sum(instability_event_lengths) / len(instability_event_lengths)}")
 print(f"Percent cpu okay: {len([i for i in range(len(run)) if cpu_limit_exceeded(i) == False]) / len(run) * 100}%")
 
 cpu_updates = 0
