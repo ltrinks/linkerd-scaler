@@ -4,6 +4,7 @@ FROM --platform=linux/x86_64 tensorflow/tensorflow
 ENV PYTHONUNBUFFERED=1
 
 # install dependencies
+RUN pip install --ignore-installed -U Flask
 RUN pip install --upgrade pip
 RUN pip install kubernetes
 RUN pip install prometheus-client
@@ -20,4 +21,4 @@ WORKDIR /usr/watcher
 COPY src .
 
 # execute when started
-CMD python3 act_before_main.py
+CMD python3 demo_lstm_main.py

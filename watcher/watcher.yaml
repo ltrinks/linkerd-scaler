@@ -103,3 +103,30 @@ spec:
         - name: metrics
           persistentVolumeClaim:
             claimName: metrics-pvol-claim
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: watcher-service
+  namespace: linkerd-scaler
+spec:
+  clusterIP: 10.42.2.32
+  clusterIPs:
+  - 10.42.2.32
+  externalIPs:
+  - 172.16.49.16 
+  externalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - nodePort: 7777
+    port: 7777
+    protocol: TCP
+    targetPort: 7777
+  selector:
+    app: watcher
+  sessionAffinity: None
+  type: NodePort
